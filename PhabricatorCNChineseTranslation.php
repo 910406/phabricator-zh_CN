@@ -3604,7 +3604,7 @@ return array(
 
   // src/applications/settings/panel/PhabricatorDateTimeSettingsPanel.php:14
   // src/applications/settings/panel/PhabricatorAccountSettingsPanel.php:14
-  'Account Information' => null,
+  'Account Information' => '账户信息',
 
   // src/applications/auth/controller/PhabricatorAuthLinkController.php:28
   'Account Not Linkable' => null,
@@ -3613,13 +3613,13 @@ return array(
   'Account Not Refreshable' => null,
 
   // src/applications/auth/controller/PhabricatorAuthOneTimeLoginController.php:162
-  'Account Recovery' => null,
+  'Account Recovery' => '账户恢复',
 
   // src/applications/settings/panel/PhabricatorAccountSettingsPanel.php:101
-  'Account Settings' => null,
+  'Account Settings' => '账户设置',
 
   // src/applications/people/controller/PhabricatorPeopleCreateController.php:69
-  'Account Type' => null,
+  'Account Type' => '账户类型',
 
   // src/applications/auth/provider/PhabricatorOAuth2AuthProvider.php:201
   'Account does not match provider!' => null,
@@ -3631,7 +3631,7 @@ return array(
   'Account is already registered or linked.' => null,
 
   // src/applications/phortune/editor/PhortuneAccountEditor.php:83
-  'Account name is required.' => null,
+  'Account name is required.' => '账户名必填',
 
   // src/applications/files/controller/PhabricatorFileComposeController.php:213
   // src/applications/project/icon/PhabricatorProjectIcon.php:22
@@ -3640,10 +3640,10 @@ return array(
   // src/applications/phortune/controller/PhortuneAccountListController.php:24
   // src/applications/phortune/controller/PhortuneAccountListController.php:27
   // src/applications/phortune/controller/PhortuneAccountEditController.php:86
-  'Accounts' => null,
+  'Accounts' => '账户',
 
   // src/applications/phortune/application/PhabricatorPhortuneApplication.php:14
-  'Accounts and Billing' => null,
+  'Accounts and Billing' => '账户与账单',
 
   // src/applications/uiexample/examples/PHUIObjectItemListExample.php:240
   // src/applications/uiexample/examples/PHUIObjectItemListExample.php:242
@@ -3680,7 +3680,7 @@ return array(
   'Action' => '操作',
 
   // src/applications/uiexample/examples/PHUIObjectItemListExample.php:380
-  'Action Failed' => null,
+  'Action Failed' => '操作失败',
 
   // src/applications/uiexample/examples/PHUIActionHeaderExample.php:6
   'Action Headers' => null,
@@ -3689,7 +3689,7 @@ return array(
   'Action In Progress' => null,
 
   // src/applications/uiexample/examples/PHUIListExample.php:257
-  'Action Menu' => null,
+  'Action Menu' => '操作菜单',
 
   // src/applications/uiexample/examples/PHUIObjectItemListExample.php:396
   'Action Noted' => null,
@@ -3800,7 +3800,7 @@ return array(
   'Active Leases' => null,
 
   // src/applications/settings/panel/PhabricatorSessionsSettingsPanel.php:123
-  'Active Login Sessions' => null,
+  'Active Login Sessions' => '活跃的已登录会话',
 
   // src/applications/macro/query/PhabricatorMacroQuery.php:25
   'Active Macros' => null,
@@ -3845,7 +3845,7 @@ return array(
 
   // src/applications/people/controller/PhabricatorPeopleController.php:36
   // src/applications/settings/panel/PhabricatorActivitySettingsPanel.php:14
-  'Activity Logs' => null,
+  'Activity Logs' => '活跃日志',
 
   // src/applications/people/view/PhabricatorUserLogView.php:77
   'Actor' => null,
@@ -3950,7 +3950,7 @@ return array(
   'Add Existing Panel' => null,
 
   // src/applications/settings/panel/PhabricatorExternalAccountsSettingsPanel.php:102
-  'Add External Account' => null,
+  'Add External Account' => '添加外部账户',
 
   // src/applications/almanac/controller/AlmanacDeviceViewController.php:135
   'Add Interface' => null,
@@ -3999,7 +3999,7 @@ return array(
 
   // src/applications/dashboard/controller/PhabricatorDashboardAddPanelController.php:100
   // src/applications/dashboard/controller/PhabricatorDashboardAddPanelController.php:104
-  'Add Panel' => null,
+  'Add Panel' => '添加面板',
 
   // src/applications/conpherence/view/ConpherenceDurableColumnView.php:406
   // src/applications/conpherence/controller/ConpherenceController.php:24
@@ -4007,15 +4007,15 @@ return array(
   'Add Participants' => null,
 
   // src/applications/phortune/provider/PhortunePayPalPaymentProvider.php:20
-  'Add PayPal Payments Account' => null,
+  'Add PayPal Payments Account' => '添加PayPal支付帐号',
 
   // src/applications/phortune/controller/PhortunePaymentMethodCreateController.php:72
   // src/applications/phortune/controller/PhortunePaymentMethodCreateController.php:163
   // src/applications/phortune/controller/PhortunePaymentMethodCreateController.php:171
-  'Add Payment Method' => null,
+  'Add Payment Method' => '添加支付方式',
 
   // src/applications/phortune/controller/PhortuneSubscriptionEditController.php:123
-  'Add Payment Method...' => null,
+  'Add Payment Method...' => '添加支付方式...',
 
   // src/applications/phortune/controller/PhortuneMerchantViewController.php:285
   // src/applications/phortune/controller/PhortuneProviderEditController.php:270
@@ -4095,7 +4095,7 @@ return array(
   'Add one or more subscribers to the object. You can add users by providing their usernames, or add projects by adding their hashtags. For example, use `%s` to add the user `alincoln` and the project with hashtag `#ios` as subscribers.\n\nSubscribers which are invalid or unrecognized will be ignored. This command has no effect if you do not specify any subscribers.\n\nUsers who are CC\'d on the email itself are also automatically subscribed if Phabricator knows which accounts are linked to their email addresses.' => null,
 
   // src/applications/herald/adapter/HeraldAdapter.php:842
-  'Add projects' => null,
+  'Add projects' => '添加象目',
 
   // src/applications/project/command/ProjectAddProjectsEmailCommand.php:15
   'Add related projects.' => null,
@@ -4113,17 +4113,17 @@ return array(
   'Add users or projects as subscribers.' => null,
 
   // src/applications/people/storage/PhabricatorUserLog.php:64
-  'Add/Remove Administrator' => null,
+  'Add/Remove Administrator' => '添加/移除管理员',
 
   // src/applications/people/storage/PhabricatorUserLog.php:66
-  'Add/Remove Mailing List' => null,
+  'Add/Remove Mailing List' => '添加/移除邮件列表',
 
   // src/applications/people/storage/PhabricatorUserLog.php:65
   'Add/Remove System Agent' => null,
 
   // src/applications/differential/constants/DifferentialChangeType.php:97
   // src/applications/auth/view/PhabricatorAuthSSHKeyTableView.php:87
-  'Added' => null,
+  'Added' => '已添加',
 
   // src/applications/audit/storage/PhabricatorAuditTransaction.php:101
   'Added Auditors' => null,
@@ -4178,7 +4178,7 @@ return array(
   'Address' => '地址',
 
   // src/applications/metamta/receiver/__tests__/PhabricatorMailReceiverTestCase.php:21
-  'Address %s' => null,
+  'Address %s' => '地址 %s',
 
   // src/applications/auth/controller/PhabricatorEmailVerificationController.php:50
   'Address Already Verified' => null,
@@ -4187,16 +4187,16 @@ return array(
   'Address Duplicated in Input' => null,
 
   // src/applications/auth/data/PhabricatorAuthInviteAction.php:67
-  'Address Error' => null,
+  'Address Error' => '地址错误',
 
   // src/applications/auth/controller/PhabricatorEmailVerificationController.php:60
-  'Address Verified' => null,
+  'Address Verified' => '地址已验证',
 
   // src/applications/config/option/PhabricatorClusterConfigOptions.php:26
   'Address ranges of cluster hosts.' => null,
 
   // src/applications/metamta/receiver/__tests__/PhabricatorMailReceiverTestCase.php:36
-  'Address: %s' => null,
+  'Address: %s' => '地址: %s',
 
   // src/applications/phortune/provider/PhortuneTestPaymentProvider.php:19
   'Adds a test provider to allow you to test payments. This allows users to make purchases by clicking a button without actually paying any money.' => null,
@@ -4230,11 +4230,11 @@ return array(
 
   // src/applications/people/typeahead/PhabricatorPeopleDatasource.php:77
   // src/applications/people/customfield/PhabricatorUserRolesField.php:29
-  'Administrator' => null,
+  'Administrator' => '管理员',
 
   // src/applications/people/query/PhabricatorPeopleSearchEngine.php:30
   // src/applications/policy/query/PhabricatorPolicyQuery.php:166
-  'Administrators' => null,
+  'Administrators' => '管理员',
 
   // src/applications/people/controller/PhabricatorPeopleCreateController.php:31
   'Administrators are limited in their ability to access or edit these accounts after account creation.' => null,
@@ -4334,10 +4334,10 @@ return array(
   'Alas!' => null,
 
   // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:72
-  'Algorithm' => null,
+  'Algorithm' => '算法',
 
   // src/applications/meta/controller/PhabricatorApplicationEmailCommandsController.php:99
-  'Aliases' => null,
+  'Aliases' => '别名',
 
   // src/applications/differential/query/DifferentialRevisionSearchEngine.php:246
   // src/applications/phrequent/query/PhrequentUserTimeQuery.php:240
@@ -4364,7 +4364,7 @@ return array(
 
   // src/applications/search/controller/PhabricatorSearchAttachController.php:264
   // src/applications/search/controller/PhabricatorSearchAttachController.php:271
-  'All %s' => null,
+  'All %s' => '全部 %s',
 
   // src/applications/meta/query/PhabricatorAppSearchEngine.php:161
   // src/applications/oauthserver/query/PhabricatorOAuthServerClientSearchEngine.php:61
@@ -4375,7 +4375,7 @@ return array(
 
   // src/applications/phame/controller/blog/PhameBlogListController.php:17
   // src/applications/phame/controller/PhameController.php:23
-  'All Blogs' => null,
+  'All Blogs' => '全部博客',
 
   // src/applications/drydock/query/DrydockBlueprintSearchEngine.php:32
   'All Blueprints' => null,
@@ -4406,7 +4406,7 @@ return array(
   'All Day Event' => null,
 
   // src/applications/almanac/query/AlmanacDeviceSearchEngine.php:36
-  'All Devices' => null,
+  'All Devices' => '全部设备',
 
   // src/applications/config/check/PhabricatorExtraConfigSetupCheck.php:159
   'All Differential fields are now managed through the configuration option "%s". Use that option to configure which fields are shown.' => null,
@@ -5621,19 +5621,19 @@ return array(
   // src/applications/settings/panel/PhabricatorMultiFactorSettingsPanel.php:15
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:563
   // src/applications/diffusion/panel/DiffusionSetPasswordSettingsPanel.php:18
-  'Authentication' => null,
+  'Authentication' => '身份验证',
 
   // src/applications/auth/controller/PhabricatorAuthLoginController.php:58
-  'Authentication Canceled' => null,
+  'Authentication Canceled' => '身份验证已取消',
 
   // src/applications/auth/controller/PhabricatorAuthController.php:125
-  'Authentication Error' => null,
+  'Authentication Error' => '身份验证错误',
 
   // src/applications/settings/panel/PhabricatorMultiFactorSettingsPanel.php:127
   'Authentication Factors' => null,
 
   // src/applications/auth/controller/PhabricatorAuthStartController.php:239
-  'Authentication Failure' => null,
+  'Authentication Failure' => '身份验证失败',
 
   // src/applications/auth/controller/config/PhabricatorAuthListController.php:161
   // src/applications/auth/controller/config/PhabricatorAuthListController.php:176
@@ -6363,7 +6363,7 @@ return array(
   // src/applications/project/typeahead/PhabricatorProjectDatasource.php:7
   // src/applications/project/typeahead/PhabricatorProjectLogicalOrNotDatasource.php:7
   // src/applications/project/typeahead/PhabricatorProjectLogicalDatasource.php:7
-  'Browse Projects' => null,
+  'Browse Projects' => '选取项目',
 
   // src/applications/diffusion/typeahead/DiffusionRepositoryDatasource.php:7
   'Browse Repositories' => null,
@@ -6389,7 +6389,7 @@ return array(
 
   // src/applications/metamta/typeahead/PhabricatorMetaMTAMailableDatasource.php:7
   // src/applications/metamta/typeahead/PhabricatorMetaMTAMailableFunctionDatasource.php:7
-  'Browse Subscribers' => null,
+  'Browse Subscribers' => '选取订阅者',
 
   // src/applications/diffusion/typeahead/DiffusionSymbolDatasource.php:13
   'Browse Symbols' => null,
@@ -6622,7 +6622,7 @@ return array(
   'CAUTION: Dangerous Chemicals' => null,
 
   // src/applications/maniphest/controller/ManiphestTaskEditController.php:628
-  'CC' => null,
+  'CC' => '抄送',
 
   // src/applications/maniphest/controller/ManiphestTaskDetailController.php:220
   // src/applications/herald/adapter/HeraldAdapter.php:369
@@ -6661,7 +6661,7 @@ return array(
 
   // src/applications/config/controller/PhabricatorConfigCacheController.php:107
   // src/applications/config/controller/PhabricatorConfigController.php:23
-  'Cache' => null,
+  'Cache' => '缓存',
 
   // src/applications/config/controller/PhabricatorConfigCacheController.php:142
   'Cache Entries' => null,
@@ -6669,10 +6669,10 @@ return array(
   // src/applications/config/controller/PhabricatorConfigCacheController.php:12
   // src/applications/config/controller/PhabricatorConfigCacheController.php:16
   // src/applications/config/controller/PhabricatorConfigController.php:24
-  'Cache Status' => null,
+  'Cache Status' => '缓存状态',
 
   // src/applications/config/option/PhabricatorCoreConfigOptions.php:222
-  'Cache namespace.' => null,
+  'Cache namespace.' => '缓存命名空间.',
 
   // src/applications/repository/management/PhabricatorRepositoryManagementCacheWorkflow.php:80
   'Cache returned bogus result!' => null,
@@ -6701,13 +6701,13 @@ return array(
   // src/applications/people/controller/PhabricatorPeopleController.php:20
   // src/applications/people/controller/PhabricatorPeopleController.php:62
   // src/applications/people/controller/PhabricatorPeopleCalendarController.php:97
-  'Calendar' => null,
+  'Calendar' => '日历',
 
   // src/applications/calendar/application/PhabricatorCalendarApplication.php:75
-  'Calendar Event' => null,
+  'Calendar Event' => '日历事件',
 
   // src/applications/calendar/query/PhabricatorCalendarEventSearchEngine.php:11
-  'Calendar Events' => null,
+  'Calendar Events' => '日历事件',
 
   // src/applications/settings/panel/PhabricatorDateTimeSettingsPanel.php:87
   'Calendar weeks will start with this day.' => null,
@@ -7490,7 +7490,7 @@ return array(
   // src/applications/subscriptions/view/SubscriptionListDialogBuilder.php:59
   // src/applications/legalpad/controller/LegalpadDocumentSignatureViewController.php:109
   // src/applications/pholio/controller/PholioInlineController.php:111
-  'Close' => null,
+  'Close' => '关闭',
 
   // src/applications/audit/constants/PhabricatorAuditActionConstants.php:21
   'Close Audit' => null,
@@ -9191,11 +9191,11 @@ return array(
   'Crowded Eastern Edge' => null,
 
   // src/applications/settings/panel/PhabricatorSessionsSettingsPanel.php:60
-  'Current' => null,
+  'Current' => '当前',
 
   // src/applications/settings/panel/PhabricatorPasswordSettingsPanel.php:190
   // src/applications/diffusion/panel/DiffusionSetPasswordSettingsPanel.php:201
-  'Current Algorithm' => null,
+  'Current Algorithm' => '当前算法',
 
   // src/applications/search/controller/PhabricatorSearchAttachController.php:244
   'Current Blocking Tasks' => null,
@@ -9205,7 +9205,7 @@ return array(
 
   // src/applications/diffusion/panel/DiffusionSetPasswordSettingsPanel.php:140
   // src/applications/diffusion/panel/DiffusionSetPasswordSettingsPanel.php:147
-  'Current Password' => null,
+  'Current Password' => '当前密码',
 
   // src/applications/phriction/controller/PhrictionMoveController.php:91
   'Current Path' => null,
@@ -9214,20 +9214,20 @@ return array(
   // src/applications/project/controller/PhabricatorProjectEditPictureController.php:182
   // src/applications/people/controller/PhabricatorPeopleProfilePictureController.php:113
   // src/applications/people/controller/PhabricatorPeopleProfilePictureController.php:207
-  'Current Picture' => null,
+  'Current Picture' => '当前图片',
 
   // src/applications/pholio/view/PholioMockThumbGridView.php:80
-  'Current Revision' => null,
+  'Current Revision' => '当前修订',
 
   // src/applications/config/controller/PhabricatorConfigAllController.php:52
   // src/applications/config/controller/PhabricatorConfigAllController.php:59
-  'Current Settings' => null,
+  'Current Settings' => '当前设置',
 
   // src/applications/config/controller/PhabricatorConfigGroupController.php:85
-  'Current Value:' => null,
+  'Current Value:' => '当前值:',
 
   // src/applications/config/controller/PhabricatorConfigAllController.php:71
-  'Current Version' => null,
+  'Current Version' => '当前版本',
 
   // src/applications/people/typeahead/PhabricatorViewerDatasource.php:21
   // src/applications/people/typeahead/PhabricatorViewerDatasource.php:74
@@ -9251,10 +9251,10 @@ return array(
   'Cursor %s does not exist or is already reset.' => null,
 
   // src/applications/almanac/servicetype/AlmanacCustomServiceType.php:6
-  'Custom' => null,
+  'Custom' => '自定义',
 
   // src/applications/policy/controller/PhabricatorPolicyEditController.php:210
-  'Custom "%s" Policy' => null,
+  'Custom "%s" Policy' => '自定义 "%s" 策略',
 
   // src/applications/phame/controller/blog/PhameBlogEditController.php:152
   'Custom Domain' => null,
@@ -9266,14 +9266,14 @@ return array(
   'Custom HTML to show on the main Phabricator dashboard.' => null,
 
   // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:247
-  'Custom Maniphest fields.' => null,
+  'Custom Maniphest fields.' => '自定义Maniphest字段',
 
   // src/applications/policy/storage/PhabricatorPolicy.php:126
   // src/applications/policy/controller/PhabricatorPolicyEditController.php:205
-  'Custom Policy' => null,
+  'Custom Policy' => '自定义策略',
 
   // src/applications/project/config/PhabricatorProjectConfigOptions.php:37
-  'Custom Projects fields.' => null,
+  'Custom Projects fields.' => '自定义项目字段',
 
   // src/applications/almanac/controller/AlmanacController.php:49
   'Custom Property' => null,
@@ -9520,10 +9520,10 @@ return array(
   'Date Updated (Oldest First)' => null,
 
   // src/applications/settings/panel/PhabricatorDateTimeSettingsPanel.php:10
-  'Date and Time' => null,
+  'Date and Time' => '日期与时间',
 
   // src/applications/settings/panel/PhabricatorDateTimeSettingsPanel.php:94
-  'Date and Time Settings' => null,
+  'Date and Time Settings' => '日期与时间设置',
 
   // src/applications/calendar/controller/PhabricatorCalendarEventEditController.php:391
   'Date and time of recurring event cannot be edited.' => null,
@@ -10354,7 +10354,7 @@ return array(
   // src/applications/auth/controller/config/PhabricatorAuthListController.php:66
   // src/applications/auth/controller/config/PhabricatorAuthEditController.php:254
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:447
-  'Disabled' => null,
+  'Disabled' => '禁用',
 
   // src/applications/settings/panel/PhabricatorExternalAccountsSettingsPanel.php:73
   'Disabled (an administrator has disabled login for this account provider).' => null,
@@ -10411,7 +10411,7 @@ return array(
 
   // src/applications/settings/panel/PhabricatorDisplayPreferencesSettingsPanel.php:11
   // src/applications/settings/panel/PhabricatorDisplayPreferencesSettingsPanel.php:169
-  'Display Preferences' => null,
+  'Display Preferences' => '显示偏好',
 
   // src/applications/typeahead/controller/PhabricatorTypeaheadModularDatasourceController.php:319
   'Display Type' => null,
@@ -10562,7 +10562,7 @@ return array(
   // src/applications/uiexample/examples/PHUIDocumentExample.php:62
   // src/applications/uiexample/examples/PHUIListExample.php:62
   // src/applications/diviner/application/PhabricatorDivinerApplication.php:18
-  'Documentation' => null,
+  'Documentation' => '文档',
 
   // src/applications/diviner/query/DivinerAtomSearchEngine.php:6
   'Documentation Atoms' => null,
@@ -11259,14 +11259,14 @@ return array(
 
   // src/applications/people/controller/PhabricatorPeopleProfileController.php:62
   // src/applications/people/controller/PhabricatorPeopleProfilePictureController.php:91
-  'Edit Profile Picture' => null,
+  'Edit Profile Picture' => '修改个人图片',
 
   // src/applications/project/controller/PhabricatorProjectEditDetailsController.php:177
   // src/applications/project/controller/PhabricatorProjectEditDetailsController.php:178
   'Edit Project' => '修改项目',
 
   // src/applications/project/controller/PhabricatorProjectEditPictureController.php:101
-  'Edit Project Picture' => null,
+  'Edit Project Picture' => '修改项目图片',
 
   // src/applications/almanac/controller/AlmanacPropertyEditController.php:33
   'Edit Property' => null,
@@ -11820,7 +11820,7 @@ return array(
   // src/applications/settings/panel/PhabricatorDiffPreferencesSettingsPanel.php:74
   // src/applications/settings/panel/PhabricatorDisplayPreferencesSettingsPanel.php:160
   // src/applications/auth/controller/config/PhabricatorAuthEditController.php:250
-  'Enabled' => null,
+  'Enabled' => '启用',
 
   // src/applications/auth/query/PhabricatorAuthProviderConfigQuery.php:38
   'Enabled Providers' => null,
@@ -12274,17 +12274,17 @@ return array(
   // src/applications/drydock/controller/DrydockLeaseViewController.php:103
   // src/applications/drydock/constants/DrydockLeaseStatus.php:19
   // src/applications/settings/panel/PhabricatorTokensSettingsPanel.php:53
-  'Expired' => null,
+  'Expired' => '已过期',
 
   // src/applications/files/controller/PhabricatorFileDataController.php:85
-  'Expired File' => null,
+  'Expired File' => '已过期文件',
 
   // src/applications/phortune/controller/PhortunePaymentMethodEditController.php:59
   // src/applications/daemon/view/PhabricatorDaemonTasksTableView.php:56
   // src/applications/conduit/settings/PhabricatorConduitTokensSettingsPanel.php:78
   // src/applications/settings/panel/PhabricatorSessionsSettingsPanel.php:98
   // src/applications/settings/panel/PhabricatorTokensSettingsPanel.php:68
-  'Expires' => null,
+  'Expires' => '过期',
 
   // src/applications/differential/storage/DifferentialTransaction.php:305
   'Explain Why' => null,
@@ -12331,10 +12331,10 @@ return array(
 
   // src/applications/people/phid/PhabricatorPeopleExternalPHIDType.php:8
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:414
-  'External Account' => null,
+  'External Account' => '外部账户',
 
   // src/applications/settings/panel/PhabricatorExternalAccountsSettingsPanel.php:11
-  'External Accounts' => null,
+  'External Accounts' => '外部账户',
 
   // src/applications/doorkeeper/engine/DoorkeeperObjectRef.php:107
   'External Object' => null,
@@ -15488,7 +15488,7 @@ return array(
   'Login' => '登录',
 
   // src/applications/auth/controller/PhabricatorAuthOneTimeLoginController.php:190
-  'Login (%s)' => null,
+  'Login (%s)' => '登录 (%s)',
 
   // src/applications/auth/controller/PhabricatorAuthLoginController.php:213
   'Login Failed' => '登录失败',
@@ -16312,15 +16312,15 @@ return array(
   // src/applications/differential/constants/DifferentialChangeType.php:98
   // src/applications/diffusion/view/DiffusionBranchTableView.php:132
   // src/applications/diffusion/view/DiffusionBrowseTableView.php:112
-  'Modified' => null,
+  'Modified' => '已修改',
 
   // src/applications/uiexample/examples/PHUIObjectItemListExample.php:68
   // src/applications/uiexample/examples/PHUIObjectItemListExample.php:92
   // src/applications/settings/panel/PhabricatorDateTimeSettingsPanel.php:107
-  'Monday' => null,
+  'Monday' => '周一',
 
   // src/applications/settings/panel/PhabricatorDisplayPreferencesSettingsPanel.php:145
-  'Monospaced Font' => null,
+  'Monospaced Font' => '等宽字体',
 
   // src/applications/settings/panel/PhabricatorDisplayPreferencesSettingsPanel.php:157
   'Monospaced Textareas' => null,
@@ -19708,7 +19708,7 @@ return array(
   'Pink' => null,
 
   // src/applications/settings/panel/PhabricatorHomePreferencesSettingsPanel.php:179
-  'Pinned Applications' => null,
+  'Pinned Applications' => '已钉选的应用',
 
   // src/applications/config/option/PhabricatorMetaMTAConfigOptions.php:304
   'Placeholder for mail with only CCs.' => null,
@@ -22616,14 +22616,14 @@ return array(
   'Risks/Challenges' => null,
 
   // src/applications/people/customfield/PhabricatorUserRolesField.php:13
-  'Roles' => null,
+  'Roles' => '角色',
 
   // src/applications/conpherence/editor/ConpherenceEditor.php:656
   'Room title is required.' => null,
 
   // src/applications/conpherence/view/ConpherenceThreadListView.php:126
   // src/applications/conpherence/query/ConpherenceThreadSearchEngine.php:261
-  'Rooms' => null,
+  'Rooms' => '房间',
 
   // src/applications/files/controller/PhabricatorFileComposeController.php:197
   'Royal Crest' => null,
@@ -22772,7 +22772,7 @@ return array(
   // src/applications/settings/panel/PhabricatorSSHKeysSettingsPanel.php:14
   // src/applications/settings/panel/PhabricatorSSHKeysSettingsPanel.php:73
   // src/applications/almanac/controller/AlmanacDeviceViewController.php:179
-  'SSH Public Keys' => null,
+  'SSH Public Keys' => 'SSH公钥',
 
   // src/applications/config/check/PhabricatorExtraConfigSetupCheck.php:198
   'SSH keys are now actually useful, so they are always enabled.' => null,
@@ -22840,7 +22840,7 @@ return array(
 
   // src/applications/settings/panel/PhabricatorDateTimeSettingsPanel.php:91
   // src/applications/settings/panel/PhabricatorAccountSettingsPanel.php:98
-  'Save Account Settings' => null,
+  'Save Account Settings' => '保存账户设置',
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditActionsController.php:105
   'Save Actions' => null,
@@ -22951,7 +22951,7 @@ return array(
   // src/applications/settings/panel/PhabricatorDisplayPreferencesSettingsPanel.php:166
   // src/applications/settings/panel/PhabricatorDeveloperPreferencesSettingsPanel.php:88
   // src/applications/settings/panel/PhabricatorConpherencePreferencesSettingsPanel.php:58
-  'Save Preferences' => null,
+  'Save Preferences' => '保存偏好',
 
   // src/applications/people/controller/PhabricatorPeopleProfileEditController.php:74
   'Save Profile' => null,
@@ -23035,7 +23035,7 @@ return array(
 
   // src/applications/settings/panel/PhabricatorSearchPreferencesSettingsPanel.php:11
   // src/applications/settings/panel/PhabricatorSearchPreferencesSettingsPanel.php:54
-  'Search Preferences' => null,
+  'Search Preferences' => '搜索偏好',
 
   // src/applications/search/engine/PhabricatorSearchEngine.php:124
   'Search engines "%s" and "%s" have the same engine identifier "%s". Each storage engine must have a unique identifier.' => null,
@@ -23082,13 +23082,13 @@ return array(
   'Seen' => null,
 
   // src/applications/typeahead/controller/PhabricatorTypeaheadModularDatasourceController.php:159
-  'Select' => null,
+  'Select' => '选择',
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditBranchesController.php:129
   'Select %s, %s, and %s.' => null,
 
   // src/applications/maniphest/view/ManiphestTaskResultListView.php:217
-  'Select All' => null,
+  'Select All' => '选择全部',
 
   // src/applications/system/controller/PhabricatorSystemSelectEncodingController.php:52
   'Select Character Encoding' => null,
@@ -23404,14 +23404,14 @@ return array(
 
   // src/applications/people/query/PhabricatorPeopleLogSearchEngine.php:129
   // src/applications/settings/panel/PhabricatorSessionsSettingsPanel.php:10
-  'Sessions' => null,
+  'Sessions' => '会话',
 
   // src/applications/oauthserver/panel/PhabricatorOAuthServerAuthorizationsSettingsPanel.php:15
   // src/applications/conduit/settings/PhabricatorConduitTokensSettingsPanel.php:19
   // src/applications/settings/panel/PhabricatorActivitySettingsPanel.php:18
   // src/applications/settings/panel/PhabricatorSessionsSettingsPanel.php:14
   // src/applications/settings/panel/PhabricatorTokensSettingsPanel.php:14
-  'Sessions and Logs' => null,
+  'Sessions and Logs' => '会话与日志',
 
   // src/applications/config/check/PhabricatorExtraConfigSetupCheck.php:155
   'Sessions now expire and are garbage collected rather than having an arbitrary concurrency limit.' => null,
@@ -24875,7 +24875,7 @@ return array(
   'Store a plaintext password.' => null,
 
   // src/applications/files/application/PhabricatorFilesApplication.php:14
-  'Store and Share Files' => null,
+  'Store and Share Files' => '保存与分享文件',
 
   // src/applications/passphrase/credentialtype/PassphraseCredentialTypeSSHPrivateKeyFile.php:17
   'Store the path on disk to an SSH private key.' => null,
@@ -25178,7 +25178,7 @@ return array(
 
   // src/applications/project/controller/PhabricatorProjectEditPictureController.php:275
   // src/applications/people/controller/PhabricatorPeopleProfilePictureController.php:230
-  'Supported formats: %s' => null,
+  'Supported formats: %s' => '支持格式: %s',
 
   // src/applications/config/schema/PhabricatorConfigStorageSchema.php:108
   'Surplus' => null,
@@ -25375,14 +25375,14 @@ return array(
   'Task has no transaction PHIDs!' => null,
 
   // src/applications/herald/adapter/HeraldAdapter.php:399
-  'Task priority' => null,
+  'Task priority' => '任务优先级',
 
   // src/applications/daemon/controller/PhabricatorDaemonConsoleController.php:174
   // src/applications/daemon/controller/PhabricatorDaemonConsoleController.php:190
   'Task queue is empty.' => null,
 
   // src/applications/herald/adapter/HeraldAdapter.php:400
-  'Task status' => null,
+  'Task status' => '任务状态',
 
   // src/applications/config/check/PhabricatorExtraConfigSetupCheck.php:233
   'Taskmasters now use an autoscaling pool. You can configure the pool size with `%s`.' => null,
@@ -25394,17 +25394,17 @@ return array(
   // src/applications/maniphest/view/ManiphestTaskResultListView.php:181
   // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:34
   // src/applications/maniphest/export/ManiphestExcelDefaultFormat.php:26
-  'Tasks' => null,
+  'Tasks' => '任务',
 
   // src/applications/search/controller/PhabricatorSearchAttachController.php:230
-  'Tasks To Merge' => null,
+  'Tasks To Merge' => '要合并的任务',
 
   // src/applications/maniphest/application/PhabricatorManiphestApplication.php:10
   'Tasks and Bugs' => '任务与缺陷',
 
   // src/applications/files/controller/PhabricatorFileComposeController.php:217
   // src/applications/project/icon/PhabricatorProjectIcon.php:11
-  'Team' => null,
+  'Team' => '团队',
 
   // src/applications/releeph/controller/product/ReleephProductEditController.php:107
   'Template error: %s' => null,
@@ -25429,7 +25429,7 @@ return array(
   // src/applications/conduit/settings/PhabricatorConduitTokensSettingsPanel.php:67
   // src/applications/settings/panel/PhabricatorSessionsSettingsPanel.php:70
   // src/applications/auth/controller/PhabricatorAuthTerminateSessionController.php:75
-  'Terminate' => null,
+  'Terminate' => '终止',
 
   // src/applications/conduit/controller/PhabricatorConduitTokenTerminateController.php:29
   'Terminate API Token' => null,
@@ -25438,22 +25438,22 @@ return array(
   'Terminate API Tokens' => null,
 
   // src/applications/settings/panel/PhabricatorSessionsSettingsPanel.php:116
-  'Terminate All Sessions' => null,
+  'Terminate All Sessions' => '终止所有会话',
 
   // src/applications/conduit/settings/PhabricatorConduitTokensSettingsPanel.php:102
   'Terminate All Tokens' => null,
 
   // src/applications/auth/controller/PhabricatorAuthTerminateSessionController.php:65
-  'Terminate Session' => null,
+  'Terminate Session' => '终止会话',
 
   // src/applications/auth/controller/PhabricatorAuthTerminateSessionController.php:64
-  'Terminate Session?' => null,
+  'Terminate Session?' => '终止会话?',
 
   // src/applications/auth/controller/PhabricatorAuthTerminateSessionController.php:59
-  'Terminate Sessions' => null,
+  'Terminate Sessions' => '终止会话',
 
   // src/applications/auth/controller/PhabricatorAuthTerminateSessionController.php:58
-  'Terminate Sessions?' => null,
+  'Terminate Sessions?' => '终止会话?',
 
   // src/applications/conduit/controller/PhabricatorConduitTokenTerminateController.php:33
   'Terminate Token' => null,
@@ -25468,7 +25468,7 @@ return array(
   // src/applications/conpherence/__tests__/ConpherenceThreadTestCase.php:164
   // src/applications/conpherence/__tests__/ConpherenceRoomTestCase.php:164
   // src/applications/base/controller/__tests__/PhabricatorTestApplication.php:8
-  'Test' => null,
+  'Test' => '测试',
 
   // src/applications/herald/controller/HeraldTestConsoleController.php:109
   // src/applications/herald/controller/HeraldTestConsoleController.php:115
@@ -28210,10 +28210,10 @@ return array(
   'Transforms' => null,
 
   // src/applications/settings/panel/PhabricatorAccountSettingsPanel.php:86
-  'Translation' => null,
+  'Translation' => '翻译',
 
   // src/applications/config/option/PhabricatorTranslationsConfigOptions.php:7
-  'Translations' => null,
+  'Translations' => '翻译',
 
   // src/applications/calendar/icon/PhabricatorCalendarIcon.php:10
   'Travel' => null,
@@ -28231,10 +28231,10 @@ return array(
   'Tree' => null,
 
   // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:33
-  'Triage' => null,
+  'Triage' => '诊断',
 
   // src/applications/maniphest/storage/ManiphestTransaction.php:277
-  'Triaged' => null,
+  'Triaged' => '已诊断',
 
   // src/applications/releeph/field/selector/ReleephFieldSelector.php:30
   'Tried to select a in instance of \'%s\' but that field is not configured for this project!' => null,
@@ -28255,7 +28255,7 @@ return array(
   'Tropical Deep' => null,
 
   // src/applications/config/option/PhabricatorConfigOption.php:112
-  'True' => null,
+  'True' => '真',
 
   // src/applications/config/option/PhabricatorMetaMTAConfigOptions.php:345
   'Truncate at 1MB' => null,
@@ -28339,7 +28339,7 @@ return array(
   // src/applications/uiexample/examples/PHUIObjectItemListExample.php:72
   // src/applications/uiexample/examples/PHUIObjectItemListExample.php:97
   // src/applications/settings/panel/PhabricatorDateTimeSettingsPanel.php:108
-  'Tuesday' => null,
+  'Tuesday' => '周二',
 
   // src/applications/people/controller/PhabricatorPeopleDeleteController.php:76
   'Turn Back' => null,
@@ -28415,7 +28415,7 @@ return array(
   // src/applications/diffusion/controller/DiffusionSymbolController.php:120
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:272
   // src/applications/diffusion/controller/DiffusionRefTableController.php:120
-  'Type' => null,
+  'Type' => '类型',
 
   // src/applications/people/typeahead/PhabricatorPeopleAnyOwnerDatasource.php:13
   'Type "anyone()"...' => null,
@@ -28443,7 +28443,7 @@ return array(
 
   // src/applications/project/typeahead/PhabricatorProjectLogicalAndDatasource.php:11
   // src/applications/project/typeahead/PhabricatorProjectDatasource.php:11
-  'Type a project name...' => null,
+  'Type a project name...' => '输入一个项目名称...',
 
   // src/applications/diffusion/typeahead/DiffusionRepositoryDatasource.php:11
   'Type a repository name...' => null,
@@ -28458,22 +28458,22 @@ return array(
   'Type a symbol name...' => null,
 
   // src/applications/maniphest/typeahead/ManiphestTaskPriorityDatasource.php:11
-  'Type a task priority name...' => null,
+  'Type a task priority name...' => '输入一个任务优先级名称...',
 
   // src/applications/maniphest/typeahead/ManiphestTaskStatusFunctionDatasource.php:11
   'Type a task status name or function...' => null,
 
   // src/applications/maniphest/typeahead/ManiphestTaskStatusDatasource.php:11
-  'Type a task status name...' => null,
+  'Type a task status name...' => '输入一个状态名称...',
 
   // src/applications/project/typeahead/PhabricatorProjectOrUserDatasource.php:11
-  'Type a user or project name...' => null,
+  'Type a user or project name...' => '输入一个用户名或者项目名...',
 
   // src/applications/diffusion/typeahead/DiffusionAuditorDatasource.php:11
   'Type a user, project or package name...' => null,
 
   // src/applications/metamta/typeahead/PhabricatorMetaMTAMailableDatasource.php:11
-  'Type a user, project, or mailing list name...' => null,
+  'Type a user, project, or mailing list name...' => '输入一个用户名, 项目名, 或者邮件列表名...',
 
   // src/applications/maniphest/typeahead/ManiphestAssigneeDatasource.php:11
   'Type a username or "none"...' => null,
@@ -28486,13 +28486,13 @@ return array(
   'Type a username, project, mailing list, or function...' => null,
 
   // src/applications/people/typeahead/PhabricatorPeopleDatasource.php:23
-  'Type a username...' => null,
+  'Type a username...' => '输入一个用户名...',
 
   // src/applications/metamta/typeahead/PhabricatorMetaMTAApplicationEmailDatasource.php:16
   'Type an application email address...' => null,
 
   // src/applications/meta/typeahead/PhabricatorApplicationDatasource.php:11
-  'Type an application name...' => null,
+  'Type an application name...' => '输入一个应用名称...',
 
   // src/applications/almanac/typeahead/AlmanacInterfaceDatasource.php:17
   'Type an interface name...' => null,
@@ -28548,7 +28548,7 @@ return array(
   'Types' => null,
 
   // src/applications/uiexample/application/PhabricatorUIExamplesApplication.php:14
-  'UIExamples' => null,
+  'UIExamples' => 'UI示例',
 
   // src/applications/almanac/management/AlmanacManagementUnlockWorkflow.php:42
   'UNLOCKED' => null,
@@ -28922,7 +28922,7 @@ return array(
 
   // src/applications/differential/view/DifferentialChangesetListView.php:122
   // src/applications/pholio/controller/PholioMockEditController.php:304
-  'Undo' => null,
+  'Undo' => '撤销',
 
   // src/applications/config/check/PhabricatorBinariesSetupCheck.php:46
   'Unexpected \'%s\' Behavior' => null,
@@ -28975,12 +28975,12 @@ return array(
   // src/applications/meta/controller/PhabricatorApplicationDetailViewController.php:160
   // src/applications/meta/controller/PhabricatorApplicationDetailViewController.php:186
   // src/applications/meta/controller/PhabricatorApplicationUninstallController.php:90
-  'Uninstall' => null,
+  'Uninstall' => '卸载',
 
   // src/applications/dashboard/controller/PhabricatorDashboardManageController.php:131
   // src/applications/dashboard/controller/PhabricatorDashboardUninstallController.php:73
   // src/applications/dashboard/controller/PhabricatorDashboardUninstallController.php:77
-  'Uninstall Dashboard' => null,
+  'Uninstall Dashboard' => '卸载DashBoard',
 
   // src/applications/meta/query/PhabricatorAppSearchEngine.php:254
   // src/applications/meta/controller/PhabricatorApplicationDetailViewController.php:36
@@ -29065,7 +29065,7 @@ return array(
   // src/applications/diffusion/controller/DiffusionCommitEditController.php:81
   // src/applications/diffusion/controller/DiffusionCommitController.php:596
   // src/applications/diffusion/controller/DiffusionCommitController.php:602
-  'Unknown' => null,
+  'Unknown' => '未知',
 
   // src/applications/releeph/field/specification/ReleephLevelFieldSpecification.php:118
   'Unknown %s level name \'%s\'' => null,
@@ -29411,7 +29411,7 @@ return array(
   'Unlock an object by setting its policies to allow anyone to view and edit it.' => null,
 
   // src/applications/almanac/query/AlmanacServiceSearchEngine.php:86
-  'Unlocked' => null,
+  'Unlocked' => '已解锁',
 
   // src/applications/policy/management/PhabricatorPolicyManagementUnlockWorkflow.php:101
   'Unlocked edit policy.' => null,
@@ -29429,37 +29429,37 @@ return array(
   'Unlocking: %s' => null,
 
   // src/applications/project/storage/PhabricatorProjectColumn.php:85
-  'Unnamed Column' => null,
+  'Unnamed Column' => '未命名字段',
 
   // src/applications/metamta/management/PhabricatorMailManagementShowOutboundWorkflow.php:118
-  'Unnamed File' => null,
+  'Unnamed File' => '未命名文件',
 
   // src/applications/phortune/query/PhortuneCartSearchEngine.php:137
-  'Unpaid Invoices' => null,
+  'Unpaid Invoices' => '未付款账单',
 
   // src/applications/settings/panel/PhabricatorHomePreferencesSettingsPanel.php:102
   // src/applications/settings/panel/PhabricatorHomePreferencesSettingsPanel.php:107
-  'Unpin Application' => null,
+  'Unpin Application' => '取消应用置顶',
 
   // src/applications/settings/panel/PhabricatorHomePreferencesSettingsPanel.php:105
   'Unpin the %s application from your home page?' => null,
 
   // src/applications/phame/controller/post/PhamePostUnpublishController.php:46
   // src/applications/phame/controller/post/PhamePostViewController.php:118
-  'Unpublish' => null,
+  'Unpublish' => '取消发布',
 
   // src/applications/phame/controller/post/PhamePostUnpublishController.php:40
-  'Unpublish Post?' => null,
+  'Unpublish Post?' => '取消文章发布',
 
   // src/applications/phame/controller/post/PhamePostListController.php:27
   'Unpublished Drafts' => null,
 
   // src/applications/notification/query/PhabricatorNotificationSearchEngine.php:43
-  'Unread' => null,
+  'Unread' => '未读',
 
   // src/applications/notification/query/PhabricatorNotificationSearchEngine.php:59
   // src/applications/notification/query/PhabricatorNotificationSearchEngine.php:99
-  'Unread Notifications' => null,
+  'Unread Notifications' => '未读通知',
 
   // src/applications/herald/adapter/HeraldAdapter.php:912
   'Unrecognized action type "%s"!' => null,
@@ -29492,7 +29492,7 @@ return array(
 
   // src/applications/conduit/query/PhabricatorConduitSearchEngine.php:182
   // src/applications/conduit/controller/PhabricatorConduitLogController.php:85
-  'Unstable' => null,
+  'Unstable' => '不稳定',
 
   // src/applications/conduit/controller/PhabricatorConduitConsoleController.php:39
   'Unstable Method: %s' => null,
@@ -29564,18 +29564,18 @@ return array(
   'Untitled Article "%s"' => null,
 
   // src/applications/maniphest/mail/ManiphestReplyHandler.php:28
-  'Untitled Task' => null,
+  'Untitled Task' => '无标题任务',
 
   // src/applications/harbormaster/controller/HarbormasterPlanViewController.php:346
   'Unused Output' => null,
 
   // src/applications/people/query/PhabricatorPeopleSearchEngine.php:193
   // src/applications/auth/controller/PhabricatorEmailLoginController.php:77
-  'Unverified' => null,
+  'Unverified' => '未验证',
 
   // src/applications/legalpad/query/LegalpadDocumentSignatureSearchEngine.php:178
   // src/applications/legalpad/query/LegalpadDocumentSignatureSearchEngine.php:188
-  'Unverified Email' => null,
+  'Unverified Email' => '未验证邮件',
 
   // src/applications/auth/data/PhabricatorAuthInviteAction.php:55
   'Unverified User Email' => null,
@@ -29604,10 +29604,10 @@ return array(
   'Upcoming Triggers' => null,
 
   // src/applications/calendar/controller/PhabricatorCalendarEventEditController.php:125
-  'Update' => null,
+  'Update' => '更新',
 
   // src/applications/ponder/controller/PonderAnswerEditController.php:82
-  'Update Answer' => null,
+  'Update Answer' => '更新答案',
 
   // src/applications/differential/controller/DifferentialDiffCreateController.php:124
   // src/applications/differential/controller/DifferentialDiffCreateController.php:125
@@ -29639,7 +29639,7 @@ return array(
   'Update Frequency' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:224
-  'Update Now' => null,
+  'Update Now' => '立即更新',
 
   // src/applications/people/controller/PhabricatorPeopleInviteSendController.php:196
   'Update Preview' => null,
@@ -29782,25 +29782,25 @@ return array(
   'Upload New Audio' => null,
 
   // src/applications/macro/controller/PhabricatorMacroEditController.php:275
-  'Upload New File' => null,
+  'Upload New File' => '上传新文件',
 
   // src/applications/project/controller/PhabricatorProjectEditPictureController.php:287
   // src/applications/people/controller/PhabricatorPeopleProfilePictureController.php:237
-  'Upload New Picture' => null,
+  'Upload New Picture' => '上传新图片',
 
   // src/applications/project/controller/PhabricatorProjectEditPictureController.php:272
   // src/applications/project/controller/PhabricatorProjectEditPictureController.php:279
   // src/applications/people/controller/PhabricatorPeopleProfilePictureController.php:227
   // src/applications/people/controller/PhabricatorPeopleProfilePictureController.php:234
-  'Upload Picture' => null,
+  'Upload Picture' => '上传图片',
 
   // src/applications/settings/panel/PhabricatorSSHKeysSettingsPanel.php:50
   // src/applications/almanac/controller/AlmanacDeviceViewController.php:196
   // src/applications/auth/controller/PhabricatorAuthSSHKeyEditController.php:127
-  'Upload Public Key' => null,
+  'Upload Public Key' => '上传公钥',
 
   // src/applications/auth/controller/PhabricatorAuthSSHKeyEditController.php:126
-  'Upload SSH Public Key' => null,
+  'Upload SSH Public Key' => '上传SSH公钥',
 
   // src/applications/files/query/PhabricatorFileSearchEngine.php:26
   'Upload Source' => null,
@@ -29821,7 +29821,7 @@ return array(
   'Upload failed: unknown error.' => null,
 
   // src/applications/harbormaster/step/HarbormasterUploadArtifactBuildStepImplementation.php:66
-  'Uploaded File' => null,
+  'Uploaded File' => '已上传文件',
 
   // src/applications/files/query/PhabricatorFileSearchEngine.php:142
   'Uploaded by %s on %s' => null,
@@ -29915,7 +29915,7 @@ return array(
 
   // src/applications/project/controller/PhabricatorProjectEditPictureController.php:188
   // src/applications/people/controller/PhabricatorPeopleProfilePictureController.php:213
-  'Use Picture' => null,
+  'Use Picture' => '使用图片',
 
   // src/applications/config/option/PhabricatorMetaMTAConfigOptions.php:310
   'Use Private Replies (More Secure)' => null,
@@ -30006,13 +30006,13 @@ return array(
   // src/applications/maniphest/controller/ManiphestReportController.php:438
   // src/applications/conduit/controller/PhabricatorConduitLogController.php:111
   // src/applications/auth/view/PhabricatorAuthInviteActionTableView.php:62
-  'User' => null,
+  'User' => '用户',
 
   // src/applications/people/application/PhabricatorPeopleApplication.php:180
-  'User Account' => null,
+  'User Account' => '用户账户',
 
   // src/applications/people/application/PhabricatorPeopleApplication.php:10
-  'User Accounts and Profiles' => null,
+  'User Accounts and Profiles' => '用户账户和偏好',
 
   // src/applications/people/query/PhabricatorPeopleLogSearchEngine.php:190
   'User Activity Logs' => null,
@@ -30030,7 +30030,7 @@ return array(
   'User Guide: Prototype Applications' => null,
 
   // src/applications/config/option/PhabricatorUIConfigOptions.php:7
-  'User Interface' => null,
+  'User Interface' => '用户界面',
 
   // src/applications/metamta/constants/MetaMTAReceivedMailStatus.php:30
   'User Mismatch' => null,
@@ -30039,18 +30039,18 @@ return array(
   'User Policies' => null,
 
   // src/applications/policy/__tests__/PhabricatorPolicyTestCase.php:54
-  'User Policy' => null,
+  'User Policy' => '用户策略',
 
   // src/applications/settings/application/PhabricatorSettingsApplication.php:14
   'User Preferences' => null,
 
   // src/applications/people/config/PhabricatorUserConfigOptions.php:7
   // src/applications/people/editor/PhabricatorUserProfileEditor.php:11
-  'User Profiles' => null,
+  'User Profiles' => '用户偏好',
 
   // src/applications/people/event/PhabricatorPeopleHovercardEventListener.php:58
   // src/applications/people/customfield/PhabricatorUserSinceField.php:13
-  'User Since' => null,
+  'User Since' => '注册时间',
 
   // src/applications/auth/management/PhabricatorAuthManagementStripWorkflow.php:151
   'User aborted the workflow.' => null,
@@ -30769,7 +30769,7 @@ return array(
   // src/applications/uiexample/examples/PHUIListExample.php:71
   // src/applications/uiexample/examples/PHUIListExample.php:137
   // src/applications/uiexample/examples/PHUIListExample.php:158
-  'Webserver Config' => null,
+  'Webserver Config' => '网页服务器设置',
 
   // src/applications/config/option/PhabricatorDisqusConfigOptions.php:28
   'Website shortname to use for Disqus comment widget in Phame. For more information, see:\n\n[[http://docs.disqus.com/help/4/ | Disqus Quick Start Guide]]\n[[http://docs.disqus.com/help/68/ | Information on Shortnames]]' => null,
@@ -30777,10 +30777,10 @@ return array(
   // src/applications/uiexample/examples/PHUIObjectItemListExample.php:76
   // src/applications/uiexample/examples/PHUIObjectItemListExample.php:102
   // src/applications/settings/panel/PhabricatorDateTimeSettingsPanel.php:109
-  'Wednesday' => null,
+  'Wednesday' => '周三',
 
   // src/applications/settings/panel/PhabricatorDateTimeSettingsPanel.php:83
-  'Week Starts On' => null,
+  'Week Starts On' => '工作日开始',
 
   // src/applications/maniphest/controller/ManiphestReportController.php:212
   'Week To Date' => null,
