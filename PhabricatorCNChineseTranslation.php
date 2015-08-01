@@ -12302,10 +12302,10 @@ return array(
   'Explicitly update the builds for __buildable__.' => null,
 
   // src/applications/meta/application/PhabricatorApplicationsApplication.php:24
-  'Explore More Applications' => null,
+  'Explore More Applications' => '浏览更多应用',
 
   // src/applications/config/controller/PhabricatorConfigWelcomeController.php:361
-  'Explore Phabricator' => null,
+  'Explore Phabricator' => '探索Phabricator',
 
   // src/applications/maniphest/controller/ManiphestExportController.php:81
   'Export Tasks to Excel' => '导出任务为Excel',
