@@ -3782,7 +3782,7 @@ return array(
   // src/applications/releeph/controller/branch/ReleephBranchViewController.php:135
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:42
   // src/applications/diffusion/controller/DiffusionRepositoryController.php:223
-  'Active' => null,
+  'Active' => '已启用',
 
   // src/applications/conduit/settings/PhabricatorConduitTokensSettingsPanel.php:109
   'Active API Tokens' => null,
@@ -3813,7 +3813,7 @@ return array(
 
   // src/applications/dashboard/query/PhabricatorDashboardPanelSearchEngine.php:65
   // src/applications/dashboard/query/PhabricatorDashboardPanelSearchEngine.php:82
-  'Active Panels' => '激活的面板',
+  'Active Panels' => '启用的面板',
 
   // src/applications/harbormaster/query/HarbormasterBuildPlanSearchEngine.php:48
   'Active Plans' => null,
@@ -6155,7 +6155,7 @@ return array(
   // src/applications/uiexample/examples/PHUIObjectItemListExample.php:319
   // src/applications/uiexample/examples/PhabricatorSortTableUIExample.php:21
   // src/applications/flag/constants/PhabricatorFlagColor.php:20
-  'Blue' => null,
+  'Blue' => '蓝色',
 
   // src/applications/drydock/phid/DrydockBlueprintPHIDType.php:8
   // src/applications/drydock/controller/DrydockResourceViewController.php:121
@@ -7249,7 +7249,7 @@ return array(
   'Check Your Email' => null,
 
   // src/applications/flag/constants/PhabricatorFlagColor.php:23
-  'Checkered' => null,
+  'Checkered' => '花色',
 
   // src/applications/phortune/controller/PhortuneCartCheckoutController.php:215
   // src/applications/diffusion/controller/DiffusionRepositoryController.php:285
@@ -8492,7 +8492,7 @@ return array(
 
   // src/applications/dashboard/controller/PhabricatorDashboardManageController.php:119
   // src/applications/dashboard/controller/PhabricatorDashboardCopyController.php:59
-  'Copy Dashboard' => null,
+  'Copy Dashboard' => '复制仪表板',
 
   // src/applications/dashboard/controller/PhabricatorDashboardPanelEditController.php:385
   'Copy Panel' => null,
@@ -8643,7 +8643,7 @@ return array(
   'Create Credential' => null,
 
   // src/applications/dashboard/application/PhabricatorDashboardApplication.php:14
-  'Create Custom Pages' => '创建自定义页面',
+  'Create Custom Pages' => '创建自定义仪表板',
 
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:54
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:55
@@ -8680,7 +8680,7 @@ return array(
   'Create Event' => null,
 
   // src/applications/flag/controller/PhabricatorFlagEditController.php:88
-  'Create Flag' => null,
+  'Create Flag' => '创建标记',
 
   // src/applications/phragment/controller/PhragmentBrowseController.php:35
   // src/applications/phragment/controller/PhragmentHistoryController.php:32
@@ -11071,7 +11071,7 @@ return array(
   'Edit Current Version' => null,
 
   // src/applications/dashboard/controller/PhabricatorDashboardManageController.php:111
-  'Edit Dashboard' => '编辑仪表盘',
+  'Edit Dashboard' => '编辑仪表板',
 
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:65
   'Edit Dashboard "%s"' => null,
@@ -11403,7 +11403,7 @@ return array(
   // src/applications/nuance/controller/NuanceSourceViewController.php:103
   // src/applications/spaces/controller/PhabricatorSpacesViewController.php:75
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:394
-  'Editable By' => '可编辑',
+  'Editable By' => '编辑人',
 
   // src/applications/maniphest/storage/ManiphestTransaction.php:259
   // src/applications/phriction/storage/PhrictionTransaction.php:128
@@ -12758,13 +12758,13 @@ return array(
   'Fix Configuration' => null,
 
   // src/applications/flag/controller/PhabricatorFlagEditController.php:48
-  'Flag %s' => null,
+  'Flag %s' => '标记 %s',
 
   // src/applications/flag/controller/PhabricatorFlagEditController.php:75
-  'Flag Color' => null,
+  'Flag Color' => '标记颜色',
 
   // src/applications/flag/events/PhabricatorFlagsUIEventListener.php:49
-  'Flag For Later' => null,
+  'Flag For Later' => '标记（过后再看）',
 
   // src/applications/uiexample/examples/PHUIInfoPanelExample.php:113
   // src/applications/flag/query/PhabricatorFlagSearchEngine.php:76
@@ -13216,7 +13216,7 @@ return array(
   // src/applications/uiexample/examples/PHUIPropertyListExample.php:64
   // src/applications/uiexample/examples/PHUIObjectItemListExample.php:317
   // src/applications/flag/constants/PhabricatorFlagColor.php:19
-  'Green' => null,
+  'Green' => '绿色',
 
   // src/applications/diffusion/controller/DiffusionBrowseController.php:34
   'Grep File Content' => null,
@@ -14176,7 +14176,7 @@ return array(
   // src/applications/dashboard/controller/PhabricatorDashboardManageController.php:134
   // src/applications/dashboard/controller/PhabricatorDashboardInstallController.php:73
   // src/applications/dashboard/controller/PhabricatorDashboardInstallController.php:76
-  'Install Dashboard' => null,
+  'Install Dashboard' => '安装仪表板',
 
   // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:76
   'Install Instructions' => null,
@@ -15810,7 +15810,7 @@ return array(
   // src/applications/dashboard/controller/PhabricatorDashboardHistoryController.php:35
   // src/applications/legalpad/controller/LegalpadDocumentSignatureListController.php:75
   // src/applications/legalpad/controller/LegalpadDocumentManageController.php:65
-  'Manage' => null,
+  'Manage' => '管理',
 
   // src/applications/almanac/controller/AlmanacConsoleController.php:28
   'Manage Almanac devices.' => null,
@@ -15835,7 +15835,7 @@ return array(
 
   // src/applications/dashboard/controller/PhabricatorDashboardViewController.php:60
   // src/applications/dashboard/controller/PhabricatorDashboardViewController.php:78
-  'Manage Dashboard' => null,
+  'Manage Dashboard' => '管理仪表板',
 
   // src/applications/legalpad/controller/LegalpadDocumentSignController.php:248
   'Manage Document' => null,
@@ -16849,7 +16849,7 @@ return array(
   'New Rule for' => null,
 
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:217
-  'New Simple Dashboard' => null,
+  'New Simple Dashboard' => '新建简易仪表板',
 
   // src/applications/harbormaster/controller/HarbormasterStepEditController.php:161
   'New Step: %s' => null,
@@ -17921,7 +17921,7 @@ return array(
 
   // src/applications/phrequent/controller/PhrequentTrackController.php:153
   // src/applications/flag/controller/PhabricatorFlagEditController.php:81
-  'Note' => null,
+  'Note' => '备注',
 
   // src/applications/config/option/PhabricatorAccessLogConfigOptions.php:129
   'Note that the default format is subject to change in the future, so if you rely on the log\'s format, specify it explicitly.' => null,
@@ -18570,7 +18570,7 @@ return array(
   // src/applications/uiexample/examples/PHUIPropertyListExample.php:62
   // src/applications/uiexample/examples/PHUIObjectItemListExample.php:315
   // src/applications/flag/constants/PhabricatorFlagColor.php:17
-  'Orange' => null,
+  'Orange' => '橙色',
 
   // src/applications/tokens/query/PhabricatorTokenQuery.php:34
   'Orange Medal' => null,
@@ -19705,7 +19705,7 @@ return array(
   'Pinboard (280px \303\227 210px)' => null,
 
   // src/applications/flag/constants/PhabricatorFlagColor.php:21
-  'Pink' => null,
+  'Pink' => '粉色',
 
   // src/applications/settings/panel/PhabricatorHomePreferencesSettingsPanel.php:179
   'Pinned Applications' => '已钉选的应用',
@@ -20468,7 +20468,7 @@ return array(
   'Purging remarkup cache...' => null,
 
   // src/applications/flag/constants/PhabricatorFlagColor.php:22
-  'Purple' => null,
+  'Purple' => '紫色',
 
   // src/applications/diffusion/view/DiffusionPushLogListView.php:100
   'Push' => null,
@@ -21263,7 +21263,7 @@ return array(
   // src/applications/uiexample/examples/PHUIObjectItemListExample.php:314
   // src/applications/uiexample/examples/PhabricatorSortTableUIExample.php:28
   // src/applications/flag/constants/PhabricatorFlagColor.php:16
-  'Red' => null,
+  'Red' => '红色',
 
   // src/applications/oauthserver/controller/client/PhabricatorOAuthClientEditController.php:91
   // src/applications/oauthserver/controller/client/PhabricatorOAuthClientViewController.php:117
@@ -31103,7 +31103,7 @@ return array(
   // src/applications/uiexample/examples/PHUIPropertyListExample.php:63
   // src/applications/uiexample/examples/PHUIObjectItemListExample.php:316
   // src/applications/flag/constants/PhabricatorFlagColor.php:18
-  'Yellow' => null,
+  'Yellow' => '黄色',
 
   // src/applications/tokens/query/PhabricatorTokenQuery.php:36
   'Yellow Medal' => null,
@@ -31249,7 +31249,7 @@ return array(
   'You can find more information about PHP configuration values in the %s.' => null,
 
   // src/applications/flag/controller/PhabricatorFlagEditController.php:60
-  'You can flag this %s if you want to remember to look at it later.' => null,
+  'You can flag this %s if you want to remember to look at it later.' => '你可以标记该 %s 如果你想要之后查看。',
 
   // src/applications/config/controller/PhabricatorConfigIgnoreController.php:27
   'You can ignore an issue if you don\'t want to fix it, or plan to fix it later. Ignored issues won\'t appear on every page but will still be shown in the list of open issues.' => null,
