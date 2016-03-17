@@ -345,7 +345,7 @@ return array(
   '%s activated %s.' => null,
 
   // src/applications/dashboard/storage/PhabricatorDashboardPanelTransaction.php:89
-  '%s activated dashboard panel %s.' => null,
+  '%s activated dashboard panel %s.' => '%s 启用了仪表板控制面板 %s。',
 
   // src/applications/releeph/storage/ReleephProductTransaction.php:84
   '%s activated release product %s.' => null,
@@ -430,10 +430,10 @@ return array(
   '%s added %s contributor(s): %s.' => null,
 
   // src/applications/dashboard/edge/PhabricatorDashboardPanelHasDashboardEdgeType.php:64
-  '%s added %s dashboard(s) for %s: %s.' => null,
+  '%s added %s dashboard(s) for %s: %s.' => '%s 添加了 %s 仪表板为 %s: %s。',
 
   // src/applications/dashboard/edge/PhabricatorDashboardPanelHasDashboardEdgeType.php:22
-  '%s added %s dashboard(s): %s.' => null,
+  '%s added %s dashboard(s): %s.' => '%s 添加了 %s 仪表板: %s。',
 
   // src/applications/differential/edge/DifferentialRevisionDependsOnRevisionEdgeType.php:68
   '%s added %s dependencie(s) for %s: %s.' => null,
@@ -488,7 +488,7 @@ return array(
 
   // src/applications/project/edge/PhabricatorProjectMemberOfProjectEdgeType.php:22
   // src/applications/project/edge/PhabricatorProjectObjectHasProjectEdgeType.php:24
-  '%s added %s project(s): %s.' => '%s 添加了 %s 个项目: %s',
+  '%s added %s project(s): %s.' => '%s 添加了 %s 个项目: %s。',
 
   // src/applications/ponder/edge/PonderVotingUserHasQuestionEdgeType.php:64
   '%s added %s question(s) to %s: %s.' => null,
@@ -568,10 +568,10 @@ return array(
   '%s added CCs to this revision.' => null,
 
   // src/applications/transactions/storage/PhabricatorApplicationTransaction.php:820
-  '%s added a comment to %s.' => null,
+  '%s added a comment to %s.' => '%s 添加了一条评论给 %s。',
 
   // src/applications/transactions/storage/PhabricatorApplicationTransaction.php:629
-  '%s added a comment.' => null,
+  '%s added a comment.' => '%s 添加了一条评论。',
 
   // src/applications/pholio/storage/PholioTransaction.php:270
   '%s added an inline comment to %s.' => null,
@@ -631,7 +631,7 @@ return array(
   '%s approved this request' => null,
 
   // src/applications/project/storage/PhabricatorProjectTransaction.php:271
-  '%s archived %s.' => null,
+  '%s archived %s.' => '%s 将 %s 存档',
 
   // src/applications/dashboard/storage/PhabricatorDashboardPanelTransaction.php:84
   '%s archived dashboard panel %s.' => null,
@@ -649,10 +649,10 @@ return array(
   '%s asked this question.' => null,
 
   // src/applications/maniphest/storage/ManiphestTransaction.php:751
-  '%s assigned %s to %s.' => null,
+  '%s assigned %s to %s.' => '%s 将 %s 指派给 %s',
 
   // src/applications/maniphest/storage/ManiphestTransaction.php:505
-  '%s assigned this task to %s.' => '%s 指派任务给 %s',
+  '%s assigned this task to %s.' => '%s 指派该任务给 %s',
 
   // src/applications/phragment/controller/PhragmentVersionController.php:46
   '%s at version %d' => null,
@@ -745,7 +745,7 @@ return array(
   '%s changed the "%s" value from "%s" to "%s".' => null,
 
   // src/applications/releeph/storage/ReleephRequestTransaction.php:86
-  '%s changed the %s to "%s"' => null,
+  '%s changed the %s to "%s"' => '%s 将 %s 改为 %s',
 
   // src/applications/macro/storage/PhabricatorMacroTransaction.php:183
   '%s changed the audio for %s from %s to %s.' => null,
@@ -769,7 +769,7 @@ return array(
   '%s changed the edit policy for %s.' => null,
 
   // src/applications/transactions/storage/PhabricatorApplicationTransaction.php:640
-  '%s changed the edit policy of this %s from "%s" to "%s".' => null,
+  '%s changed the edit policy of this %s from "%s" to "%s".' => '%s 将这个 %s 的编辑权限由 "%s" 改为了 "%s"。',
 
   // src/applications/conpherence/storage/ConpherenceTransaction.php:168
   '%s changed the edit policy of this room from "%s" to "%s".' => null,
@@ -802,7 +802,7 @@ return array(
   '%s changed the merchant receiving funds from this initiative from %s to %s.' => null,
 
   // src/applications/calendar/storage/PhabricatorCalendarEventTransaction.php:285
-  '%s changed the name of %s from %s to %s.' => null,
+  '%s changed the name of %s from %s to %s.' => '%s 将 %s 的名字由 %s 改为了 %s。',
 
   // src/applications/calendar/storage/PhabricatorCalendarEventTransaction.php:125
   '%s changed the name of this event from %s to %s.' => null,
@@ -854,7 +854,7 @@ return array(
 
   // src/applications/maniphest/storage/ManiphestTransaction.php:387
   // src/applications/phriction/storage/PhrictionTransaction.php:185
-  '%s changed the title from "%s" to "%s".' => null,
+  '%s changed the title from "%s" to "%s".' => '%s 将标题 由 "%s" 改为了 "%s"。',
 
   // src/applications/passphrase/storage/PassphraseCredentialTransaction.php:68
   '%s changed the username for this credential from "%s" to "%s".' => null,
@@ -863,7 +863,7 @@ return array(
   '%s changed the visibility for %s.' => null,
 
   // src/applications/transactions/storage/PhabricatorApplicationTransaction.php:633
-  '%s changed the visibility of this %s from "%s" to "%s".' => null,
+  '%s changed the visibility of this %s from "%s" to "%s".' => '%s 将这个 %s 的可见性由 "%s" 改为了 "%s"。',
 
   // src/applications/conpherence/storage/ConpherenceTransaction.php:161
   '%s changed the visibility of this room from "%s" to "%s".' => null,
@@ -909,7 +909,7 @@ return array(
   '%s closed %s as "%s" by committing %s.' => null,
 
   // src/applications/maniphest/storage/ManiphestTransaction.php:662
-  '%s closed %s as "%s".' => null,
+  '%s closed %s as "%s".' => '%s 关闭了 %s 由于 "%s"。',
 
   // src/applications/maniphest/storage/ManiphestTransaction.php:642
   '%s closed %s as a duplicate by committing %s.' => null,
@@ -1323,7 +1323,7 @@ return array(
   '%s edited a custom field on %s.' => null,
 
   // src/applications/transactions/storage/PhabricatorApplicationTransaction.php:729
-  '%s edited a custom field.' => null,
+  '%s edited a custom field.' => '%s 编辑了一个自定义字段',
 
   // src/applications/phortune/storage/PhortunePaymentProviderConfigTransaction.php:49
   '%s edited a property of this payment provider.' => null,
@@ -1491,7 +1491,7 @@ return array(
   '%s edited the start date of this event.' => null,
 
   // src/applications/maniphest/storage/ManiphestTransaction.php:394
-  '%s edited the task description.' => null,
+  '%s edited the task description.' => '%s 编辑了任务描述',
 
   // src/applications/ponder/storage/PonderQuestionTransaction.php:221
   '%s edited the title of %s (was "%s")' => null,
@@ -2271,7 +2271,7 @@ return array(
   '%s set storage for this repository to %s.' => null,
 
   // src/applications/auth/provider/PhabricatorLDAPAuthProvider.php:463
-  '%s set the "%s" value to "%s".' => null,
+  '%s set the "%s" value to "%s".' => '%s 将 "%s" 的值设为 "%s"。',
 
   // src/applications/auth/provider/PhabricatorOAuth2AuthProvider.php:147
   '%s set the OAuth application ID for this provider to "%s".' => null,
@@ -2465,7 +2465,7 @@ return array(
   '%s updated paths for this package.' => null,
 
   // src/applications/transactions/storage/PhabricatorApplicationTransaction.php:840
-  '%s updated subscribers of %s.' => null,
+  '%s updated subscribers of %s.' => '%s 更新了 %s 的订阅者。',
 
   // src/applications/transactions/storage/PhabricatorApplicationTransaction.php:686
   '%s updated subscribers...' => null,
@@ -4458,7 +4458,7 @@ return array(
   'All Object Types' => null,
 
   // src/applications/search/controller/PhabricatorSearchAttachController.php:270
-  'All Open %s' => null,
+  'All Open %s' => '全部开放 %s',
 
   // src/applications/owners/query/PhabricatorOwnersPackageSearchEngine.php:88
   'All Packages' => null,
@@ -5585,7 +5585,7 @@ return array(
   'Audits' => null,
 
   // src/applications/auth/application/PhabricatorAuthApplication.php:22
-  'Auth' => null,
+  'Auth' => '认证信息',
 
   // src/applications/auth/phid/PhabricatorAuthAuthFactorPHIDType.php:8
   'Auth Factor' => null,
@@ -5786,7 +5786,7 @@ return array(
 
   // src/applications/subscriptions/events/PhabricatorSubscriptionsUIEventListener.php:48
   // src/applications/subscriptions/controller/PhabricatorSubscriptionsEditController.php:68
-  'Automatically Subscribed' => null,
+  'Automatically Subscribed' => '自动订阅',
 
   // src/applications/config/option/PhabricatorDeveloperConfigOptions.php:106
   'Automatically profile some percentage of pages.' => null,
@@ -5828,7 +5828,7 @@ return array(
   'Award "%s" Token' => null,
 
   // src/applications/tokens/event/PhabricatorTokenUIEventListener.php:50
-  'Award Token' => null,
+  'Award Token' => '奖励',
 
   // src/applications/tokens/application/PhabricatorTokensApplication.php:22
   'Award and Acquire Trinkets' => null,
@@ -5985,20 +5985,20 @@ return array(
   'Basic ping for monitoring or a health-check.' => null,
 
   // src/applications/maniphest/view/ManiphestTaskResultListView.php:236
-  'Batch Edit Selected \302\273' => null,
+  'Batch Edit Selected \302\273' => '批量编辑 \302\273',
 
   // src/applications/project/controller/PhabricatorProjectBoardViewController.php:635
-  'Batch Edit Tasks...' => null,
+  'Batch Edit Tasks...' => '批量编辑任务...',
 
   // src/applications/project/controller/PhabricatorProjectBoardViewController.php:577
-  'Batch Edit Visible Tasks...' => null,
+  'Batch Edit Visible Tasks...' => '批量编辑可见的任务...',
 
   // src/applications/maniphest/controller/ManiphestBatchEditController.php:169
   // src/applications/maniphest/controller/ManiphestBatchEditController.php:179
-  'Batch Editor' => null,
+  'Batch Editor' => '批量编辑器',
 
   // src/applications/maniphest/view/ManiphestTaskResultListView.php:265
-  'Batch Task Editor' => null,
+  'Batch Task Editor' => '批量任务编辑器',
 
   // src/applications/people/controller/PhabricatorPeopleDeleteController.php:31
   'Be careful when deleting users! This will permanently and irreversibly destroy this user account.' => null,
@@ -6195,7 +6195,7 @@ return array(
 
   // src/applications/people/event/PhabricatorPeopleHovercardEventListener.php:62
   // src/applications/people/customfield/PhabricatorUserBlurbField.php:13
-  'Blurb' => null,
+  'Blurb' => '简介',
 
   // src/applications/phame/controller/post/PhamePostEditController.php:126
   // src/applications/herald/adapter/HeraldAdapter.php:363
@@ -7422,7 +7422,7 @@ return array(
   'Classes must match to compare schemata!' => null,
 
   // src/applications/maniphest/view/ManiphestTaskResultListView.php:227
-  'Clear Selection' => null,
+  'Clear Selection' => '清除选择',
 
   // src/applications/flag/conduit/FlagDeleteConduitAPIMethod.php:10
   'Clear a flag.' => null,
@@ -7558,7 +7558,7 @@ return array(
   // src/applications/diffusion/view/DiffusionBranchTableView.php:83
   // src/applications/diffusion/controller/DiffusionRefTableController.php:87
   // src/applications/diffusion/controller/DiffusionRefTableController.php:94
-  'Closed' => null,
+  'Closed' => '已关闭',
 
   // src/applications/maniphest/constants/__tests__/ManiphestTaskStatusTestCase.php:87
   'Closed Default' => null,
@@ -7996,7 +7996,7 @@ return array(
   'Config' => '设置',
 
   // src/applications/config/check/PhabricatorInvalidConfigSetupCheck.php:21
-  'Config \'%s\' Invalid' => null,
+  'Config \'%s\' Invalid' => '设置 \'%s\' 无效',
 
   // src/applications/config/management/PhabricatorConfigManagementSetWorkflow.php:120
   'Config key "%s" is of type "%s". Specify it in JSON.' => null,
@@ -8288,10 +8288,10 @@ return array(
   // src/applications/conpherence/config/ConpherenceConfigOptions.php:7
   // src/applications/conpherence/application/PhabricatorConpherenceApplication.php:10
   // src/applications/conpherence/controller/ConpherenceListController.php:34
-  'Conpherence' => null,
+  'Conpherence' => '讨论组',
 
   // src/applications/settings/panel/PhabricatorConpherencePreferencesSettingsPanel.php:41
-  'Conpherence Notifications' => null,
+  'Conpherence Notifications' => '讨论组通知',
 
   // src/applications/settings/panel/PhabricatorConpherencePreferencesSettingsPanel.php:16
   // src/applications/settings/panel/PhabricatorConpherencePreferencesSettingsPanel.php:61
@@ -8651,16 +8651,16 @@ return array(
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:59
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:201
   // src/applications/dashboard/controller/PhabricatorDashboardListController.php:48
-  'Create Dashboard' => null,
+  'Create Dashboard' => '创建仪表板',
 
   // src/applications/dashboard/controller/PhabricatorDashboardPanelEditController.php:338
-  'Create Dashboard Panel' => null,
+  'Create Dashboard Panel' => '创建仪表板控制面板',
 
   // src/applications/almanac/controller/AlmanacDeviceEditController.php:39
   // src/applications/almanac/controller/AlmanacDeviceEditController.php:40
   // src/applications/almanac/controller/AlmanacDeviceEditController.php:148
   // src/applications/almanac/controller/AlmanacDeviceListController.php:27
-  'Create Device' => null,
+  'Create Device' => '创建设备',
 
   // src/applications/differential/controller/DifferentialDiffCreateController.php:128
   // src/applications/differential/controller/DifferentialDiffCreateController.php:130
@@ -9084,10 +9084,10 @@ return array(
 
   // src/applications/search/controller/PhabricatorSearchAttachController.php:263
   // src/applications/search/controller/PhabricatorSearchAttachController.php:269
-  'Created By Me' => null,
+  'Created By Me' => '由我创建的',
 
   // src/applications/releeph/conduit/work/ReleephWorkGetBranchCommitMessageConduitAPIMethod.php:73
-  'Created By: %s' => null,
+  'Created By: %s' => '由 %s 创建的',
 
   // src/applications/drydock/management/DrydockManagementCreateResourceWorkflow.php:77
   'Created Resource %s' => null,
@@ -9808,7 +9808,7 @@ return array(
   'Delete Document?' => '删除文档?',
 
   // src/applications/files/controller/PhabricatorFileInfoController.php:167
-  'Delete File' => null,
+  'Delete File' => '删除文件',
 
   // src/applications/diffusion/controller/DiffusionMirrorDeleteController.php:36
   'Delete Mirror' => null,
@@ -10184,7 +10184,7 @@ return array(
   // src/applications/uiexample/examples/PHUIInfoPanelExample.php:18
   // src/applications/diffusion/config/PhabricatorDiffusionConfigOptions.php:7
   // src/applications/diffusion/application/PhabricatorDiffusionApplication.php:6
-  'Diffusion' => null,
+  'Diffusion' => '代码库',
 
   // src/applications/repository/phid/PhabricatorRepositoryCommitPHIDType.php:8
   'Diffusion Commit' => null,
@@ -10701,7 +10701,7 @@ return array(
 
   // src/applications/files/controller/PhabricatorFileInfoController.php:150
   // src/applications/pholio/view/PholioMockImagesView.php:135
-  'Download File' => null,
+  'Download File' => '下载文件',
 
   // src/applications/phragment/controller/PhragmentController.php:99
   'Download Fragment' => null,
@@ -10929,7 +10929,7 @@ return array(
   // src/applications/releeph/controller/branch/ReleephBranchEditController.php:100
   // src/applications/diffusion/controller/DiffusionCommitEditController.php:113
   // src/applications/diffusion/controller/DiffusionRepositoryEditController.php:19
-  'Edit' => null,
+  'Edit' => '编辑',
 
   // src/applications/nuance/source/NuanceSourceDefinition.php:133
   'Edit "%s" source.' => null,
@@ -11652,7 +11652,7 @@ return array(
   // src/applications/console/plugin/DarkConsoleServicesPlugin.php:121
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:185
   // src/applications/maniphest/constants/__tests__/ManiphestTaskStatusTestCase.php:30
-  'Empty' => '清空',
+  'Empty' => '新建',
 
   // src/applications/ponder/controller/PonderAnswerSaveController.php:28
   'Empty Answer' => null,
