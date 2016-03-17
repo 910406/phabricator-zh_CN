@@ -5973,7 +5973,7 @@ return array(
   'Basic List' => null,
 
   // src/applications/policy/constants/PhabricatorPolicyType.php:25
-  'Basic Policies' => null,
+  'Basic Policies' => '基本策略',
 
   // src/applications/uiexample/examples/PHUIFeedStoryExample.php:140
   'Basic Story' => null,
@@ -7322,7 +7322,7 @@ return array(
   'Choose User' => null,
 
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:197
-  'Choose a dashboard template to start with.' => null,
+  'Choose a dashboard template to start with.' => '选择一个仪表板模板',
 
   // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:291
   'Choose a default priority for newly created tasks. You can review and adjust available priorities by using the %s configuration option. The default value (`90`) corresponds to the default "Needs Triage" priority.' => null,
@@ -8413,7 +8413,7 @@ return array(
   // src/applications/auth/controller/PhabricatorAuthDowngradeSessionController.php:18
   // src/applications/auth/controller/PhabricatorAuthLoginController.php:61
   // src/applications/diffusion/controller/DiffusionRepositoryNewController.php:63
-  'Continue' => null,
+  'Continue' => '继续',
 
   // src/applications/harbormaster/customfield/HarbormasterBuildStepCoreCustomField.php:41
   'Continue Build Normally' => null,
@@ -10952,11 +10952,11 @@ return array(
   // src/applications/diffusion/controller/DiffusionRepositorySymbolsController.php:71
   // src/applications/diffusion/controller/DiffusionRepositoryEditEncodingController.php:61
   // src/applications/diffusion/controller/DiffusionRepositoryEditBasicController.php:94
-  'Edit %s' => null,
+  'Edit %s' => '编辑 %s',
 
   // src/applications/dashboard/controller/PhabricatorDashboardPanelEditController.php:104
   // src/applications/fund/controller/FundInitiativeEditController.php:41
-  'Edit %s %s' => null,
+  'Edit %s %s' => '编辑 %s %s',
 
   // src/applications/phortune/controller/PhortuneAccountViewController.php:50
   // src/applications/people/storage/PhabricatorUserLog.php:63
@@ -14995,7 +14995,7 @@ return array(
   'Launching server:' => null,
 
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:153
-  'Layout Mode' => null,
+  'Layout Mode' => '排版模式',
 
   // src/applications/tokens/controller/PhabricatorTokenController.php:11
   'Leader Board' => null,
@@ -17094,7 +17094,7 @@ return array(
   'No Problem Commits' => null,
 
   // src/applications/maniphest/view/ManiphestTaskListView.php:97
-  'No Projects' => null,
+  'No Projects' => '无项目',
 
   // src/applications/phortune/controller/PhortuneMerchantViewController.php:129
   'No Providers' => null,
@@ -18326,7 +18326,7 @@ return array(
   'One Line Story' => null,
 
   // src/applications/dashboard/layoutconfig/PhabricatorDashboardLayoutConfig.php:139
-  'One full-width column' => null,
+  'One full-width column' => '一列 全屏宽',
 
   // src/applications/diffusion/request/DiffusionRequest.php:72
   'One of \'%s\' and \'%s\' is required.' => null,
@@ -19815,7 +19815,7 @@ return array(
   // src/applications/meta/controller/PhabricatorApplicationDetailViewController.php:122
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:732
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:119
-  'Policies' => null,
+  'Policies' => '策略',
 
   // src/applications/files/controller/PhabricatorFileComposeController.php:218
   // src/applications/project/icon/PhabricatorProjectIcon.php:18
@@ -22893,7 +22893,7 @@ return array(
   // src/applications/spaces/controller/PhabricatorSpacesEditController.php:31
   // src/applications/diffusion/controller/DiffusionMirrorEditController.php:96
   // src/applications/diffusion/controller/DiffusionRepositoryEditHostingController.php:268
-  'Save Changes' => null,
+  'Save Changes' => '保存修改',
 
   // src/applications/project/controller/PhabricatorProjectColumnEditController.php:141
   'Save Column' => null,
@@ -24661,10 +24661,10 @@ return array(
   'Start typing to autocomplete on commit title, or give a Phabricator commit identifier like rFOO1234.' => null,
 
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:186
-  'Start with a blank canvas.' => null,
+  'Start with a blank canvas.' => '创建一个空的仪表板',
 
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:191
-  'Start with a simple dashboard with a welcome message, a feed of recent events, and a few starter panels.' => null,
+  'Start with a simple dashboard with a welcome message, a feed of recent events, and a few starter panels.' => '创建一个简易仪表板，带有欢迎信息、最近事件回馈和一些起始面板',
 
   // src/applications/harbormaster/controller/HarbormasterBuildViewController.php:106
   // src/applications/daemon/management/PhabricatorDaemonManagementStatusWorkflow.php:52
@@ -28372,13 +28372,13 @@ return array(
   'Two authentication providers use the same provider key (\'%s\'). Each provider must be identified by a unique key.' => null,
 
   // src/applications/dashboard/layoutconfig/PhabricatorDashboardLayoutConfig.php:140
-  'Two columns, 1/2 and 1/2' => null,
+  'Two columns, 1/2 and 1/2' => '两列，对等分',
 
   // src/applications/dashboard/layoutconfig/PhabricatorDashboardLayoutConfig.php:141
-  'Two columns, 1/3 and 2/3' => null,
+  'Two columns, 1/3 and 2/3' => '两列，一二分',
 
   // src/applications/dashboard/layoutconfig/PhabricatorDashboardLayoutConfig.php:142
-  'Two columns, 2/3 and 1/3' => null,
+  'Two columns, 2/3 and 1/3' => '两列，二一分',
 
   // src/applications/dashboard/paneltype/PhabricatorDashboardPanelType.php:64
   'Two dashboard panels (of classes "%s" and "%s") have the same panel type key ("%s"). Each panel type must have a unique panel type key.' => null,
@@ -28980,7 +28980,7 @@ return array(
   // src/applications/dashboard/controller/PhabricatorDashboardManageController.php:131
   // src/applications/dashboard/controller/PhabricatorDashboardUninstallController.php:73
   // src/applications/dashboard/controller/PhabricatorDashboardUninstallController.php:77
-  'Uninstall Dashboard' => '卸载DashBoard',
+  'Uninstall Dashboard' => '卸载仪表板',
 
   // src/applications/meta/query/PhabricatorAppSearchEngine.php:254
   // src/applications/meta/controller/PhabricatorApplicationDetailViewController.php:36
@@ -30036,7 +30036,7 @@ return array(
   'User Mismatch' => null,
 
   // src/applications/policy/constants/PhabricatorPolicyType.php:27
-  'User Policies' => null,
+  'User Policies' => '用户策略',
 
   // src/applications/policy/__tests__/PhabricatorPolicyTestCase.php:54
   'User Policy' => '用户策略',
@@ -30487,7 +30487,7 @@ return array(
   'View Child Fragments' => null,
 
   // src/applications/dashboard/controller/PhabricatorDashboardManageController.php:105
-  'View Dashboard' => null,
+  'View Dashboard' => '查看仪表板',
 
   // src/applications/files/controller/PhabricatorFileInfoController.php:139
   'View File' => '查看文件',
@@ -32668,7 +32668,7 @@ return array(
   'matches:' => null,
 
   // src/applications/policy/rule/PhabricatorProjectsPolicyRule.php:8
-  'members of projects' => null,
+  'members of projects' => '项目成员',
 
   // src/applications/people/controller/PhabricatorPeopleInviteSendController.php:190
   'message' => null,
