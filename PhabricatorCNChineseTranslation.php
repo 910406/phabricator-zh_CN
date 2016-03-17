@@ -3702,7 +3702,7 @@ return array(
   'Action Passed' => null,
 
   // src/applications/differential/query/DifferentialRevisionSearchEngine.php:290
-  'Action Required' => null,
+  'Action Required' => '操作需求',
 
   // src/applications/uiexample/examples/PHUIFeedStoryExample.php:149
   'Action Story' => null,
@@ -3830,7 +3830,7 @@ return array(
   'Active Resources' => null,
 
   // src/applications/differential/query/DifferentialRevisionSearchEngine.php:214
-  'Active Revisions' => null,
+  'Active Revisions' => '已启用修订',
 
   // src/applications/macro/query/PhabricatorMacroQuery.php:27
   'Active and Disabled Macros' => null,
@@ -6119,7 +6119,7 @@ return array(
   'Blocking' => null,
 
   // src/applications/differential/query/DifferentialRevisionSearchEngine.php:282
-  'Blocking Others' => null,
+  'Blocking Others' => '阻挡其他修订',
 
   // src/applications/differential/view/DifferentialReviewersView.php:111
   'Blocking Review' => null,
@@ -10138,7 +10138,7 @@ return array(
 
   // src/applications/differential/config/PhabricatorDifferentialConfigOptions.php:7
   // src/applications/differential/application/PhabricatorDifferentialApplication.php:10
-  'Differential' => null,
+  'Differential' => '代码检阅',
 
   // src/applications/herald/adapter/HeraldAdapter.php:390
   'Differential CCs' => null,
@@ -17464,13 +17464,13 @@ return array(
   'No results returned for that query.' => null,
 
   // src/applications/differential/query/DifferentialRevisionSearchEngine.php:284
-  'No revisions are blocked on your action.' => null,
+  'No revisions are blocked on your action.' => '你的操作没有阻挡其他修订。',
 
   // src/applications/home/controller/PhabricatorHomeMainController.php:230
   'No revisions are waiting on you.' => null,
 
   // src/applications/differential/query/DifferentialRevisionSearchEngine.php:292
-  'No revisions require your action.' => null,
+  'No revisions require your action.' => '没有修订需要你的操作',
 
   // src/applications/differential/management/PhabricatorHunksManagementMigrateWorkflow.php:58
   'No rows to migrate.' => null,
@@ -30679,7 +30679,7 @@ return array(
   'Waiting for updates to complete...' => null,
 
   // src/applications/differential/query/DifferentialRevisionSearchEngine.php:298
-  'Waiting on Others' => null,
+  'Waiting on Others' => '等待其他修订',
 
   // src/applications/xhprof/view/PhabricatorXHProfProfileSymbolView.php:107
   'Wall Time' => null,
@@ -31860,7 +31860,7 @@ return array(
   'You have no notifications.' => null,
 
   // src/applications/differential/query/DifferentialRevisionSearchEngine.php:300
-  'You have no revisions waiting on others.' => null,
+  'You have no revisions waiting on others.' => '你没有在等待的修订',
 
   // src/applications/phortune/controller/PhortuneAccountViewController.php:199
   'You have no unpaid invoices.' => null,
