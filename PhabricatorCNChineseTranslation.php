@@ -345,7 +345,7 @@ return array(
   '%s activated %s.' => null,
 
   // src/applications/dashboard/storage/PhabricatorDashboardPanelTransaction.php:89
-  '%s activated dashboard panel %s.' => '%s 启用了仪表板控制面板 %s。',
+  '%s activated dashboard panel %s.' => '%s 启用了仪表板面板 %s。',
 
   // src/applications/releeph/storage/ReleephProductTransaction.php:84
   '%s activated release product %s.' => null,
@@ -1030,10 +1030,10 @@ return array(
   '%s created %s.' => null,
 
   // src/applications/dashboard/storage/PhabricatorDashboardTransaction.php:60
-  '%s created dashboard %s.' => null,
+  '%s created dashboard %s.' => '%s 创建的仪表板 %s。',
 
   // src/applications/dashboard/storage/PhabricatorDashboardPanelTransaction.php:70
-  '%s created dashboard panel %s.' => null,
+  '%s created dashboard panel %s.' => '%s 创建的仪表板面板 %s',
 
   // src/applications/phortune/storage/PhortuneAccountTransaction.php:30
   '%s created this account.' => null,
@@ -2835,7 +2835,7 @@ return array(
   '(All Origins)' => null,
 
   // src/applications/dashboard/query/PhabricatorDashboardPanelSearchEngine.php:64
-  '(All Panels)' => null,
+  '(All Panels)' => '（所有面板）',
 
   // src/applications/releeph/query/ReleephRequestSearchEngine.php:131
   '(All Requests)' => null,
@@ -3813,7 +3813,7 @@ return array(
 
   // src/applications/dashboard/query/PhabricatorDashboardPanelSearchEngine.php:65
   // src/applications/dashboard/query/PhabricatorDashboardPanelSearchEngine.php:82
-  'Active Panels' => null,
+  'Active Panels' => '激活的面板',
 
   // src/applications/harbormaster/query/HarbormasterBuildPlanSearchEngine.php:48
   'Active Plans' => null,
@@ -4354,7 +4354,7 @@ return array(
   // src/applications/phriction/query/PhrictionSearchEngine.php:70
   // src/applications/releeph/query/ReleephBranchSearchEngine.php:66
   // src/applications/releeph/query/ReleephProductSearchEngine.php:54
-  'All' => '全部',
+  'All' => '所有',
 
   // src/applications/subscriptions/controller/PhabricatorSubscriptionsTransactionController.php:59
   'All %d subscribers added by %s' => null,
@@ -4368,7 +4368,7 @@ return array(
 
   // src/applications/meta/query/PhabricatorAppSearchEngine.php:161
   // src/applications/oauthserver/query/PhabricatorOAuthServerClientSearchEngine.php:61
-  'All Applications' => '全部应用',
+  'All Applications' => '所有应用',
 
   // src/applications/fund/query/FundBackerSearchEngine.php:80
   'All Backers' => null,
@@ -4399,14 +4399,14 @@ return array(
   'All Daemons' => null,
 
   // src/applications/dashboard/query/PhabricatorDashboardSearchEngine.php:34
-  'All Dashboards' => null,
+  'All Dashboards' => '所有仪表板',
 
   // src/applications/calendar/controller/PhabricatorCalendarEventEditController.php:366
   // src/applications/calendar/controller/PhabricatorCalendarEventEditController.php:420
   'All Day Event' => null,
 
   // src/applications/almanac/query/AlmanacDeviceSearchEngine.php:36
-  'All Devices' => '全部设备',
+  'All Devices' => '所有设备',
 
   // src/applications/config/check/PhabricatorExtraConfigSetupCheck.php:159
   'All Differential fields are now managed through the configuration option "%s". Use that option to configure which fields are shown.' => null,
@@ -4464,7 +4464,7 @@ return array(
   'All Packages' => null,
 
   // src/applications/dashboard/query/PhabricatorDashboardPanelSearchEngine.php:83
-  'All Panels' => null,
+  'All Panels' => '所有面板',
 
   // src/applications/paste/query/PhabricatorPasteSearchEngine.php:73
   'All Pastes' => null,
@@ -8654,7 +8654,7 @@ return array(
   'Create Dashboard' => '创建仪表板',
 
   // src/applications/dashboard/controller/PhabricatorDashboardPanelEditController.php:338
-  'Create Dashboard Panel' => '创建仪表板控制面板',
+  'Create Dashboard Panel' => '创建仪表板面板',
 
   // src/applications/almanac/controller/AlmanacDeviceEditController.php:39
   // src/applications/almanac/controller/AlmanacDeviceEditController.php:40
@@ -9427,14 +9427,14 @@ return array(
   'DarkConsole is a development and profiling tool built into Phabricator\'s web interface. You should leave it disabled unless you are developing or debugging Phabricator.\n\nOnce you activate DarkConsole for the install, **you need to enable it for your account before it will actually appear on pages.** You can do this in Settings > Developer Settings.\n\nDarkConsole exposes potentially sensitive data (like queries, stack traces, and configuration) so you generally should not turn it on in production.' => null,
 
   // src/applications/dashboard/phid/PhabricatorDashboardDashboardPHIDType.php:8
-  'Dashboard' => null,
+  'Dashboard' => '仪表板',
 
   // src/applications/dashboard/query/PhabricatorDashboardSearchEngine.php:82
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:68
   // src/applications/dashboard/controller/PhabricatorDashboardManageController.php:40
   // src/applications/dashboard/controller/PhabricatorDashboardViewController.php:32
   // src/applications/dashboard/controller/PhabricatorDashboardHistoryController.php:32
-  'Dashboard %d' => null,
+  'Dashboard %d' => '仪表板 %d',
 
   // src/applications/dashboard/query/PhabricatorDashboardPanelSearchEngine.php:7
   // src/applications/dashboard/editor/PhabricatorDashboardPanelTransactionEditor.php:11
@@ -9446,7 +9446,7 @@ return array(
   // src/applications/dashboard/application/PhabricatorDashboardApplication.php:6
   // src/applications/dashboard/query/PhabricatorDashboardSearchEngine.php:7
   // src/applications/dashboard/editor/PhabricatorDashboardTransactionEditor.php:11
-  'Dashboards' => null,
+  'Dashboards' => '仪表板',
 
   // src/applications/daemon/controller/PhabricatorWorkerTaskDetailController.php:159
   'Data' => null,
@@ -14221,7 +14221,7 @@ return array(
   // src/applications/meta/query/PhabricatorAppSearchEngine.php:99
   // src/applications/meta/controller/PhabricatorApplicationDetailViewController.php:34
   // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:75
-  'Installed' => null,
+  'Installed' => '已安装',
 
   // src/applications/repository/engine/PhabricatorRepositoryPullEngine.php:525
   'Installing commit hook config to "%s"...' => null,
@@ -23601,7 +23601,7 @@ return array(
   'Show Active Documents' => null,
 
   // src/applications/differential/view/DifferentialRevisionUpdateHistoryView.php:221
-  'Show All' => '显示全部',
+  'Show All' => '显示所有',
 
   // src/applications/differential/render/DifferentialChangesetHTMLRenderer.php:515
   'Show All %d Line(s)' => null,
@@ -26765,7 +26765,7 @@ return array(
   'This daemon is shutting down gracefully.' => null,
 
   // src/applications/dashboard/controller/PhabricatorDashboardViewController.php:73
-  'This dashboard has no panels yet. Use %s to add panels.' => null,
+  'This dashboard has no panels yet. Use %s to add panels.' => '',
 
   // src/applications/dashboard/query/PhabricatorDashboardSearchEngine.php:92
   'This dashboard is installed to your personal homepage.' => null,
