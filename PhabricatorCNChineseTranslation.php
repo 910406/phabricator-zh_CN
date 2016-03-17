@@ -2902,7 +2902,7 @@ return array(
   '(NOTE) **Looking for Phabricator documentation?** If you\'re looking for help and information about Phabricator, you can [[ https://secure.phabricator.com/diviner/ | browse the public Phabricator documentation ]] on the live site.\n\nDiviner is the documentation generator used to build the Phabricator documentation.\n\nYou haven\'t generated any Diviner documentation books yet, so there\'s nothing to show here. If you\'d like to generate your own local copy of the Phabricator documentation and have it appear here, run this command:\n\n  phabricator/ $ ./bin/diviner generate\n\nRight now, Diviner isn\'t very useful for generating documentation for projects other than Phabricator. If you\'re interested in using it in your own projects, leave feedback for us on [[ https://secure.phabricator.com/T4558 | T4558 ]].' => null,
 
   // src/applications/passphrase/view/PassphraseCredentialControl.php:51
-  '(No Credentials)' => null,
+  '(No Credentials)' => '（无证书）',
 
   // src/applications/passphrase/view/PassphraseCredentialControl.php:54
   '(No Existing Credentials)' => null,
@@ -3045,7 +3045,8 @@ return array(
   '**Choose a "Callsign" for the repository.** This is a short, unique string which identifies commits elsewhere in Phabricator. For example, you might use `M` for your mobile app repository and `B` for your backend repository.\n\n**Callsigns must be UPPERCASE**, and can not be edited after the repository is created. Generally, you should choose short callsigns.' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:379
-  '**Choose a human-readable name for this repository**, like "CompanyName Mobile App" or "CompanyName Backend Server". You can change this later.' => null,
+  '**Choose a human-readable name for this repository**, like "CompanyName Mobile App" or "CompanyName Backend Server". You can change this later.' 
+  => '**为该仓库选择一个可读的名字**，比如"CompanyName Mobile App"或者"CompanyName Backend Server"。你也可以过后修改。',
 
   // src/applications/settings/panel/PhabricatorAccountSettingsPanel.php:89
   '**Choose the pronoun you prefer:**' => null,
@@ -3823,7 +3824,7 @@ return array(
 
   // src/applications/repository/query/PhabricatorRepositorySearchEngine.php:82
   // src/applications/repository/query/PhabricatorRepositorySearchEngine.php:107
-  'Active Repositories' => null,
+  'Active Repositories' => '已启用的仓库',
 
   // src/applications/drydock/query/DrydockResourceSearchEngine.php:61
   'Active Resources' => null,
@@ -3938,7 +3939,7 @@ return array(
   'Add Comment' => '添加评论',
 
   // src/applications/passphrase/view/PassphraseCredentialControl.php:80
-  'Add Credential' => null,
+  'Add Credential' => '添加证书',
 
   // src/applications/phortune/provider/PhortuneStripePaymentProvider.php:31
   'Add Credit or Debit Card (US and Canada)' => null,
@@ -4497,7 +4498,7 @@ return array(
   'All Releeph methods are subject to abrupt change.' => null,
 
   // src/applications/repository/query/PhabricatorRepositorySearchEngine.php:83
-  'All Repositories' => null,
+  'All Repositories' => '所有的仓库',
 
   // src/applications/releeph/query/ReleephRequestSearchEngine.php:100
   'All Requests' => null,
@@ -5860,7 +5861,7 @@ return array(
   // src/applications/herald/controller/HeraldNewController.php:137
   // src/applications/herald/controller/HeraldNewController.php:182
   // src/applications/diffusion/controller/DiffusionRepositoryEditHostingController.php:269
-  'Back' => null,
+  'Back' => '后退',
 
   // src/applications/fund/controller/FundInitiativeBackController.php:138
   'Back %s %s' => null,
@@ -6366,7 +6367,7 @@ return array(
   'Browse Projects' => '选取项目',
 
   // src/applications/diffusion/typeahead/DiffusionRepositoryDatasource.php:7
-  'Browse Repositories' => null,
+  'Browse Repositories' => '浏览仓库',
 
   // src/applications/diffusion/controller/DiffusionRepositoryController.php:623
   'Browse Repository' => null,
@@ -6805,7 +6806,7 @@ return array(
   'Can Create Spaces' => null,
 
   // src/applications/policy/capability/PhabricatorPolicyCanEditCapability.php:9
-  'Can Edit' => null,
+  'Can Edit' => '可编辑',
 
   // src/applications/maniphest/capability/ManiphestEditPoliciesCapability.php:9
   'Can Edit Task Policies' => null,
@@ -7370,7 +7371,8 @@ return array(
   'Choose the type of user account to create. For a detailed explanation of user account types, see [[ %s | User Guide: Account Roles ]].' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:615
-  'Choose the username and password used to connect to the repository hosted at:\n\n  lang=text\n  %s\n\nIf this repository does not require a username or password, you can continue to the next step.' => null,
+  'Choose the username and password used to connect to the repository hosted at:\n\n  lang=text\n  %s\n\nIf this repository does not require a username or password, you can continue to the next step.' 
+  => '选择用户名和密码用来连接远程仓库：\n\n  lang=text\n  %s\n\n如果该仓库不需要用户名或者密码，你可以继续到下一步。',
 
   // src/applications/dashboard/controller/PhabricatorDashboardInstallController.php:87
   'Choose where to install this dashboard.' => null,
@@ -8190,7 +8192,7 @@ return array(
   'Configure real-time notifications.' => null,
 
   // src/applications/repository/config/PhabricatorRepositoryConfigOptions.php:11
-  'Configure repositories.' => null,
+  'Configure repositories.' => '配置仓库。',
 
   // src/applications/config/option/PhabricatorGarbageCollectorConfigOptions.php:11
   'Configure the GC for old logs, caches, etc.' => null,
@@ -8640,7 +8642,7 @@ return array(
   // src/applications/passphrase/controller/PassphraseController.php:33
   // src/applications/passphrase/controller/PassphraseCredentialEditController.php:309
   // src/applications/passphrase/controller/PassphraseCredentialEditController.php:334
-  'Create Credential' => null,
+  'Create Credential' => '创建证书',
 
   // src/applications/dashboard/application/PhabricatorDashboardApplication.php:14
   'Create Custom Pages' => '创建自定义仪表板',
@@ -8932,7 +8934,7 @@ return array(
   'Create Variable' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryNewController.php:45
-  'Create a New Hosted Repository' => null,
+  'Create a New Hosted Repository' => '创建一个新的仓库',
 
   // src/applications/project/controller/PhabricatorProjectEditDetailsController.php:174
   'Create a New Project' => '创建一个新项目',
@@ -9010,7 +9012,7 @@ return array(
   'Create a new, empty Subversion repository.' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryNewController.php:48
-  'Create a new, empty repository which Phabricator will host. For instructions on configuring repository hosting, see %s.' => null,
+  'Create a new, empty repository which Phabricator will host. For instructions on configuring repository hosting, see %s.' => '创建一个Phabricator将会托管的新仓库。配置仓库托管介绍请查阅：%s。',
 
   // src/applications/phame/conduit/PhameCreatePostConduitAPIMethod.php:10
   'Create a phame post.' => null,
@@ -9031,7 +9033,7 @@ return array(
   'Create a web form that submits into a Nuance queue.' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryNewController.php:70
-  'Create or Import Repository' => null,
+  'Create or Import Repository' => '新建或者导入仓库',
 
   // src/applications/flag/conduit/FlagEditConduitAPIMethod.php:10
   'Create or modify a flag.' => null,
@@ -9146,7 +9148,7 @@ return array(
   // src/applications/passphrase/controller/PassphraseCredentialCreateController.php:31
   // src/applications/passphrase/controller/PassphraseCredentialEditController.php:242
   // src/applications/passphrase/controller/PassphraseCredentialViewController.php:174
-  'Credential Type' => null,
+  'Credential Type' => '证书类型',
 
   // src/applications/passphrase/controller/PassphraseCredentialDestroyController.php:32
   // src/applications/passphrase/controller/PassphraseCredentialEditController.php:366
@@ -10202,7 +10204,7 @@ return array(
   'Diffusion User Guide' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryNewController.php:36
-  'Diffusion User Guide: Repository Hosting' => null,
+  'Diffusion User Guide: Repository Hosting' => '代码库用户指南：仓库托管',
 
   // src/applications/phragment/controller/PhragmentBrowseController.php:81
   // src/applications/phragment/controller/PhragmentController.php:184
@@ -11907,7 +11909,8 @@ return array(
   'Enter the **Repository Root** for this Subversion repository. You can figure this out by running `svn info` in a working copy and looking at the value in the `Repository Root` field. It should be a URI and will usually look like these:\n\n| Example Subversion Repository Root URIs |\n| ------------------------------ |\n| `http://svn.example.org/svnroot/` |\n| `svn+ssh://svn.example.com/svnroot/` |\n| `svn://svn.example.net/svnroot/` |\n\n\nYou **MUST** specify the root of the repository, not a subdirectory. (If you want to import only part of a Subversion repository, use the //Import Only// option at the end of this workflow.)' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:493
-  'Enter the URI to clone this Git repository from. It should usually look like one of these examples:\n\n| Example Git Remote URIs |\n| ----------------------- |\n| `git@github.com:example/example.git` |\n| `ssh://user@host.com/git/example.git` |\n| `https://example.com/repository.git` |\n' => null,
+  'Enter the URI to clone this Git repository from. It should usually look like one of these examples:\n\n| Example Git Remote URIs |\n| ----------------------- |\n| `git@github.com:example/example.git` |\n| `ssh://user@host.com/git/example.git` |\n| `https://example.com/repository.git` |\n' 
+  => '输入URI来克隆Git仓库。它看起来应该像以下这些例子：\n\n| Git远程URIs例子 |\n| ----------------------- |\n| `git@github.com:example/example.git` |\n| `ssh://user@host.com/git/example.git` |\n| `https://example.com/repository.git` |\n',
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:504
   'Enter the URI to clone this Mercurial repository from. It should usually look like one of these examples:\n\n| Example Mercurial Remote URIs |\n| ----------------------- |\n| `ssh://hg@bitbucket.org/example/repository` |\n| `https://bitbucket.org/example/repository` |\n' => null,
@@ -13579,7 +13582,7 @@ return array(
   'Host Repository on Phabricator' => null,
 
   // src/applications/diffusion/application/PhabricatorDiffusionApplication.php:10
-  'Host and Browse Repositories' => null,
+  'Host and Browse Repositories' => '仓库的托管与浏览',
 
   // src/applications/config/option/PhabricatorPHPMailerConfigOptions.php:36
   'Host for SMTP.' => null,
@@ -13940,19 +13943,20 @@ return array(
   'Import Successful' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:292
-  'Import a Git repository (for example, a repository hosted on GitHub).' => null,
+  'Import a Git repository (for example, a repository hosted on GitHub).' => '导入Git仓库（例如 GitHub托管的仓库）',
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:295
-  'Import a Mercurial repository (for example, a repository hosted on Bitbucket).' => null,
+  'Import a Mercurial repository (for example, a repository hosted on Bitbucket).' => '导入Mercurial仓库（例如，Bitbucket托管的仓库）',
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:297
-  'Import a Subversion repository.' => null,
+  'Import a Subversion repository.' => '导入一个Subversion仓库',
 
   // src/applications/diffusion/controller/DiffusionRepositoryNewController.php:56
-  'Import a repository hosted somewhere else, like GitHub, Bitbucket, or your organization\'s existing servers. Phabricator will read changes from the repository but will not host or manage it. The authoritative master version of the repository will stay where it is now.' => null,
+  'Import a repository hosted somewhere else, like GitHub, Bitbucket, or your organization\'s existing servers. Phabricator will read changes from the repository but will not host or manage it. The authoritative master version of the repository will stay where it is now.' 
+  => '导入一个第三方仓库，比如 GitHub，Bitbucket或者已有的服务。Phabricator将会从该仓库读取信息，但它并不托管或者管理该仓库。该仓库的master版本会继续留在它之前的地方',
 
   // src/applications/diffusion/controller/DiffusionRepositoryNewController.php:54
-  'Import an Existing External Repository' => null,
+  'Import an Existing External Repository' => '导入第三方仓库',
 
   // src/applications/project/controller/PhabricatorProjectBoardViewController.php:701
   'Import board columns from another project.' => null,
@@ -15431,7 +15435,7 @@ return array(
   'Lock Permanently' => '永久锁定',
 
   // src/applications/passphrase/controller/PassphraseCredentialEditController.php:298
-  'Lock Permanently:' => '永久锁定:',
+  'Lock Permanently:' => '永久锁定：',
 
   // src/applications/project/controller/PhabricatorProjectEditDetailsController.php:269
   'Lock Project' => '锁定项目',
@@ -15998,7 +16002,7 @@ return array(
   'Members' => "成员",
 
   // src/applications/policy/constants/PhabricatorPolicyType.php:31
-  'Members of Project...' => null,
+  'Members of Project...' => '项目成员...',
 
   // src/applications/project/storage/PhabricatorProject.php:110
   'Members of a project can always view it.' => null,
@@ -16836,7 +16840,7 @@ return array(
   // src/applications/diffusion/controller/DiffusionRepositoryNewController.php:67
   // src/applications/diffusion/controller/DiffusionRepositoryNewController.php:79
   // src/applications/diffusion/controller/DiffusionRepositoryListController.php:41
-  'New Repository' => null,
+  'New Repository' => '新建仓库',
 
   // src/applications/conpherence/controller/ConpherenceController.php:53
   // src/applications/conpherence/controller/ConpherenceNewRoomController.php:8
@@ -19963,7 +19967,7 @@ return array(
   'Prevent new repositories from being allocated on this service.' => null,
 
   // src/applications/passphrase/controller/PassphraseCredentialEditController.php:300
-  'Prevent the secret from being revealed or changed.' => null,
+  'Prevent the secret from being revealed or changed.' => '阻止密码泄露或者修改',
 
   // src/applications/phame/controller/post/PhamePostPublishController.php:51
   // src/applications/files/controller/PhabricatorFileComposeController.php:312
@@ -21571,7 +21575,7 @@ return array(
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:491
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:502
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:565
-  'Remote URI' => null,
+  'Remote URI' => '远程URI',
 
   // src/applications/repository/storage/PhabricatorRepository.php:964
   'Remote URI \'%s\' could not be parsed!' => null,
@@ -21580,7 +21584,7 @@ return array(
   // src/applications/settings/panel/PhabricatorEmailAddressesSettingsPanel.php:88
   // src/applications/settings/panel/PhabricatorEmailAddressesSettingsPanel.php:125
   // src/applications/settings/panel/PhabricatorMultiFactorSettingsPanel.php:74
-  'Remove' => null,
+  'Remove' => '移除',
 
   // src/applications/flag/events/PhabricatorFlagsUIEventListener.php:43
   'Remove %s Flag' => null,
@@ -21800,7 +21804,7 @@ return array(
   'Repository Mirror' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:375
-  'Repository Name and Location' => null,
+  'Repository Name and Location' => '仓库名字和位置',
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:839
   'Repository Ready!' => null,
@@ -21812,7 +21816,7 @@ return array(
   'Repository Root' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:340
-  'Repository Type' => null,
+  'Repository Type' => '仓库类型',
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditSubversionController.php:95
   'Repository UUID' => null,
@@ -22512,7 +22516,7 @@ return array(
   'Review' => null,
 
   // src/applications/differential/application/PhabricatorDifferentialApplication.php:14
-  'Review Code' => '复查代码',
+  'Review Code' => '检阅代码',
 
   // src/applications/pholio/application/PhabricatorPholioApplication.php:14
   'Review Mocks and Design' => '原型与设计',
@@ -23103,7 +23107,7 @@ return array(
   'Select a panel to add.' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:737
-  'Select access policies for this repository.' => null,
+  'Select access policies for this repository.' => '为该仓库选择访问策略',
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditBranchesController.php:142
   'Select all branches which do not start with "%s".' => null,
@@ -26447,7 +26451,7 @@ return array(
   'These paths get appended to your %s environment variable.' => null,
 
   // src/applications/policy/controller/PhabricatorPolicyEditController.php:166
-  'These rules are processed in order.' => null,
+  'These rules are processed in order.' => '这些规则按顺序执行',
 
   // src/applications/transactions/controller/PhabricatorApplicationTransactionValueController.php:102
   'These rules are processed in order:' => null,
@@ -28430,7 +28434,7 @@ return array(
   'Type a build plan name...' => null,
 
   // src/applications/legalpad/typeahead/LegalpadDocumentDatasource.php:15
-  'Type a document name...' => null,
+  'Type a document name...' => '输入文档名字...',
 
   // src/applications/macro/typeahead/PhabricatorMacroDatasource.php:6
   'Type a macro name...' => null,
