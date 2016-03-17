@@ -32614,13 +32614,13 @@ return array(
   'is false' => null,
 
   // src/applications/policy/rule/PhabricatorLunarPhasePolicyRule.php:38
-  'is full' => null,
+  'is full' => '满月',
 
   // src/applications/herald/adapter/HeraldAdapter.php:423
   'is myself' => null,
 
   // src/applications/policy/rule/PhabricatorLunarPhasePolicyRule.php:39
-  'is new' => null,
+  'is new' => '新月',
 
   // src/applications/herald/adapter/HeraldAdapter.php:415
   'is not' => null,
@@ -32635,10 +32635,10 @@ return array(
   'is true' => null,
 
   // src/applications/policy/rule/PhabricatorLunarPhasePolicyRule.php:41
-  'is waning' => null,
+  'is waning' => '亏月',
 
   // src/applications/policy/rule/PhabricatorLunarPhasePolicyRule.php:40
-  'is waxing' => null,
+  'is waxing' => '盈月',
 
   // src/applications/uiexample/examples/PHUIObjectItemListExample.php:128
   'jackofclubs' => null,
