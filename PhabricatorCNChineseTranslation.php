@@ -6859,7 +6859,7 @@ return array(
   'Can Use Application' => null,
 
   // src/applications/policy/capability/PhabricatorPolicyCanViewCapability.php:9
-  'Can View' => null,
+  'Can View' => '可浏览',
 
   // src/applications/harbormaster/application/PhabricatorHarbormasterApplication.php:87
   'Can create and manage build plans.' => null,
@@ -9897,7 +9897,7 @@ return array(
   'Demonstrates the visual appearance of various Remarkup elements.' => null,
 
   // src/applications/policy/controller/PhabricatorPolicyEditController.php:12
-  'Deny' => null,
+  'Deny' => '拒绝',
 
   // src/applications/differential/customfield/DifferentialDependenciesField.php:11
   'Dependencies' => null,
@@ -13735,7 +13735,7 @@ return array(
   'If inbound email is configured, users can interact with revisions by using "!actions" in email replies (for example, "!resign" or "!rethink"). However, by default, users may not "!accept" revisions via email: email authentication can be configured to be very weak, and email "!accept" is kind of sketchy and implies the revision may not actually be receiving thorough review. You can enable "!accept" by setting this option to true.' => null,
 
   // src/applications/transactions/controller/PhabricatorApplicationTransactionValueController.php:142
-  'If no rules match, %s all other users.' => null,
+  'If no rules match, %s all other users.' => '如果没有符合条件的，那么 %s 所有其他用户',
 
   // src/applications/config/option/PhabricatorSecurityConfigOptions.php:83
   'If the web server responds to both HTTP and HTTPS requests but you want users to connect with only HTTPS, you can set this to true to make Phabricator redirect HTTP requests to HTTPS.\n\nNormally, you should just configure your server not to accept HTTP traffic, but this setting may be useful if you originally used HTTP and have now switched to HTTPS but don\'t want to break old links, or if your webserver sits behind a load balancer which terminates HTTPS connections and you can not reasonably configure more granular behavior there.\n\nIMPORTANT: Phabricator determines if a request is HTTPS or not by examining the PHP `%s` variable. If you run Apache/mod_php this will probably be set correctly for you automatically, but if you run Phabricator as CGI/FCGI (e.g., through nginx or lighttpd), you need to configure your web server so that it passes the value correctly based on the connection type.' => null,
@@ -16843,7 +16843,7 @@ return array(
   'New Room' => null,
 
   // src/applications/policy/controller/PhabricatorPolicyEditController.php:165
-  'New Rule' => null,
+  'New Rule' => '新规则',
 
   // src/applications/herald/controller/HeraldNewController.php:224
   'New Rule for' => null,
@@ -17072,7 +17072,7 @@ return array(
 
   // src/applications/policy/query/PhabricatorPolicyQuery.php:168
   // src/applications/legalpad/storage/LegalpadDocument.php:138
-  'No One' => null,
+  'No One' => '无人',
 
   // src/applications/policy/__tests__/PhabricatorPolicyTestCase.php:84
   'No One Policy' => null,
@@ -22675,7 +22675,7 @@ return array(
   'Rule must have a name.' => null,
 
   // src/applications/policy/controller/PhabricatorPolicyEditController.php:155
-  'Rules' => null,
+  'Rules' => '规则',
 
   // src/applications/herald/engine/HeraldEngine.php:104
   'Rules %s are recursively dependent upon one another! Don\'t do this! You have formed an unresolvable cycle in the dependency graph!' => null,
@@ -32463,7 +32463,7 @@ return array(
   'added auditors to' => null,
 
   // src/applications/policy/rule/PhabricatorAdministratorsPolicyRule.php:6
-  'administrators' => null,
+  'administrators' => '管理员',
 
   // src/applications/uiexample/examples/PHUIObjectItemListExample.php:136
   'agoat' => null,
@@ -32715,7 +32715,7 @@ return array(
   'signatureType' => null,
 
   // src/applications/policy/rule/PhabricatorLegalpadSignaturePolicyRule.php:9
-  'signers of legalpad documents' => null,
+  'signers of legalpad documents' => '法定文件的签署者',
 
   // src/applications/auth/provider/PhabricatorLDAPAuthProvider.php:288
   'sn' => null,
@@ -32757,13 +32757,13 @@ return array(
   'username' => null,
 
   // src/applications/policy/rule/PhabricatorUsersPolicyRule.php:6
-  'users' => null,
+  'users' => '用户',
 
   // src/applications/uiexample/examples/PHUIPropertyListExample.php:78
   'what did you expect?' => null,
 
   // src/applications/policy/rule/PhabricatorLunarPhasePolicyRule.php:11
-  'when the moon' => null,
+  'when the moon' => '当月亮呈现',
 
   // src/applications/harbormaster/controller/HarbormasterStepEditController.php:219
   '| Variable | Description |' => null,
