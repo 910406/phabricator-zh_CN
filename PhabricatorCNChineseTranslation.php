@@ -3748,10 +3748,10 @@ return array(
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditActivateController.php:56
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:242
-  'Activate Repository' => null,
+  'Activate Repository' => '启用仓库',
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditActivateController.php:53
-  'Activate Repository?' => null,
+  'Activate Repository?' => '启用仓库？',
 
   // src/applications/herald/controller/HeraldDisableController.php:61
   // src/applications/herald/controller/HeraldRuleViewController.php:94
@@ -3761,7 +3761,7 @@ return array(
   'Activate this repository to begin or resume import.' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditActivateController.php:55
-  'Activate this repository?' => null,
+  'Activate this repository?' => '启用该仓库？',
 
   // src/applications/calendar/controller/PhabricatorCalendarEventViewController.php:109
   // src/applications/dashboard/controller/PhabricatorDashboardPanelViewController.php:81
@@ -3962,7 +3962,7 @@ return array(
   'Add Members' => '添加成员',
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:1186
-  'Add Mirror' => null,
+  'Add Mirror' => '添加镜像',
 
   // src/applications/phortune/provider/PhortuneTestPaymentProvider.php:37
   'Add Mountain of Virtual Wealth' => null,
@@ -5793,7 +5793,7 @@ return array(
   'Automatically profile some percentage of pages.' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:1209
-  'Automatically push changes into other remotes.' => null,
+  'Automatically push changes into other remotes.' => '自动推送变化到其他远程',
 
   // src/applications/config/option/PhabricatorDeveloperConfigOptions.php:127
   'Automatically sample some fraction of requests.' => null,
@@ -8114,7 +8114,7 @@ return array(
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:820
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:831
-  'Configure More Options First' => null,
+  'Configure More Options First' => '更多选项配置',
 
   // src/applications/owners/config/PhabricatorOwnersConfigOptions.php:11
   'Configure Owners.' => null,
@@ -8183,7 +8183,7 @@ return array(
   'Configure mailer used by PHPMailer.' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:833
-  'Configure more options before beginning the repository import. This will let you fine-tune settings. You can start the import whenever you are ready.' => null,
+  'Configure more options before beginning the repository import. This will let you fine-tune settings. You can start the import whenever you are ready.' => '在开始导入仓库之前，配置更多选项。你可以调整设置。你可以随时导入仓库',
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:822
   'Configure more options before creating the repository. This will let you fine-tune settings. You can create the repository whenever you are ready.' => null,
@@ -9128,7 +9128,7 @@ return array(
   'Creators' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:571
-  'Credential' => null,
+  'Credential' => '证书',
 
   // src/applications/passphrase/keys/PassphraseAbstractKey.php:40
   'Credential "%s" is of unknown type "%s"!' => null,
@@ -9551,13 +9551,13 @@ return array(
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditActivateController.php:49
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:238
-  'Deactivate Repository' => null,
+  'Deactivate Repository' => '关闭仓库',
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditActivateController.php:46
-  'Deactivate Repository?' => null,
+  'Deactivate Repository?' => '关闭仓库？',
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditActivateController.php:48
-  'Deactivate this repository?' => null,
+  'Deactivate this repository?' => '关闭该仓库？',
 
   // src/applications/daemon/view/PhabricatorDaemonLogListView.php:52
   // src/applications/daemon/controller/PhabricatorDaemonLogViewController.php:50
@@ -9834,7 +9834,7 @@ return array(
   'Delete Query' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:249
-  'Delete Repository' => null,
+  'Delete Repository' => '删除仓库',
 
   // src/applications/phragment/controller/PhragmentSnapshotViewController.php:119
   'Delete Snapshot' => null,
@@ -10966,7 +10966,7 @@ return array(
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditActionsController.php:61
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:504
-  'Edit Actions' => null,
+  'Edit Actions' => '编辑操作',
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditActionsController.php:63
   'Edit Actions (%s)' => null,
@@ -11088,7 +11088,7 @@ return array(
   // src/applications/project/controller/PhabricatorProjectController.php:36
   // src/applications/project/controller/PhabricatorProjectController.php:86
   // src/applications/project/controller/PhabricatorProjectProfileController.php:92
-  'Edit Details' => '修改详情',
+  'Edit Details' => '编辑详情',
 
   // src/applications/almanac/controller/AlmanacDeviceViewController.php:100
   // src/applications/almanac/controller/AlmanacDeviceEditController.php:29
@@ -11110,7 +11110,7 @@ return array(
   // src/applications/phriction/controller/PhrictionDocumentController.php:285
   // src/applications/phriction/controller/PhrictionNewController.php:30
   // src/applications/phriction/controller/PhrictionEditController.php:182
-  'Edit Document' => '修改文档',
+  'Edit Document' => '编辑文档',
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditEncodingController.php:59
   'Edit Encoding' => null,
@@ -11122,7 +11122,7 @@ return array(
   'Edit Existing Provider' => null,
 
   // src/applications/files/controller/PhabricatorFileInfoController.php:159
-  'Edit File' => '修改文件',
+  'Edit File' => '编辑文件',
 
   // src/applications/phragment/controller/PhragmentPolicyController.php:91
   // src/applications/phragment/controller/PhragmentPolicyController.php:105
@@ -11136,10 +11136,10 @@ return array(
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:674
   // src/applications/diffusion/controller/DiffusionRepositoryEditHostingController.php:65
-  'Edit Hosting' => null,
+  'Edit Hosting' => '编辑托管',
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditHostingController.php:67
-  'Edit Hosting (%s)' => null,
+  'Edit Hosting (%s)' => '编辑托管（%s）',
 
   // src/applications/macro/controller/PhabricatorMacroEditController.php:242
   'Edit Image Macro' => null,
@@ -11210,7 +11210,7 @@ return array(
   // src/applications/owners/controller/PhabricatorOwnersPathsController.php:143
   // src/applications/owners/controller/PhabricatorOwnersPathsController.php:150
   // src/applications/owners/controller/PhabricatorOwnersPathsController.php:160
-  'Edit Paths' => "修改路径",
+  'Edit Paths' => "编辑路径",
 
   // src/applications/phortune/controller/PhortunePaymentMethodEditController.php:67
   // src/applications/phortune/controller/PhortunePaymentMethodEditController.php:81
@@ -11235,13 +11235,13 @@ return array(
   // src/applications/meta/controller/PhabricatorApplicationEditController.php:148
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:89
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:367
-  'Edit Policies' => "修改策略",
+  'Edit Policies' => "编辑策略",
 
   // src/applications/meta/controller/PhabricatorApplicationEditController.php:151
   'Edit Policies: %s' => null,
 
   // src/applications/differential/customfield/DifferentialEditPolicyField.php:11
-  'Edit Policy' => "修改策略",
+  'Edit Policy' => "编辑策略",
 
   // src/applications/slowvote/controller/PhabricatorSlowvotePollController.php:103
   'Edit Poll' => null,
@@ -11257,18 +11257,18 @@ return array(
   // src/applications/people/controller/PhabricatorPeopleProfileEditController.php:63
   // src/applications/people/controller/PhabricatorPeopleProfileEditController.php:77
   // src/applications/people/controller/PhabricatorPeopleProfileController.php:54
-  'Edit Profile' => '修改个人信息',
+  'Edit Profile' => '编辑个人信息',
 
   // src/applications/people/controller/PhabricatorPeopleProfileController.php:62
   // src/applications/people/controller/PhabricatorPeopleProfilePictureController.php:91
-  'Edit Profile Picture' => '修改个人图片',
+  'Edit Profile Picture' => '编辑个人图片',
 
   // src/applications/project/controller/PhabricatorProjectEditDetailsController.php:177
   // src/applications/project/controller/PhabricatorProjectEditDetailsController.php:178
-  'Edit Project' => '修改项目',
+  'Edit Project' => '编辑项目',
 
   // src/applications/project/controller/PhabricatorProjectEditPictureController.php:101
-  'Edit Project Picture' => '修改项目图片',
+  'Edit Project Picture' => '编辑项目图片',
 
   // src/applications/almanac/controller/AlmanacPropertyEditController.php:33
   'Edit Property' => null,
@@ -11307,7 +11307,7 @@ return array(
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:83
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:546
-  'Edit Remote' => null,
+  'Edit Remote' => '编辑远程',
 
   // src/applications/diffusion/controller/DiffusionRepositoryController.php:495
   // src/applications/diffusion/controller/DiffusionRepositoryEditController.php:17
@@ -11345,7 +11345,7 @@ return array(
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditStagingController.php:53
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:636
-  'Edit Staging' => null,
+  'Edit Staging' => '编辑暂存',
 
   // src/applications/harbormaster/controller/HarbormasterStepEditController.php:166
   'Edit Step' => null,
@@ -11355,7 +11355,7 @@ return array(
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditStorageController.php:31
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:587
-  'Edit Storage' => '修改存储',
+  'Edit Storage' => '编辑存储',
 
   // src/applications/phortune/controller/PhortuneSubscriptionViewController.php:49
   'Edit Subscription' => null,
@@ -11376,7 +11376,7 @@ return array(
   'Edit Task' => '编辑任务',
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:330
-  'Edit Text Encoding' => "修改文本编码",
+  'Edit Text Encoding' => "编辑文本编码",
 
   // src/applications/calendar/controller/PhabricatorCalendarEventViewController.php:165
   // src/applications/calendar/controller/PhabricatorCalendarEventViewController.php:168
@@ -11835,7 +11835,7 @@ return array(
 
   // src/applications/system/controller/PhabricatorSystemSelectEncodingController.php:46
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:353
-  'Encoding' => null,
+  'Encoding' => '编码',
 
   // src/applications/files/storage/PhabricatorFile.php:534
   'Encountered loop while following redirects.' => null,
@@ -13597,7 +13597,7 @@ return array(
   'Hosted' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:713
-  'Hosted Elsewhere' => null,
+  'Hosted Elsewhere' => '托管在别处',
 
   // src/applications/repository/query/PhabricatorRepositorySearchEngine.php:123
   'Hosted Repositories' => null,
@@ -13611,7 +13611,7 @@ return array(
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:123
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:714
   // src/applications/diffusion/controller/DiffusionRepositoryEditHostingController.php:71
-  'Hosting' => null,
+  'Hosting' => '托管',
 
   // src/applications/aphlict/management/PhabricatorAphlictManagementWorkflow.php:17
   'Hostname to bind to for the client server.' => null,
@@ -14035,7 +14035,7 @@ return array(
   // src/applications/releeph/controller/product/ReleephProductViewController.php:177
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:44
   // src/applications/diffusion/controller/DiffusionRepositoryController.php:219
-  'Inactive' => null,
+  'Inactive' => '未启用',
 
   // src/applications/releeph/query/ReleephProductSearchEngine.php:77
   'Inactive Products' => null,
@@ -15381,7 +15381,7 @@ return array(
   // src/applications/differential/view/DifferentialLocalCommitsView.php:123
   // src/applications/diffusion/controller/DiffusionRepositoryEditStorageController.php:43
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:612
-  'Local' => null,
+  'Local' => '本地',
 
   // src/applications/differential/view/DifferentialLocalCommitsView.php:132
   'Local Commits' => null,
@@ -16228,7 +16228,7 @@ return array(
   'Mirror %d %s' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:150
-  'Mirrors' => null,
+  'Mirrors' => '镜像',
 
   // src/applications/config/schema/PhabricatorConfigStorageSchema.php:104
   'Missing' => null,
@@ -17284,7 +17284,7 @@ return array(
   'No data to show!' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:309
-  'No description provided.' => null,
+  'No description provided.' => '无详情',
 
   // src/applications/phriction/controller/PhrictionDocumentController.php:51
   'No document found at %s. You can <strong><a href="%s">create a new document here</a></strong>.' => null,
@@ -17792,7 +17792,8 @@ return array(
   'Normally, Differential revisions remain on the dashboard when they are "Accepted", and the author then commits the changes to "Close" the revision and move it off the dashboard.\n\nIf you have an unusual workflow where Differential is used for post-commit review (normally called "Audit", elsewhere in Phabricator), you can set this flag to treat the "Accepted" state as a "Closed" state and end the review workflow early.\n\nThis sort of workflow is very unusual. Very few installs should need to change this option.' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditUpdateController.php:54
-  'Normally, Phabricator automatically updates repositories based on how much time has elapsed since the last commit. This helps reduce load if you have a large number of mostly inactive repositories, which is common.' => null,
+  'Normally, Phabricator automatically updates repositories based on how much time has elapsed since the last commit. This helps reduce load if you have a large number of mostly inactive repositories, which is common.' 
+  => null,
 
   // src/applications/config/option/PhabricatorDeveloperConfigOptions.php:94
   'Normally, Phabricator issues HTTP redirects after a successful POST. This can make it difficult to debug things which happen while processing the POST, because service and profiling information are lost. By setting this configuration option, Phabricator will show a page instead of automatically redirecting, allowing you to examine service and profiling information. It also makes the UX awful, so you should only enable it when debugging.' => null,
@@ -17829,7 +17830,7 @@ return array(
   'Not Completed' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:484
-  'Not Configured' => null,
+  'Not Configured' => '无配置',
 
   // src/applications/herald/controller/HeraldNewController.php:57
   'Not Editable' => null,
@@ -17894,7 +17895,7 @@ return array(
   'Not Working Now' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:399
-  'Not a Hosted Repository' => null,
+  'Not a Hosted Repository' => '不是一个托管的仓库',
 
   // src/applications/auth/data/PhabricatorAuthInviteAction.php:53
   'Not a Valid Email Address' => null,
@@ -18238,7 +18239,7 @@ return array(
   // src/applications/repository/storage/PhabricatorRepository.php:1274
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:523
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:529
-  'Off' => null,
+  'Off' => '关闭',
 
   // src/applications/calendar/icon/PhabricatorCalendarIcon.php:21
   'Official Business' => null,
@@ -18312,7 +18313,7 @@ return array(
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:524
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:530
-  'On' => null,
+  'On' => '开启',
 
   // src/applications/settings/panel/PhabricatorDiffPreferencesSettingsPanel.php:64
   'On Small Screens' => null,
@@ -20506,7 +20507,7 @@ return array(
   'Push __repository__, named by callsign, to mirrors.' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:400
-  'Pushable By' => null,
+  'Pushable By' => '可推送',
 
   // src/applications/diffusion/controller/DiffusionPushEventViewController.php:76
   'Pushed At' => null,
@@ -21560,7 +21561,7 @@ return array(
   'Remarkup Example' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:158
-  'Remote' => null,
+  'Remote' => '远程',
 
   // src/applications/repository/engine/PhabricatorRepositoryEngine.php:111
   'Remote "origin" does not exist. Creating "origin", with URI "%s".' => null,
@@ -21807,7 +21808,7 @@ return array(
   'Repository Name and Location' => '仓库名字和位置',
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:839
-  'Repository Ready!' => null,
+  'Repository Ready!' => '仓库已就位',
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:454
   'Repository Remote URI' => null,
@@ -22999,7 +23000,7 @@ return array(
   'Scanner Sweep' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditUpdateController.php:70
-  'Schedule Update' => null,
+  'Schedule Update' => '安排更新',
 
   // src/applications/repository/daemon/PhabricatorRepositoryPullLocalDaemon.php:131
   'Scheduling repository "%s" for an initial update.' => null,
@@ -23320,10 +23321,10 @@ return array(
   'Serious business title.' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:717
-  'Serve over HTTP' => null,
+  'Serve over HTTP' => 'HTTP服务',
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:725
-  'Serve over SSH' => null,
+  'Serve over SSH' => 'SSH服务',
 
   // src/applications/settings/panel/PhabricatorEmailFormatSettingsPanel.php:144
   // src/applications/settings/panel/PhabricatorEmailFormatSettingsPanel.php:147
@@ -24579,13 +24580,13 @@ return array(
   'Stacked List' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:170
-  'Staging' => null,
+  'Staging' => '暂存',
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:659
-  'Staging Area' => null,
+  'Staging Area' => '暂存区',
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditStagingController.php:70
-  'Staging Area URI' => null,
+  'Staging Area URI' => '暂存区URI',
 
   // src/applications/daemon/controller/PhabricatorDaemonLogViewController.php:72
   'Stale Config' => null,
@@ -24607,10 +24608,10 @@ return array(
   'Start' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:826
-  'Start Import Now' => null,
+  'Start Import Now' => '现在开始导入',
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:845
-  'Start Now' => null,
+  'Start Now' => '现在开始',
 
   // src/applications/auth/provider/PhabricatorLDAPAuthProvider.php:295
   'Start TLS after binding to the LDAP server.' => null,
@@ -24641,7 +24642,7 @@ return array(
   'Start date is not valid.' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:828
-  'Start importing the repository right away. This will import the entire repository using default settings.' => null,
+  'Start importing the repository right away. This will import the entire repository using default settings.' => '立即开始导入仓库，这将会使用默认配置导入整个仓库',
 
   // src/applications/harbormaster/storage/build/HarbormasterBuildLog.php:84
   'Start logging before appending data to the log.' => null,
@@ -24858,7 +24859,7 @@ return array(
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditStorageController.php:50
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:616
-  'Storage Service' => null,
+  'Storage Service' => '存储服务',
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:964
   'Storage directory %s does not exist, or is not readable by the webserver. Create this directory or make it readable.' => null,
@@ -27472,7 +27473,7 @@ return array(
   'This repository has no branches.' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:1220
-  'This repository has no configured mirrors.' => null,
+  'This repository has no configured mirrors.' => '该仓库没有配备镜像',
 
   // src/applications/diffusion/controller/DiffusionTagListController.php:50
   'This repository has no tags.' => null,
@@ -29649,7 +29650,7 @@ return array(
   'Update Preview' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditUpdateController.php:51
-  'Update Repository Now' => null,
+  'Update Repository Now' => '立即更新仓库',
 
   // src/applications/conpherence/controller/ConpherenceUpdateController.php:403
   'Update Room' => null,
@@ -29909,7 +29910,7 @@ return array(
   'Use Default' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:350
-  'Use Default (UTF-8)' => null,
+  'Use Default (UTF-8)' => '使用默认（UTF-8）',
 
   // src/applications/config/option/PhabricatorSecurityConfigOptions.php:265
   'Use HSTS' => null,
