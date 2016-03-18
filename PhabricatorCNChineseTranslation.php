@@ -8354,7 +8354,7 @@ return array(
   'Contains Words' => null,
 
   // src/applications/phriction/controller/PhrictionEditController.php:225
-  'Content' => null,
+  'Content' => '内容',
 
   // src/applications/differential/controller/DifferentialRevisionViewController.php:455
   'Content Hidden:' => null,
@@ -8369,7 +8369,7 @@ return array(
   'Content may not be empty.' => null,
 
   // src/applications/diviner/controller/DivinerAtomController.php:248
-  'Contents' => null,
+  'Contents' => '内容',
 
   // src/applications/differential/constants/DifferentialChangeType.php:106
   'Contents Modified' => null,
@@ -8581,7 +8581,7 @@ return array(
   // src/applications/phriction/controller/PhrictionEditController.php:277
   // src/applications/paste/controller/PhabricatorPasteEditController.php:215
   // src/applications/pholio/controller/PholioMockEditController.php:240
-  'Create' => null,
+  'Create' => '创建',
 
   // src/applications/phortune/controller/PhortuneAccountListController.php:56
   // src/applications/phortune/controller/PhortuneAccountEditController.php:87
@@ -8675,7 +8675,7 @@ return array(
   // src/applications/legalpad/controller/LegalpadDocumentListController.php:32
   // src/applications/phriction/controller/PhrictionEditController.php:190
   // src/applications/phriction/controller/PhrictionEditController.php:191
-  'Create Document' => null,
+  'Create Document' => '创建文档',
 
   // src/applications/calendar/controller/PhabricatorCalendarController.php:21
   // src/applications/calendar/controller/PhabricatorCalendarEventEditController.php:74
@@ -8988,7 +8988,7 @@ return array(
   'Create a new conpherence thread.' => null,
 
   // src/applications/phriction/controller/PhrictionNewController.php:56
-  'Create a new document at' => null,
+  'Create a new document at' => '创建一个新文档在',
 
   // src/applications/nuance/conduit/NuanceCreateItemConduitAPIMethod.php:10
   'Create a new item.' => null,
@@ -14075,7 +14075,7 @@ return array(
 
   // src/applications/phriction/controller/PhrictionController.php:13
   // src/applications/phriction/controller/PhrictionController.php:35
-  'Index' => null,
+  'Index' => '索引',
 
   // src/applications/search/applicationpanel/PhabricatorSearchApplicationStorageEnginePanel.php:58
   'Index Exists' => null,
@@ -16789,7 +16789,7 @@ return array(
   // src/applications/phriction/controller/PhrictionNewController.php:52
   // src/applications/phriction/controller/PhrictionController.php:12
   // src/applications/phriction/controller/PhrictionController.php:42
-  'New Document' => '新文档',
+  'New Document' => '新建文档',
 
   // src/applications/project/controller/PhabricatorProjectBoardViewController.php:696
   'New Empty Board' => null,
@@ -17076,7 +17076,7 @@ return array(
 
   // src/applications/policy/query/PhabricatorPolicyQuery.php:168
   // src/applications/legalpad/storage/LegalpadDocument.php:138
-  'No One' => '无人',
+  'No One' => '没有人',
 
   // src/applications/policy/__tests__/PhabricatorPolicyTestCase.php:84
   'No One Policy' => null,
@@ -19673,7 +19673,7 @@ return array(
 
   // src/applications/phriction/config/PhabricatorPhrictionConfigOptions.php:7
   // src/applications/phriction/application/PhabricatorPhrictionApplication.php:6
-  'Phriction' => null,
+  'Phriction' => 'Wiki',
 
   // src/applications/phriction/editor/PhrictionTransactionEditor.php:77
   // src/applications/phriction/herald/PhrictionDocumentHeraldAdapter.php:33
@@ -25273,7 +25273,7 @@ return array(
 
   // src/applications/config/controller/PhabricatorConfigDatabaseStatusController.php:212
   // src/applications/config/controller/PhabricatorConfigDatabaseIssueController.php:119
-  'Table' => null,
+  'Table' => '表格',
 
   // src/applications/differential/view/DifferentialDiffTableOfContentsView.php:253
   // src/applications/phriction/storage/PhrictionContent.php:111
@@ -27930,7 +27930,7 @@ return array(
   'To create a new service, you must select a service type.' => null,
 
   // src/applications/phriction/storage/PhrictionDocument.php:181
-  'To edit a wiki document, you must also be able to view all of its parents.' => null,
+  'To edit a wiki document, you must also be able to view all of its parents.' => '编辑一个维基文档，你必须也能查看上一层文档',
 
   // src/applications/doorkeeper/option/PhabricatorAsanaConfigOptions.php:28
   'To enable synchronization into Asana, enter an Asana Workspace ID here.\n\nNOTE: This feature is new and experimental.' => null,
@@ -28002,7 +28002,7 @@ return array(
   'To view a transcript, you must be able to view the object the transcript is about.' => null,
 
   // src/applications/phriction/storage/PhrictionDocument.php:177
-  'To view a wiki document, you must also be able to view all of its parents.' => null,
+  'To view a wiki document, you must also be able to view all of its parents.' => '可以查看维基文档，你必须也能查看上一层的文档',
 
   // src/applications/uiexample/examples/PHUITimelineExample.php:180
   'Today, I went to the store. I bought an apple. I bought a banana. I bought a cherry. I paid for my goods, then I returned home.' => null,
@@ -28562,7 +28562,7 @@ return array(
   // src/applications/harbormaster/step/HarbormasterHTTPRequestBuildStepImplementation.php:85
   // src/applications/maniphest/export/ManiphestExcelDefaultFormat.php:62
   // src/applications/phriction/controller/PhrictionEditController.php:221
-  'URI' => null,
+  'URI' => '链接',
 
   // src/applications/config/option/PhabricatorCoreConfigOptions.php:43
   'URI where Phabricator is installed.' => null,
@@ -29714,7 +29714,7 @@ return array(
   // src/applications/transactions/storage/PhabricatorApplicationTransaction.php:1049
   // src/applications/oauthserver/panel/PhabricatorOAuthServerAuthorizationsSettingsPanel.php:119
   // src/applications/phriction/query/PhrictionSearchEngine.php:69
-  'Updated' => null,
+  'Updated' => '已更新',
 
   // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:97
   'Updated After' => null,
