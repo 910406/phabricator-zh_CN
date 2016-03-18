@@ -980,7 +980,7 @@ return array(
 
   // src/applications/audit/storage/PhabricatorAuditTransaction.php:173
   // src/applications/audit/storage/PhabricatorAuditTransaction.php:307
-  '%s committed %s (authored by %s).' => null,
+  '%s committed %s (authored by %s).' => '%s 提交了 %s （被 %s 授权）',
 
   // src/applications/audit/storage/PhabricatorAuditTransaction.php:179
   // src/applications/audit/storage/PhabricatorAuditTransaction.php:313
@@ -3022,7 +3022,7 @@ return array(
   // src/applications/config/controller/PhabricatorConfigEditController.php:423
   // src/applications/system/controller/PhabricatorSystemSelectEncodingController.php:38
   // src/applications/system/controller/PhabricatorSystemSelectHighlightController.php:19
-  '(Use Default)' => null,
+  '(Use Default)' => '（使用默认）',
 
   // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:13
   '(WARNING) Examine the table below for information on how password hashes will be stored in the database.\n\n(NOTE) You can select a minimum password length by setting `%s` in configuration.' => null,
@@ -4388,7 +4388,7 @@ return array(
   'All Charges' => null,
 
   // src/applications/audit/query/PhabricatorCommitSearchEngine.php:131
-  'All Commits' => null,
+  'All Commits' => '所有的提交',
 
   // src/applications/passphrase/query/PassphraseCredentialSearchEngine.php:73
   'All Credentials' => null,
@@ -5542,7 +5542,7 @@ return array(
   'Audio File' => null,
 
   // src/applications/audit/application/PhabricatorAuditApplication.php:14
-  'Audit' => null,
+  'Audit' => '审核',
 
   // src/applications/diffusion/controller/DiffusionCommitController.php:726
   'Audit Commit' => null,
@@ -5703,7 +5703,7 @@ return array(
   'Authored' => '我创建的',
 
   // src/applications/audit/query/PhabricatorCommitSearchEngine.php:128
-  'Authored Commits' => null,
+  'Authored Commits' => '我的提交',
 
   // src/applications/herald/query/HeraldRuleSearchEngine.php:187
   'Authored by %s' => '由 %s 创建',
@@ -6290,7 +6290,7 @@ return array(
   // src/applications/diffusion/view/DiffusionCommitChangeTableView.php:86
   // src/applications/diffusion/view/DiffusionView.php:72
   // src/applications/diffusion/controller/DiffusionController.php:156
-  'Browse' => null,
+  'Browse' => '浏览',
 
   // src/applications/maniphest/typeahead/ManiphestTaskClosedStatusDatasource.php:9
   'Browse Any Closed Status' => null,
@@ -6412,10 +6412,10 @@ return array(
   'Browse Viewer Projects' => null,
 
   // src/applications/audit/application/PhabricatorAuditApplication.php:18
-  'Browse and Audit Commits' => '查看并审查提交',
+  'Browse and Audit Commits' => '浏览与审核提交',
 
   // src/applications/differential/view/DifferentialChangesetListView.php:137
-  'Browse in Diffusion' => null,
+  'Browse in Diffusion' => '在代码库里浏览',
 
   // src/applications/files/controller/PhabricatorFileComposeController.php:209
   // src/applications/project/icon/PhabricatorProjectIcon.php:12
@@ -7137,7 +7137,7 @@ return array(
   'Change Status' => "修改状态",
 
   // src/applications/differential/view/DifferentialChangesetListView.php:145
-  'Change Text Encoding...' => null,
+  'Change Text Encoding...' => '修改文本编码...',
 
   // src/applications/people/storage/PhabricatorUserLog.php:80
   // src/applications/people/controller/PhabricatorPeopleRenameController.php:109
@@ -7175,7 +7175,7 @@ return array(
   'Changed Subscribers' => null,
 
   // src/applications/phriction/controller/PhrictionDiffController.php:106
-  'Changes' => null,
+  'Changes' => '修改',
 
   // src/applications/diffusion/controller/DiffusionCommitController.php:243
   'Changes (%s)' => null,
@@ -7288,10 +7288,10 @@ return array(
   'Choose Calendar Event Icon' => null,
 
   // src/applications/system/controller/PhabricatorSystemSelectEncodingController.php:54
-  'Choose Encoding' => null,
+  'Choose Encoding' => '选择编码',
 
   // src/applications/system/controller/PhabricatorSystemSelectHighlightController.php:35
-  'Choose Highlighting' => null,
+  'Choose Highlighting' => '选择高亮',
 
   // src/applications/files/controller/PhabricatorFileComposeController.php:304
   'Choose Icon' => null,
@@ -7338,10 +7338,10 @@ return array(
   'Choose a project to import columns from:' => null,
 
   // src/applications/system/controller/PhabricatorSystemSelectHighlightController.php:24
-  'Choose a syntax highlighting to use.' => null,
+  'Choose a syntax highlighting to use.' => '选择使用一个语法高亮',
 
   // src/applications/system/controller/PhabricatorSystemSelectEncodingController.php:43
-  'Choose a text encoding to use.' => null,
+  'Choose a text encoding to use.' => '选择使用一个文本编码',
 
   // src/applications/harbormaster/controller/HarbormasterStepAddController.php:62
   'Choose a type of build step to add:' => null,
@@ -7623,7 +7623,7 @@ return array(
   'Coffee Meeting' => null,
 
   // src/applications/differential/view/DifferentialChangesetListView.php:136
-  'Collapse File' => null,
+  'Collapse File' => '折叠文件',
 
   // src/applications/config/controller/PhabricatorConfigDatabaseStatusController.php:151
   // src/applications/config/controller/PhabricatorConfigDatabaseStatusController.php:213
@@ -8083,7 +8083,7 @@ return array(
   'Configure Diffusion repository browsing.' => null,
 
   // src/applications/differential/view/DifferentialChangesetListView.php:141
-  'Configure Editor' => null,
+  'Configure Editor' => '配置编辑器',
 
   // src/applications/harbormaster/config/PhabricatorHarbormasterConfigOptions.php:11
   'Configure Harbormaster build engine.' => null,
@@ -10236,7 +10236,7 @@ return array(
   'Disable Autoclose' => null,
 
   // src/applications/diffusion/controller/DiffusionBrowseFileController.php:348
-  'Disable Blame' => null,
+  'Disable Blame' => '禁用Blame',
 
   // src/applications/harbormaster/controller/HarbormasterPlanDisableController.php:59
   'Disable Build Plan' => null,
@@ -10258,7 +10258,7 @@ return array(
   'Disable HTTP Basic Auth' => null,
 
   // src/applications/diffusion/controller/DiffusionBrowseFileController.php:366
-  'Disable Highlighting' => null,
+  'Disable Highlighting' => '禁用高亮',
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditActionsController.php:91
   'Disable Notifications, Feed and Herald' => null,
@@ -10413,7 +10413,7 @@ return array(
 
   // src/applications/settings/panel/PhabricatorDisplayPreferencesSettingsPanel.php:11
   // src/applications/settings/panel/PhabricatorDisplayPreferencesSettingsPanel.php:169
-  'Display Preferences' => '显示偏好',
+  'Display Preferences' => '显示设置',
 
   // src/applications/typeahead/controller/PhabricatorTypeaheadModularDatasourceController.php:319
   'Display Type' => null,
@@ -11050,10 +11050,10 @@ return array(
   'Edit Column' => null,
 
   // src/applications/transactions/controller/PhabricatorApplicationTransactionCommentEditController.php:67
-  'Edit Comment' => '编辑Comment',
+  'Edit Comment' => '编辑注解',
 
   // src/applications/diffusion/controller/DiffusionCommitController.php:952
-  'Edit Commit' => '编辑Commit',
+  'Edit Commit' => '编辑提交',
 
   // src/applications/phriction/editor/PhrictionTransactionEditor.php:697
   'Edit Conflict' => null,
@@ -11703,7 +11703,7 @@ return array(
   'Enable Autoclose' => '启用自动关闭',
 
   // src/applications/diffusion/controller/DiffusionBrowseFileController.php:352
-  'Enable Blame' => null,
+  'Enable Blame' => '启用Blame',
 
   // src/applications/harbormaster/controller/HarbormasterPlanDisableController.php:55
   'Enable Build Plan' => null,
@@ -12105,7 +12105,7 @@ return array(
   'Exiting' => null,
 
   // src/applications/differential/view/DifferentialChangesetListView.php:135
-  'Expand File' => null,
+  'Expand File' => '展开文件',
 
   // src/applications/repository/worker/__tests__/PhabricatorChangeParserTestCase.php:1141
   'Expect %s to exist as a foreign stub.' => null,
@@ -13501,7 +13501,7 @@ return array(
   'Highlight %s as PHP.' => null,
 
   // src/applications/differential/view/DifferentialChangesetListView.php:146
-  'Highlight As...' => null,
+  'Highlight As...' => '高亮为...',
 
   // src/applications/config/option/PhabricatorSyntaxHighlightingConfigOptions.php:134
   'Highlight httpd.conf as "apacheconf".' => null,
@@ -13510,7 +13510,7 @@ return array(
   'Highlighted' => null,
 
   // src/applications/system/controller/PhabricatorSystemSelectHighlightController.php:27
-  'Highlighting' => null,
+  'Highlighting' => '高亮',
 
   // src/applications/people/storage/PhabricatorUserLog.php:81
   'Hisec: Enter' => null,
@@ -14787,7 +14787,7 @@ return array(
   'Joinable By' => null,
 
   // src/applications/project/query/PhabricatorProjectSearchEngine.php:82
-  'Joined' => null,
+  'Joined' => '已加入',
 
   // src/applications/people/query/PhabricatorPeopleSearchEngine.php:66
   'Joined After' => null,
@@ -15255,7 +15255,7 @@ return array(
   'Lint Warnings' => null,
 
   // src/applications/diffusion/controller/DiffusionBrowseFileController.php:389
-  'Lint not Available' => null,
+  'Lint not Available' => '提示不可用',
 
   // src/applications/differential/customfield/DifferentialLintField.php:253
   'Lint was skipped when generating these changes.' => null,
@@ -17348,7 +17348,7 @@ return array(
   'No matching GitHub account found for %s.' => null,
 
   // src/applications/audit/query/PhabricatorCommitSearchEngine.php:190
-  'No matching audits.' => null,
+  'No matching audits.' => '没有符合条件的审核。',
 
   // src/applications/repository/management/PhabricatorRepositoryManagementReparseWorkflow.php:229
   'No matching commit \'%s\' in repository \'%s\'. (For git and mercurial repositories, you must specify the entire commit hash.)' => null,
@@ -18434,7 +18434,7 @@ return array(
   'Open All in Editor' => null,
 
   // src/applications/audit/query/PhabricatorCommitSearchEngine.php:125
-  'Open Audits' => null,
+  'Open Audits' => '已开启审核',
 
   // src/applications/releeph/query/ReleephBranchSearchEngine.php:90
   'Open Branches' => null,
@@ -18486,7 +18486,7 @@ return array(
 
   // src/applications/differential/view/DifferentialChangesetListView.php:131
   // src/applications/diffusion/controller/DiffusionBrowseFileController.php:428
-  'Open in Editor' => null,
+  'Open in Editor' => '在编辑器中打开',
 
   // src/applications/maniphest/controller/ManiphestReportController.php:237
   'Opened' => null,
@@ -18719,7 +18719,7 @@ return array(
   // src/applications/maniphest/export/ManiphestExcelDefaultFormat.php:55
   // src/applications/daemon/view/PhabricatorDaemonTasksTableView.php:55
   // src/applications/diffusion/controller/DiffusionLintController.php:115
-  'Owner' => null,
+  'Owner' => '拥有者',
 
   // src/applications/uiexample/examples/PHUIObjectItemListExample.php:134
   // src/applications/fund/query/FundInitiativeSearchEngine.php:146
@@ -18733,7 +18733,7 @@ return array(
   // src/applications/owners/controller/PhabricatorOwnersDetailController.php:167
   // src/applications/owners/controller/PhabricatorOwnersEditController.php:144
   // src/applications/repository/management/PhabricatorRepositoryManagementImportingWorkflow.php:69
-  'Owners' => null,
+  'Owners' => '拥有者',
 
   // src/applications/repository/worker/PhabricatorRepositoryCommitOwnersWorker.php:133
   'Owners Not Involved' => null,
@@ -18960,7 +18960,7 @@ return array(
   'Parent of %s' => null,
 
   // src/applications/differential/view/DifferentialLocalCommitsView.php:125
-  'Parents' => null,
+  'Parents' => '',
 
   // src/applications/phpast/controller/PhabricatorXHPASTViewRunController.php:44
   'Parse' => null,
@@ -19973,7 +19973,7 @@ return array(
   // src/applications/phame/controller/post/PhamePostPublishController.php:51
   // src/applications/files/controller/PhabricatorFileComposeController.php:312
   // src/applications/releeph/controller/product/ReleephProductEditController.php:180
-  'Preview' => null,
+  'Preview' => '预览',
 
   // src/applications/files/transform/PhabricatorFileThumbnailTransform.php:73
   'Preview (220px)' => null,
@@ -20065,7 +20065,7 @@ return array(
 
   // src/applications/audit/query/PhabricatorCommitSearchEngine.php:122
   // src/applications/home/controller/PhabricatorHomeMainController.php:412
-  'Problem Commits' => null,
+  'Problem Commits' => '有问题的提交',
 
   // src/applications/diffusion/controller/DiffusionLintController.php:93
   'Problems' => null,
@@ -23096,10 +23096,10 @@ return array(
   'Select All' => '选择全部',
 
   // src/applications/system/controller/PhabricatorSystemSelectEncodingController.php:52
-  'Select Character Encoding' => null,
+  'Select Character Encoding' => '选择字符编码',
 
   // src/applications/system/controller/PhabricatorSystemSelectHighlightController.php:33
-  'Select Syntax Highlighting' => null,
+  'Select Syntax Highlighting' => '选择语法高亮',
 
   // src/applications/search/typeahead/PhabricatorSearchDocumentTypeDatasource.php:11
   'Select a document type...' => null,
@@ -23625,7 +23625,7 @@ return array(
   'Show All Changes' => null,
 
   // src/applications/differential/view/DifferentialDiffTableOfContentsView.php:208
-  'Show All Context' => null,
+  'Show All Context' => '显示全部内容',
 
   // src/applications/passphrase/query/PassphraseCredentialSearchEngine.php:55
   'Show All Credentials' => null,
@@ -23708,7 +23708,7 @@ return array(
   'Show Last %d Line(s)' => '显示最后%s行',
 
   // src/applications/diffusion/controller/DiffusionBrowseFileController.php:339
-  'Show Last Change' => null,
+  'Show Last Change' => '显示最后一次修改',
 
   // src/applications/phriction/controller/PhrictionHistoryController.php:128
   'Show Later Changes' => null,
@@ -23783,10 +23783,10 @@ return array(
   'Show Public Key' => null,
 
   // src/applications/differential/view/DifferentialChangesetListView.php:139
-  'Show Raw File (Left)' => null,
+  'Show Raw File (Left)' => '显示源文件（左边）',
 
   // src/applications/differential/view/DifferentialChangesetListView.php:140
-  'Show Raw File (Right)' => null,
+  'Show Raw File (Right)' => '展示源文件（右边）',
 
   // src/applications/config/option/PhabricatorMetaMTAConfigOptions.php:266
   'Show Recipient Hints' => null,
@@ -26887,7 +26887,7 @@ return array(
   'This file has only been partially uploaded. It must be uploaded completely before you can download it.' => null,
 
   // src/applications/differential/render/DifferentialChangesetHTMLRenderer.php:275
-  'This file is larger than %s, so syntax highlighting is disabled by default.' => null,
+  'This file is larger than %s, so syntax highlighting is disabled by default.' => '该文件大于 %s，因此语法高亮被默认禁用了。',
 
   // src/applications/files/storage/PhabricatorFile.php:925
   'This file is not a viewable image.' => null,
@@ -30548,7 +30548,7 @@ return array(
   'View Raw File' => '查看原始文件',
 
   // src/applications/differential/view/DifferentialChangesetListView.php:143
-  'View Side-by-Side' => null,
+  'View Side-by-Side' => '并排视图',
 
   // src/applications/legalpad/controller/LegalpadDocumentManageController.php:133
   'View Signatures' => null,
@@ -30558,7 +30558,7 @@ return array(
 
   // src/applications/differential/view/DifferentialChangesetListView.php:138
   // src/applications/dashboard/controller/PhabricatorDashboardPanelViewController.php:127
-  'View Standalone' => null,
+  'View Standalone' => '单独视图',
 
   // src/applications/phortune/controller/PhortuneMerchantViewController.php:189
   'View Subscriptions' => null,
@@ -30570,7 +30570,7 @@ return array(
   'View Transforms' => null,
 
   // src/applications/differential/view/DifferentialChangesetListView.php:144
-  'View Unified' => null,
+  'View Unified' => '统一视图',
 
   // src/applications/phragment/controller/PhragmentVersionController.php:83
   'View Version' => '查看版本',
