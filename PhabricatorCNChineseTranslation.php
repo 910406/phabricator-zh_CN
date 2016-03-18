@@ -3882,7 +3882,7 @@ return array(
   'Add "Re:" Prefix' => null,
 
   // src/applications/maniphest/controller/ManiphestBatchEditController.php:156
-  'Add Another Action' => null,
+  'Add Another Action' => '添加另外的操作',
 
   // src/applications/ponder/view/PonderAddAnswerView.php:23
   // src/applications/ponder/view/PonderAddAnswerView.php:40
@@ -4096,7 +4096,7 @@ return array(
   'Add one or more subscribers to the object. You can add users by providing their usernames, or add projects by adding their hashtags. For example, use `%s` to add the user `alincoln` and the project with hashtag `#ios` as subscribers.\n\nSubscribers which are invalid or unrecognized will be ignored. This command has no effect if you do not specify any subscribers.\n\nUsers who are CC\'d on the email itself are also automatically subscribed if Phabricator knows which accounts are linked to their email addresses.' => null,
 
   // src/applications/herald/adapter/HeraldAdapter.php:842
-  'Add projects' => '添加象目',
+  'Add projects' => '添加项目',
 
   // src/applications/project/command/ProjectAddProjectsEmailCommand.php:15
   'Add related projects.' => null,
@@ -5372,7 +5372,7 @@ return array(
   // src/applications/maniphest/storage/ManiphestTransaction.php:267
   // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:229
   // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:280
-  'Assigned' => '指派给我',
+  'Assigned' => '已指派',
 
   // src/applications/home/controller/PhabricatorHomeMainController.php:288
   'Assigned Tasks' => null,
@@ -5986,7 +5986,7 @@ return array(
   'Basic ping for monitoring or a health-check.' => null,
 
   // src/applications/maniphest/view/ManiphestTaskResultListView.php:236
-  'Batch Edit Selected \302\273' => '批量编辑 \302\273',
+  'Batch Edit Selected \302\273' => '批量编辑已选 \\302\\273',
 
   // src/applications/project/controller/PhabricatorProjectBoardViewController.php:635
   'Batch Edit Tasks...' => '批量编辑任务...',
@@ -7128,13 +7128,13 @@ return array(
   'Change Primary Address' => '修改主要地址',
 
   // src/applications/maniphest/controller/ManiphestTaskDetailController.php:134
-  'Change Priority' => '修改优先级',
+  'Change Priority' => "修改优先级",
 
   // src/applications/help/controller/PhabricatorHelpEditorProtocolController.php:26
   'Change Settings' => '修改设置',
 
   // src/applications/maniphest/controller/ManiphestTaskDetailController.php:131
-  'Change Status' => '修改状态',
+  'Change Status' => "修改状态",
 
   // src/applications/differential/view/DifferentialChangesetListView.php:145
   'Change Text Encoding...' => null,
@@ -7731,7 +7731,7 @@ return array(
   // src/applications/auth/view/PhabricatorAuthSSHKeyTableView.php:85
   // src/applications/pholio/controller/PholioInlineController.php:162
   // src/applications/releeph/controller/request/ReleephRequestViewController.php:81
-  'Comment' => null,
+  'Comment' => '注解',
 
   // src/applications/transactions/controller/PhabricatorApplicationTransactionCommentHistoryController.php:78
   'Comment History' => null,
@@ -9601,7 +9601,7 @@ return array(
   // src/applications/cache/__tests__/PhabricatorCachesTestCase.php:11
   // src/applications/maniphest/export/ManiphestExcelDefaultFormat.php:6
   // src/applications/base/controller/__tests__/PhabricatorAccessControlTestCase.php:66
-  'Default' => null,
+  'Default' => '默认',
 
   // src/applications/config/option/PhabricatorMetaMTAConfigOptions.php:209
   'Default "From" address.' => null,
@@ -10506,7 +10506,7 @@ return array(
   'Do you want to enable this provider? Users will be able to use their existing external accounts to register new Phabricator accounts and log in using linked accounts.' => null,
 
   // src/applications/maniphest/controller/ManiphestExportController.php:86
-  'Do you want to export the query results to Excel?' => null,
+  'Do you want to export the query results to Excel?' => '你想要导出查询结果为Excel吗？',
 
   // src/applications/dashboard/controller/PhabricatorDashboardPanelEditController.php:383
   'Do you want to make a copy of this panel?' => null,
@@ -10809,7 +10809,7 @@ return array(
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:389
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:395
   // src/applications/auth/controller/PhabricatorAuthSSHKeyEditController.php:101
-  'Duplicate' => null,
+  'Duplicate' => '重复',
 
   // src/applications/metamta/constants/MetaMTAReceivedMailStatus.php:23
   'Duplicate Message' => null,
@@ -13492,7 +13492,7 @@ return array(
   // src/applications/uiexample/examples/PHUIInfoPanelExample.php:96
   // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:38
   // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:39
-  'High' => null,
+  'High' => '高',
 
   // src/applications/nuance/application/PhabricatorNuanceApplication.php:35
   'High-Volume Task Queues' => null,
@@ -14472,7 +14472,7 @@ return array(
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:679
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:789
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:797
-  'Invalid' => null,
+  'Invalid' => '无效',
 
   // src/applications/differential/render/DifferentialChangesetHTMLRenderer.php:375
   'Invalid \'%s\' parameter \'%s\'!' => null,
@@ -15619,7 +15619,7 @@ return array(
   // src/applications/uiexample/examples/PHUIInfoPanelExample.php:68
   // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:50
   // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:51
-  'Low' => null,
+  'Low' => '低',
 
   // src/applications/phlux/controller/PhluxEditController.php:125
   'Lowercase letters, digits, dot and hyphen only.' => null,
@@ -15869,7 +15869,7 @@ return array(
 
   // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:7
   // src/applications/maniphest/application/PhabricatorManiphestApplication.php:6
-  'Maniphest' => null,
+  'Maniphest' => '任务管理',
 
   // src/applications/uiexample/examples/PhabricatorHovercardUIExample.php:43
   'Maniphest Hovercard' => null,
@@ -16703,7 +16703,7 @@ return array(
   // src/applications/uiexample/examples/PHUIInfoPanelExample.php:94
   // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:32
   // src/applications/home/controller/PhabricatorHomeMainController.php:197
-  'Needs Triage' => null,
+  'Needs Triage' => '需要分配',
 
   // src/applications/releeph/field/specification/ReleephSeverityFieldSpecification.php:45
   'Needs merging and fixing right now.' => null,
@@ -17770,7 +17770,7 @@ return array(
   // src/applications/uiexample/examples/PHUIObjectItemListExample.php:280
   // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:44
   // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:45
-  'Normal' => null,
+  'Normal' => '普通',
 
   // src/applications/uiexample/examples/PHUITypeaheadExample.php:18
   'Normal Object' => null,
@@ -18428,7 +18428,7 @@ return array(
   // src/applications/diffusion/view/DiffusionBranchTableView.php:85
   // src/applications/diffusion/controller/DiffusionRefTableController.php:87
   // src/applications/diffusion/controller/DiffusionRefTableController.php:94
-  'Open' => null,
+  'Open' => '开启',
 
   // src/applications/differential/view/DifferentialDiffTableOfContentsView.php:197
   'Open All in Editor' => null,
@@ -21639,7 +21639,7 @@ return array(
   'Remove multi-factor authentication from an account.' => null,
 
   // src/applications/herald/adapter/HeraldAdapter.php:843
-  'Remove projects' => null,
+  'Remove projects' => '移除项目',
 
   // src/applications/subscriptions/command/PhabricatorSubscriptionsUnsubscribeEmailCommand.php:11
   'Remove yourself as a subscriber.' => null,
@@ -22222,7 +22222,7 @@ return array(
   'Resolve user accounts for users attached to __commit__.' => null,
 
   // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:76
-  'Resolved' => null,
+  'Resolved' => '已解决',
 
   // src/applications/config/controller/PhabricatorConfigIssueViewController.php:32
   'Resolved Issue' => null,
@@ -23168,7 +23168,7 @@ return array(
   'Selected File' => null,
 
   // src/applications/maniphest/controller/ManiphestBatchEditController.php:175
-  'Selected Tasks' => null,
+  'Selected Tasks' => '任务已选',
 
   // src/applications/settings/panel/PhabricatorEmailPreferencesSettingsPanel.php:94
   'Self Actions' => null,
@@ -24318,7 +24318,7 @@ return array(
   'South East' => null,
 
   // src/applications/spaces/phid/PhabricatorSpacesNamespacePHIDType.php:9
-  'Space' => null,
+  'Space' => '空间',
 
   // src/applications/search/engine/PhabricatorApplicationSearchEngine.php:255
   // src/applications/spaces/application/PhabricatorSpacesApplication.php:10
@@ -24559,7 +24559,7 @@ return array(
   'Specify which subscription to invoice with %s.' => null,
 
   // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:131
-  'Spite' => null,
+  'Spite' => '困扰',
 
   // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:133
   'Spited' => null,
@@ -25405,7 +25405,7 @@ return array(
   'Tasks To Merge' => '要合并的任务',
 
   // src/applications/maniphest/application/PhabricatorManiphestApplication.php:10
-  'Tasks and Bugs' => '任务与缺陷',
+  'Tasks and Bugs' => '任务与Bugs',
 
   // src/applications/files/controller/PhabricatorFileComposeController.php:217
   // src/applications/project/icon/PhabricatorProjectIcon.php:11
@@ -28481,7 +28481,7 @@ return array(
   'Type a user, project, or mailing list name...' => '输入一个用户名, 项目名, 或者邮件列表名...',
 
   // src/applications/maniphest/typeahead/ManiphestAssigneeDatasource.php:11
-  'Type a username or "none"...' => null,
+  'Type a username or "none"...' => '输入用户名 或者 "none"...',
 
   // src/applications/people/typeahead/PhabricatorPeopleOwnerDatasource.php:11
   // src/applications/people/typeahead/PhabricatorPeopleUserFunctionDatasource.php:11
@@ -28914,7 +28914,7 @@ return array(
 
   // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:26
   // src/applications/home/controller/PhabricatorHomeMainController.php:153
-  'Unbreak Now!' => '中断!',
+  'Unbreak Now!' => "!",
 
   // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:27
   'Unbreak!' => null,
@@ -29660,7 +29660,7 @@ return array(
   'Update Status' => null,
 
   // src/applications/maniphest/controller/ManiphestBatchEditController.php:166
-  'Update Tasks' => null,
+  'Update Tasks' => '更新任务',
 
   // src/applications/conpherence/controller/ConpherenceUpdateController.php:428
   'Update Thread' => null,
@@ -30951,7 +30951,7 @@ return array(
   // src/applications/uiexample/examples/PHUIInfoPanelExample.php:69
   // src/applications/uiexample/examples/PHUIInfoPanelExample.php:79
   // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:56
-  'Wishlist' => null,
+  'Wishlist' => '建议列表',
 
   // src/applications/settings/panel/PhabricatorEmailFormatSettingsPanel.php:200
   'With **Vary Subjects** enabled, most mail subject lines will include a brief description of their content, like **[Closed]** for a notification about someone closing a task.\n\n| Setting              | Example Mail Subject\n|----------------------|----------------\n| Vary Subjects        | `[Maniphest] [Closed] T123: Example Task`\n| Do Not Vary Subjects | `[Maniphest] T123: Example Task`\n\nThis can make mail more useful, but some clients have difficulty threading these messages. Disabling this option may improve threading, at the cost of less useful subject lines.' => null,
@@ -30984,7 +30984,7 @@ return array(
   'Without a configured timezone, PHP will emit warnings when working with dates, and dates and times may not display correctly.' => null,
 
   // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:98
-  'Wontfix' => null,
+  'Wontfix' => '无法解决',
 
   // src/applications/auth/provider/PhabricatorWordPressAuthProvider.php:7
   'WordPress.com' => null,
