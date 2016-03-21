@@ -5020,7 +5020,7 @@ return array(
 
   // src/applications/maniphest/typeahead/ManiphestTaskOpenStatusDatasource.php:23
   // src/applications/maniphest/typeahead/ManiphestTaskOpenStatusDatasource.php:65
-  'Any Open Status' => null,
+  'Any Open Status' => '所有开放的状态',
 
   // src/applications/people/typeahead/PhabricatorPeopleAnyOwnerDatasource.php:59
   'Any Owner' => null,
@@ -6116,7 +6116,7 @@ return array(
   'Blocker' => null,
 
   // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:70
-  'Blocking' => null,
+  'Blocking' => '阻挡',
 
   // src/applications/differential/query/DifferentialRevisionSearchEngine.php:282
   'Blocking Others' => '阻挡其他修订',
@@ -6293,7 +6293,7 @@ return array(
   'Browse' => '浏览',
 
   // src/applications/maniphest/typeahead/ManiphestTaskClosedStatusDatasource.php:9
-  'Browse Any Closed Status' => null,
+  'Browse Any Closed Status' => '所有关闭的状态',
 
   // src/applications/maniphest/typeahead/ManiphestTaskOpenStatusDatasource.php:9
   'Browse Any Open Status' => null,
@@ -6386,7 +6386,7 @@ return array(
 
   // src/applications/maniphest/typeahead/ManiphestTaskStatusDatasource.php:7
   // src/applications/maniphest/typeahead/ManiphestTaskStatusFunctionDatasource.php:7
-  'Browse Statuses' => null,
+  'Browse Statuses' => '浏览状态',
 
   // src/applications/metamta/typeahead/PhabricatorMetaMTAMailableDatasource.php:7
   // src/applications/metamta/typeahead/PhabricatorMetaMTAMailableFunctionDatasource.php:7
@@ -8351,7 +8351,7 @@ return array(
 
   // src/applications/conpherence/query/ConpherenceThreadSearchEngine.php:79
   // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:67
-  'Contains Words' => null,
+  'Contains Words' => '包含关键词',
 
   // src/applications/phriction/controller/PhrictionEditController.php:225
   'Content' => '内容',
@@ -9071,14 +9071,14 @@ return array(
   // src/applications/legalpad/query/LegalpadDocumentSearchEngine.php:108
   // src/applications/macro/query/PhabricatorMacroSearchEngine.php:41
   // src/applications/paste/query/PhabricatorPasteSearchEngine.php:52
-  'Created After' => null,
+  'Created After' => '创建后',
 
   // src/applications/files/query/PhabricatorFileSearchEngine.php:36
   // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:94
   // src/applications/legalpad/query/LegalpadDocumentSearchEngine.php:110
   // src/applications/macro/query/PhabricatorMacroSearchEngine.php:44
   // src/applications/paste/query/PhabricatorPasteSearchEngine.php:55
-  'Created Before' => null,
+  'Created Before' => '创建前',
 
   // src/applications/calendar/query/PhabricatorCalendarEventSearchEngine.php:201
   // src/applications/releeph/controller/branch/ReleephBranchEditController.php:81
@@ -9513,13 +9513,13 @@ return array(
 
   // src/applications/maniphest/export/ManiphestExcelDefaultFormat.php:59
   // src/applications/phriction/query/PhrictionSearchEngine.php:110
-  'Date Updated' => null,
+  'Date Updated' => '更新日期',
 
   // src/applications/maniphest/query/ManiphestTaskQuery.php:724
-  'Date Updated (Latest First)' => null,
+  'Date Updated (Latest First)' => '更新日期（最新的优先）',
 
   // src/applications/maniphest/query/ManiphestTaskQuery.php:729
-  'Date Updated (Oldest First)' => null,
+  'Date Updated (Oldest First)' => '更新日期（最早的优先）',
 
   // src/applications/settings/panel/PhabricatorDateTimeSettingsPanel.php:10
   'Date and Time' => '日期与时间',
@@ -13241,7 +13241,7 @@ return array(
 
   // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:84
   // src/applications/flag/query/PhabricatorFlagSearchEngine.php:59
-  'Group By' => null,
+  'Group By' => '分组',
 
   // src/applications/project/application/PhabricatorProjectApplication.php:26
   'Group stuff into big piles.' => null,
@@ -18897,7 +18897,7 @@ return array(
   'Page Not Found' => null,
 
   // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:103
-  'Page Size' => null,
+  'Page Size' => '页面大小',
 
   // src/applications/settings/panel/PhabricatorDisplayPreferencesSettingsPanel.php:113
   'Page Titles' => null,
@@ -20026,7 +20026,7 @@ return array(
   'Prior to any content (empty file)' => null,
 
   // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:62
-  'Priorities' => null,
+  'Priorities' => '优先级',
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:1142
   'Prioritized' => null,
@@ -24777,7 +24777,7 @@ return array(
 
   // src/applications/fund/query/FundInitiativeSearchEngine.php:56
   // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:57
-  'Statuses' => null,
+  'Statuses' => '状态',
 
   // src/applications/auth/controller/PhabricatorAuthDowngradeSessionController.php:45
   'Stay' => null,
@@ -28466,7 +28466,7 @@ return array(
   'Type a task priority name...' => '输入一个任务优先级名称...',
 
   // src/applications/maniphest/typeahead/ManiphestTaskStatusFunctionDatasource.php:11
-  'Type a task status name or function...' => null,
+  'Type a task status name or function...' => '输入一个任务状态名字或者方法...',
 
   // src/applications/maniphest/typeahead/ManiphestTaskStatusDatasource.php:11
   'Type a task status name...' => '输入一个状态名称...',
@@ -29717,10 +29717,10 @@ return array(
   'Updated' => '已更新',
 
   // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:97
-  'Updated After' => null,
+  'Updated After' => '更新后',
 
   // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:100
-  'Updated Before' => null,
+  'Updated Before' => '更新前',
 
   // src/applications/legalpad/controller/LegalpadDocumentManageController.php:160
   'Updated By' => null,
