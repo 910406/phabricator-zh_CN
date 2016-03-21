@@ -4510,7 +4510,7 @@ return array(
   'All Revisions' => '所有的修订',
 
   // src/applications/conpherence/query/ConpherenceThreadSearchEngine.php:97
-  'All Rooms' => null,
+  'All Rooms' => '所有房间',
 
   // src/applications/herald/controller/HeraldTranscriptController.php:164
   'All Rules' => null,
@@ -8869,7 +8869,7 @@ return array(
 
   // src/applications/conpherence/controller/ConpherenceRoomListController.php:36
   // src/applications/conpherence/controller/ConpherenceNewRoomController.php:66
-  'Create Room' => null,
+  'Create Room' => '创建房间',
 
   // src/applications/herald/controller/HeraldNewController.php:208
   // src/applications/herald/controller/HeraldTranscriptListController.php:14
@@ -11317,7 +11317,7 @@ return array(
   'Edit Revision' => '编辑修订',
 
   // src/applications/conpherence/view/ConpherenceDurableColumnView.php:395
-  'Edit Room' => null,
+  'Edit Room' => '编辑房间',
 
   // src/applications/herald/controller/HeraldRuleViewController.php:85
   // src/applications/herald/controller/HeraldRuleController.php:240
@@ -11619,7 +11619,7 @@ return array(
   'Email is required.' => null,
 
   // src/applications/conpherence/constants/ConpherenceSettings.php:13
-  'Email me every update.' => null,
+  'Email me every update.' => '有更新就Email通知我',
 
   // src/applications/people/editor/PhabricatorUserEditor.php:476
   'Email not owned by user!' => null,
@@ -14784,7 +14784,7 @@ return array(
 
   // src/applications/phame/controller/blog/PhameBlogViewController.php:110
   // src/applications/project/controller/PhabricatorProjectProfileController.php:210
-  'Joinable By' => null,
+  'Joinable By' => '可加入',
 
   // src/applications/project/query/PhabricatorProjectSearchEngine.php:82
   'Joined' => '已加入',
@@ -14796,7 +14796,7 @@ return array(
   'Joined Before' => null,
 
   // src/applications/conpherence/query/ConpherenceThreadSearchEngine.php:101
-  'Joined Rooms' => null,
+  'Joined Rooms' => '已加入的房间',
 
   // src/applications/project/editor/__tests__/PhabricatorProjectEditorTestCase.php:130
   'Joining an already-joined project is a no-op.' => null,
@@ -14954,7 +14954,7 @@ return array(
   'Last revert failed!' => null,
 
   // src/applications/conpherence/query/ConpherenceThreadSearchEngine.php:216
-  'Last updated %s' => null,
+  'Last updated %s' => '最近更新 %s',
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:1070
   'Last updated %s (%s ago).' => null,
@@ -16122,7 +16122,7 @@ return array(
   'Messages' => "消息",
 
   // src/applications/conpherence/query/ConpherenceThreadSearchEngine.php:210
-  'Messages: %d' => null,
+  'Messages: %d' => '消息数目：%d',
 
   // src/applications/metamta/application/PhabricatorMetaMTAApplication.php:6
   'MetaMTA' => null,
@@ -16844,7 +16844,7 @@ return array(
 
   // src/applications/conpherence/controller/ConpherenceController.php:53
   // src/applications/conpherence/controller/ConpherenceNewRoomController.php:8
-  'New Room' => null,
+  'New Room' => '新建房间',
 
   // src/applications/policy/controller/PhabricatorPolicyEditController.php:165
   'New Rule' => '新规则',
@@ -17987,13 +17987,13 @@ return array(
   'Notifications' => "通知",
 
   // src/applications/settings/panel/PhabricatorConpherencePreferencesSettingsPanel.php:49
-  'Notifications Only' => null,
+  'Notifications Only' => '只通知',
 
   // src/applications/config/check/PhabricatorExtraConfigSetupCheck.php:225
   'Notifications no longer have a dedicated debugging mode.' => null,
 
   // src/applications/conpherence/constants/ConpherenceSettings.php:16
-  'Notifications only.' => null,
+  'Notifications only.' => '只通知提醒。',
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditActionsController.php:86
   'Notify/Publish' => null,
@@ -18270,7 +18270,7 @@ return array(
   // src/applications/auth/controller/PhabricatorAuthSSHKeyEditController.php:48
   // src/applications/auth/controller/PhabricatorDisabledUserController.php:20
   // src/applications/diffusion/controller/DiffusionRepositoryEditDeleteController.php:52
-  'Okay' => null,
+  'Okay' => '确定',
 
   // src/applications/diffusion/view/DiffusionPushLogListView.php:107
   'Old' => null,
@@ -19003,7 +19003,7 @@ return array(
   // src/applications/conpherence/query/ConpherenceThreadSearchEngine.php:74
   // src/applications/conpherence/controller/ConpherenceWidgetController.php:77
   // src/applications/conpherence/constants/ConpherenceWidgetConfigConstants.php:23
-  'Participants' => null,
+  'Participants' => '参与者',
 
   // src/applications/conpherence/storage/ConpherenceThread.php:420
   'Participants in a room can always view it.' => null,
@@ -23175,7 +23175,7 @@ return array(
 
   // src/applications/conpherence/view/ConpherenceDurableColumnView.php:538
   // src/applications/conpherence/controller/ConpherenceViewController.php:153
-  'Send' => null,
+  'Send' => '发送',
 
   // src/applications/people/controller/PhabricatorPeopleNewController.php:172
   'Send "Welcome to Phabricator" email with login instructions.' => null,
