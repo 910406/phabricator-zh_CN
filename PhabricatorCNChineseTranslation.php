@@ -3521,7 +3521,7 @@ return array(
   // src/applications/audit/storage/PhabricatorAuditTransaction.php:93
   // src/applications/audit/query/PhabricatorCommitSearchEngine.php:177
   // src/applications/audit/constants/PhabricatorAuditStatusConstants.php:21
-  'Accepted' => null,
+  'Accepted' => '已接受',
 
   // src/applications/auth/query/PhabricatorAuthInviteSearchEngine.php:94
   'Accepted By' => null,
@@ -5012,7 +5012,7 @@ return array(
   // src/applications/repository/storage/PhabricatorRepositoryTransaction.php:417
   // src/applications/repository/storage/PhabricatorRepositoryTransaction.php:418
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:1284
-  'Any' => null,
+  'Any' => '所有',
 
   // src/applications/maniphest/typeahead/ManiphestTaskClosedStatusDatasource.php:23
   // src/applications/maniphest/typeahead/ManiphestTaskClosedStatusDatasource.php:65
@@ -5559,7 +5559,7 @@ return array(
 
   // src/applications/audit/query/PhabricatorCommitSearchEngine.php:101
   // src/applications/diffusion/events/DiffusionHovercardEventListener.php:62
-  'Audit Status' => null,
+  'Audit Status' => '审核状态',
 
   // src/applications/audit/application/PhabricatorAuditApplication.php:28
   'Audit User Guide' => null,
@@ -6220,7 +6220,7 @@ return array(
   // src/applications/people/typeahead/PhabricatorPeopleDatasource.php:57
   // src/applications/people/query/PhabricatorPeopleSearchEngine.php:222
   // src/applications/people/customfield/PhabricatorUserRolesField.php:38
-  'Bot' => null,
+  'Bot' => '机器人',
 
   // src/applications/people/application/PhabricatorPeopleApplication.php:186
   'Bot Account' => null,
@@ -7276,7 +7276,7 @@ return array(
 
   // src/applications/calendar/controller/PhabricatorCalendarEventEditIconController.php:61
   // src/applications/project/controller/PhabricatorProjectEditIconController.php:65
-  'Choose "%s" Icon' => null,
+  'Choose "%s" Icon' => '选择 "%s" 图标',
 
   // src/applications/phortune/controller/PhortuneMerchantInvoiceCreateController.php:80
   'Choose Account' => null,
@@ -7301,7 +7301,7 @@ return array(
 
   // src/applications/calendar/controller/PhabricatorCalendarEventEditController.php:482
   // src/applications/project/controller/PhabricatorProjectEditDetailsController.php:216
-  'Choose Icon...' => null,
+  'Choose Icon...' => '选择图标...',
 
   // src/applications/phortune/controller/PhortuneCartCheckoutController.php:208
   'Choose Payment Method' => null,
@@ -7936,7 +7936,7 @@ return array(
   // src/applications/audit/query/PhabricatorCommitSearchEngine.php:176
   // src/applications/audit/constants/PhabricatorAuditCommitStatusConstants.php:15
   // src/applications/audit/constants/PhabricatorAuditStatusConstants.php:20
-  'Concern Raised' => null,
+  'Concern Raised' => '已关注',
 
   // src/applications/herald/adapter/HeraldAdapter.php:691
   'Condition references a rule which does not exist!' => null,
@@ -9064,7 +9064,7 @@ return array(
   // src/applications/paste/controller/PhabricatorPasteViewController.php:183
   // src/applications/pholio/controller/PholioMockViewController.php:173
   // src/applications/diffusion/view/DiffusionTagListView.php:99
-  'Created' => null,
+  'Created' => '已创建',
 
   // src/applications/files/query/PhabricatorFileSearchEngine.php:33
   // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:91
@@ -9233,11 +9233,11 @@ return array(
 
   // src/applications/people/typeahead/PhabricatorViewerDatasource.php:21
   // src/applications/people/typeahead/PhabricatorViewerDatasource.php:74
-  'Current Viewer' => null,
+  'Current Viewer' => '当前浏览者',
 
   // src/applications/project/typeahead/PhabricatorProjectLogicalViewerDatasource.php:21
   // src/applications/project/typeahead/PhabricatorProjectLogicalViewerDatasource.php:90
-  'Current Viewer\'s Projects' => null,
+  'Current Viewer\'s Projects' => '当前浏览者的项目',
 
   // src/applications/search/controller/PhabricatorSearchAttachController.php:224
   'Currently Attached %s' => null,
@@ -13707,7 +13707,7 @@ return array(
   // src/applications/calendar/controller/PhabricatorCalendarEventViewController.php:360
   // src/applications/typeahead/controller/PhabricatorTypeaheadModularDatasourceController.php:322
   // src/applications/project/controller/PhabricatorProjectEditDetailsController.php:213
-  'Icon' => null,
+  'Icon' => '图标',
 
   // src/applications/uiexample/examples/PHUIButtonExample.php:192
   'Icon Buttons' => null,
@@ -13991,7 +13991,7 @@ return array(
 
   // src/applications/project/typeahead/PhabricatorProjectLogicalOrNotDatasource.php:94
   // src/applications/project/typeahead/PhabricatorProjectLogicalOrNotDatasource.php:153
-  'In Any: %s' => null,
+  'In Any: %s' => '在 %s 内的所有项目',
 
   // src/applications/project/typeahead/PhabricatorProjectLogicalOrNotDatasource.php:27
   'In Any: ...' => null,
@@ -15765,7 +15765,7 @@ return array(
   // src/applications/people/controller/PhabricatorPeopleProfileController.php:81
   // src/applications/people/controller/PhabricatorPeopleEmpowerController.php:59
   // src/applications/people/controller/PhabricatorPeopleEmpowerController.php:65
-  'Make Administrator' => null,
+  'Make Administrator' => '成为管理员',
 
   // src/applications/people/controller/PhabricatorPeopleEmpowerController.php:58
   'Make Administrator?' => null,
@@ -16018,7 +16018,7 @@ return array(
 
   // src/applications/project/typeahead/PhabricatorProjectMembersDatasource.php:46
   // src/applications/project/typeahead/PhabricatorProjectMembersDatasource.php:94
-  'Members: %s' => null,
+  'Members: %s' => '成员：%s',
 
   // src/applications/project/typeahead/PhabricatorProjectMembersDatasource.php:27
   'Members: ...' => null,
@@ -17844,7 +17844,7 @@ return array(
 
   // src/applications/project/typeahead/PhabricatorProjectLogicalOrNotDatasource.php:101
   // src/applications/project/typeahead/PhabricatorProjectLogicalOrNotDatasource.php:157
-  'Not In: %s' => null,
+  'Not In: %s' => '不在 %s 的项目',
 
   // src/applications/project/typeahead/PhabricatorProjectLogicalOrNotDatasource.php:54
   'Not In: ...' => null,
@@ -18998,7 +18998,7 @@ return array(
 
   // src/applications/audit/query/PhabricatorCommitSearchEngine.php:178
   // src/applications/audit/constants/PhabricatorAuditCommitStatusConstants.php:16
-  'Partially Audited' => null,
+  'Partially Audited' => '已部分审核',
 
   // src/applications/conpherence/query/ConpherenceThreadSearchEngine.php:74
   // src/applications/conpherence/controller/ConpherenceWidgetController.php:77
@@ -20916,7 +20916,7 @@ return array(
   // src/applications/people/controller/PhabricatorPeopleNewController.php:154
   // src/applications/people/customfield/PhabricatorUserRealNameField.php:13
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:441
-  'Real Name' => null,
+  'Real Name' => '真实姓名',
 
   // src/applications/people/controller/PhabricatorPeopleNewController.php:68
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:273
@@ -22278,7 +22278,7 @@ return array(
   // src/applications/drydock/controller/DrydockResourceController.php:22
   // src/applications/drydock/controller/DrydockConsoleController.php:16
   // src/applications/drydock/controller/DrydockConsoleController.php:43
-  'Resources' => null,
+  'Resources' => '资源',
 
   // src/applications/celerity/resources/CelerityPhysicalResources.php:37
   'Resources name "%s" is not valid; it must contain only lowercase latin letters and digits.' => null,
@@ -23068,7 +23068,7 @@ return array(
   'Secret key for Amazon SES.' => null,
 
   // src/applications/config/option/PhabricatorSecurityConfigOptions.php:7
-  'Security' => null,
+  'Security' => '安全',
 
   // src/applications/config/option/PhabricatorSecurityConfigOptions.php:11
   'Security options.' => null,
@@ -30108,7 +30108,7 @@ return array(
 
   // src/applications/project/typeahead/PhabricatorProjectLogicalUserDatasource.php:48
   // src/applications/project/typeahead/PhabricatorProjectLogicalUserDatasource.php:97
-  'User\'s Projects: %s' => null,
+  'User\'s Projects: %s' => '用户的项目：%s',
 
   // src/applications/project/typeahead/PhabricatorProjectLogicalUserDatasource.php:91
   'User\'s Projects: Invalid User' => null,
