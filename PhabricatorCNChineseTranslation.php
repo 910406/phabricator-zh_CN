@@ -980,7 +980,7 @@ return array(
 
   // src/applications/audit/storage/PhabricatorAuditTransaction.php:173
   // src/applications/audit/storage/PhabricatorAuditTransaction.php:307
-  '%s committed %s (authored by %s).' => '%s 提交了 %s （被 %s 授权）',
+  '%s committed %s (authored by %s).' => '%s 提交了 %s （由 %s 授权）',
 
   // src/applications/audit/storage/PhabricatorAuditTransaction.php:179
   // src/applications/audit/storage/PhabricatorAuditTransaction.php:313
@@ -3475,7 +3475,7 @@ return array(
   // src/applications/differential/query/DifferentialRevisionSearchEngine.php:252
   // src/applications/releeph/query/ReleephRequestSearchEngine.php:136
   // src/applications/releeph/constants/ReleephRequestStatus.php:17
-  'Abandoned' => null,
+  'Abandoned' => '遗弃',
 
   // src/applications/harbormaster/storage/build/HarbormasterBuildTarget.php:41
   'Aborted' => null,
@@ -5260,7 +5260,7 @@ return array(
   'Are you sure you want to hide this column? It will no longer appear on the workboard.' => null,
 
   // src/applications/auth/controller/PhabricatorLogoutController.php:63
-  'Are you sure you want to log out?' => null,
+  'Are you sure you want to log out?' => '你确定要登出吗？',
 
   // src/applications/dashboard/controller/PhabricatorDashboardRemovePanelController.php:73
   'Are you sure you want to remove this panel?' => null,
@@ -5747,7 +5747,7 @@ return array(
   // src/applications/macro/query/PhabricatorMacroSearchEngine.php:26
   // src/applications/paste/query/PhabricatorPasteSearchEngine.php:46
   // src/applications/pholio/query/PholioMockSearchEngine.php:25
-  'Authors' => null,
+  'Authors' => '作者',
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditActionsController.php:96
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:532
@@ -7858,7 +7858,7 @@ return array(
   // src/applications/people/controller/PhabricatorPeopleController.php:88
   // src/applications/maniphest/controller/ManiphestTaskDetailController.php:531
   // src/applications/herald/adapter/HeraldCommitAdapter.php:41
-  'Commits' => null,
+  'Commits' => '提交',
 
   // src/applications/owners/controller/PhabricatorOwnersDetailController.php:73
   'Commits in this Package that Need Attention' => null,
@@ -16690,7 +16690,7 @@ return array(
   'Needs Revert' => null,
 
   // src/applications/differential/query/DifferentialRevisionSearchEngine.php:249
-  'Needs Review' => null,
+  'Needs Review' => '需要检阅',
 
   // src/applications/differential/query/DifferentialRevisionSearchEngine.php:250
   'Needs Revision' => '需要修订',
@@ -18585,7 +18585,7 @@ return array(
   // src/applications/differential/query/DifferentialRevisionSearchEngine.php:200
   // src/applications/phrequent/query/PhrequentSearchEngine.php:78
   // src/applications/phriction/query/PhrictionSearchEngine.php:56
-  'Order' => null,
+  'Order' => '排序',
 
   // src/applications/releeph/query/ReleephProductQuery.php:28
   'Order "%s" not supported.' => null,
@@ -19276,10 +19276,10 @@ return array(
   'Pending' => null,
 
   // src/applications/people/application/PhabricatorPeopleApplication.php:6
-  'People' => null,
+  'People' => '用户',
 
   // src/applications/uiexample/examples/PHUIIconExample.php:154
-  'People!' => null,
+  'People!' => '用户!',
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:323
   'Perforce' => null,
@@ -21741,7 +21741,7 @@ return array(
   // src/applications/repository/query/PhabricatorRepositorySearchEngine.php:7
   // src/applications/repository/query/PhabricatorRepositoryPushLogSearchEngine.php:63
   // src/applications/repository/editor/PhabricatorRepositoryEditor.php:11
-  'Repositories' => null,
+  'Repositories' => '仓库',
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditDeleteController.php:34
   'Repositories touch many objects and as such deletes are prohibitively expensive to run from the web UI.' => null,
@@ -22293,7 +22293,7 @@ return array(
   'Responses' => null,
 
   // src/applications/differential/query/DifferentialRevisionSearchEngine.php:145
-  'Responsible Users' => null,
+  'Responsible Users' => '责任人',
 
   // src/applications/harbormaster/controller/HarbormasterBuildableViewController.php:199
   'Restart' => null,
@@ -22575,7 +22575,7 @@ return array(
 
   // src/applications/search/controller/PhabricatorSearchAttachController.php:203
   // src/applications/people/controller/PhabricatorPeopleController.php:80
-  'Revisions' => null,
+  'Revisions' => '修订',
 
   // src/applications/home/controller/PhabricatorHomeMainController.php:233
   'Revisions Waiting on You' => null,
@@ -22907,7 +22907,7 @@ return array(
   'Save Config Entry' => null,
 
   // src/applications/search/controller/PhabricatorApplicationSearchController.php:170
-  'Save Custom Query...' => null,
+  'Save Custom Query...' => '保存自定义查询...',
 
   // src/applications/search/controller/PhabricatorSearchAttachController.php:239
   'Save Dependencies' => null,
@@ -23903,7 +23903,7 @@ return array(
   'Show only polls I\'ve voted in.' => null,
 
   // src/applications/differential/query/DifferentialRevisionSearchEngine.php:193
-  'Show only revisions with a draft comment.' => null,
+  'Show only revisions with a draft comment.' => '只显示修订的提交草案',
 
   // src/applications/notification/query/PhabricatorNotificationSearchEngine.php:47
   'Show only unread notifications.' => null,
@@ -28485,10 +28485,10 @@ return array(
 
   // src/applications/people/typeahead/PhabricatorPeopleOwnerDatasource.php:11
   // src/applications/people/typeahead/PhabricatorPeopleUserFunctionDatasource.php:11
-  'Type a username or function...' => null,
+  'Type a username or function...' => '输入一个用户名或者方法...',
 
   // src/applications/metamta/typeahead/PhabricatorMetaMTAMailableFunctionDatasource.php:11
-  'Type a username, project, mailing list, or function...' => null,
+  'Type a username, project, mailing list, or function...' => '输入一个用户名、项目、邮件列表或者方法...',
 
   // src/applications/people/typeahead/PhabricatorPeopleDatasource.php:23
   'Type a username...' => '输入一个用户名...',
@@ -32459,7 +32459,7 @@ return array(
   '`%s` may only be called on host artifacts.' => null,
 
   // src/applications/audit/constants/PhabricatorAuditActionConstants.php:38
-  'accepted' => null,
+  'accepted' => '可接受',
 
   // src/applications/audit/constants/PhabricatorAuditActionConstants.php:41
   'added CCs to' => null,
@@ -32542,7 +32542,7 @@ return array(
   // src/applications/search/controller/PhabricatorSearchAttachController.php:204
   // src/applications/search/controller/PhabricatorSearchAttachController.php:212
   // src/applications/search/controller/PhabricatorSearchAttachController.php:216
-  'created' => null,
+  'created' => '已创建',
 
   // src/applications/repository/storage/PhabricatorRepositoryPushLog.php:64
   'dangerous change' => null,
