@@ -980,7 +980,7 @@ return array(
 
   // src/applications/audit/storage/PhabricatorAuditTransaction.php:173
   // src/applications/audit/storage/PhabricatorAuditTransaction.php:307
-  '%s committed %s (authored by %s).' => '%s 提交了 %s （由 %s 授权）',
+  '%s committed %s (authored by %s).' => '%s 提交了 %s （由 %s 创作）',
 
   // src/applications/audit/storage/PhabricatorAuditTransaction.php:179
   // src/applications/audit/storage/PhabricatorAuditTransaction.php:313
@@ -4531,7 +4531,7 @@ return array(
   'All Spaces' => null,
 
   // src/applications/feed/query/PhabricatorFeedSearchEngine.php:101
-  'All Stories' => null,
+  'All Stories' => '所有反馈',
 
   // src/applications/phortune/query/PhortuneSubscriptionSearchEngine.php:109
   'All Subscriptions' => null,
@@ -12547,7 +12547,7 @@ return array(
   // src/applications/feed/config/PhabricatorFeedConfigOptions.php:7
   // src/applications/feed/application/PhabricatorFeedApplication.php:10
   // src/applications/feed/controller/PhabricatorFeedController.php:8
-  'Feed' => null,
+  'Feed' => '反馈',
 
   // src/applications/feed/query/PhabricatorFeedSearchEngine.php:7
   'Feed Stories' => null,
@@ -14050,10 +14050,10 @@ return array(
   'Include' => null,
 
   // src/applications/feed/query/PhabricatorFeedSearchEngine.php:84
-  'Include Projects' => null,
+  'Include Projects' => '包含项目',
 
   // src/applications/feed/query/PhabricatorFeedSearchEngine.php:78
-  'Include Users' => null,
+  'Include Users' => '包含用户',
 
   // src/applications/releeph/view/branch/ReleephBranchTemplate.php:159
   'Include additional interpolations that aren\'t static!' => null,
@@ -14062,7 +14062,7 @@ return array(
   'Include patches in Diffusion mail as body text.' => null,
 
   // src/applications/feed/query/PhabricatorFeedSearchEngine.php:91
-  'Include stories about projects I am a member of.' => null,
+  'Include stories about projects I am a member of.' => '包含我参与项目的反馈。',
 
   // src/applications/phortune/controller/PhortuneCartCheckoutController.php:31
   'Incomplete Cart' => null,
