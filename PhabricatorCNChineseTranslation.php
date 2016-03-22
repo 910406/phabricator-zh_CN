@@ -4163,7 +4163,7 @@ return array(
   'Adding an additional authentication factor improves the security of your account. Choose the type of factor to add:' => null,
 
   // src/applications/project/controller/PhabricatorProjectEditDetailsController.php:237
-  'Additional Hashtags' => null,
+  'Additional Hashtags' => '额外的标签',
 
   // src/applications/config/option/PhabricatorCoreConfigOptions.php:190
   'Additional configuration options to hide.' => null,
@@ -5688,7 +5688,7 @@ return array(
   // src/applications/uiexample/examples/PHUIObjectItemListExample.php:142
   // src/applications/audit/view/PhabricatorAuditListView.php:164
   // src/applications/paste/query/PhabricatorPasteSearchEngine.php:149
-  'Author: %s' => null,
+  'Author: %s' => '作者：%s',
 
   // src/applications/slowvote/query/PhabricatorSlowvoteSearchEngine.php:95
   // src/applications/differential/query/DifferentialRevisionSearchEngine.php:215
@@ -7637,7 +7637,7 @@ return array(
   // src/applications/uiexample/examples/PhabricatorSortTableUIExample.php:73
   // src/applications/project/controller/PhabricatorProjectEditDetailsController.php:221
   // src/applications/flag/query/PhabricatorFlagSearchEngine.php:98
-  'Color' => null,
+  'Color' => '颜色',
 
   // src/applications/uiexample/examples/PHUITimelineExample.php:130
   'Color \'%s\'' => null,
@@ -8043,7 +8043,7 @@ return array(
 
   // src/applications/config/controller/PhabricatorConfigController.php:14
   // src/applications/harbormaster/controller/HarbormasterBuildViewController.php:159
-  'Configuration' => null,
+  'Configuration' => '设置',
 
   // src/applications/config/option/PhabricatorSecurityConfigOptions.php:26
   // src/applications/config/check/PhabricatorSecuritySetupCheck.php:75
@@ -9012,7 +9012,7 @@ return array(
   'Create a new, empty Subversion repository.' => '创建一个新的Subersion仓库',
 
   // src/applications/diffusion/controller/DiffusionRepositoryNewController.php:48
-  'Create a new, empty repository which Phabricator will host. For instructions on configuring repository hosting, see %s.' => '创建一个Phabricator将会托管的新仓库。配置仓库托管介绍请查阅：%s。',
+  'Create a new, empty repository which Phabricator will host. For instructions on configuring repository hosting, see %s.' => '创建一个Phabricator本地的新仓库。配置仓库宿主介绍请查阅：%s。',
 
   // src/applications/phame/conduit/PhameCreatePostConduitAPIMethod.php:10
   'Create a phame post.' => null,
@@ -10204,7 +10204,7 @@ return array(
   'Diffusion User Guide' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryNewController.php:36
-  'Diffusion User Guide: Repository Hosting' => '代码库用户指南：仓库托管',
+  'Diffusion User Guide: Repository Hosting' => '代码库用户指南：仓库宿主',
 
   // src/applications/phragment/controller/PhragmentBrowseController.php:81
   // src/applications/phragment/controller/PhragmentController.php:184
@@ -11136,10 +11136,10 @@ return array(
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:674
   // src/applications/diffusion/controller/DiffusionRepositoryEditHostingController.php:65
-  'Edit Hosting' => '编辑托管',
+  'Edit Hosting' => '编辑宿主',
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditHostingController.php:67
-  'Edit Hosting (%s)' => '编辑托管（%s）',
+  'Edit Hosting (%s)' => '编辑宿主（%s）',
 
   // src/applications/macro/controller/PhabricatorMacroEditController.php:242
   'Edit Image Macro' => null,
@@ -13092,7 +13092,7 @@ return array(
   'Gestures' => null,
 
   // src/applications/project/application/PhabricatorProjectApplication.php:10
-  'Get Organized' => null,
+  'Get Organized' => '井井有条',
 
   // src/applications/phragment/controller/PhragmentVersionController.php:113
   // src/applications/phragment/controller/PhragmentVersionController.php:124
@@ -13582,7 +13582,7 @@ return array(
   'Host Repository on Phabricator' => null,
 
   // src/applications/diffusion/application/PhabricatorDiffusionApplication.php:10
-  'Host and Browse Repositories' => '仓库的托管与浏览',
+  'Host and Browse Repositories' => '仓库的存储与浏览',
 
   // src/applications/config/option/PhabricatorPHPMailerConfigOptions.php:36
   'Host for SMTP.' => null,
@@ -13594,16 +13594,16 @@ return array(
   'Host: %s' => null,
 
   // src/applications/repository/query/PhabricatorRepositorySearchEngine.php:34
-  'Hosted' => '托管',
+  'Hosted' => '宿主',
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:713
-  'Hosted Elsewhere' => '托管在别处',
+  'Hosted Elsewhere' => '宿主在别处',
 
   // src/applications/repository/query/PhabricatorRepositorySearchEngine.php:123
-  'Hosted Repositories' => '托管仓库',
+  'Hosted Repositories' => '本地仓库',
 
   // src/applications/repository/query/PhabricatorRepositorySearchEngine.php:122
-  'Hosted and Remote Repositories' => '托管的与远程的仓库',
+  'Hosted and Remote Repositories' => '本地的与远程的仓库',
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:712
   'Hosted on Phabricator' => null,
@@ -13611,7 +13611,7 @@ return array(
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:123
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:714
   // src/applications/diffusion/controller/DiffusionRepositoryEditHostingController.php:71
-  'Hosting' => '托管',
+  'Hosting' => '宿主',
 
   // src/applications/aphlict/management/PhabricatorAphlictManagementWorkflow.php:17
   'Hostname to bind to for the client server.' => null,
@@ -13943,17 +13943,17 @@ return array(
   'Import Successful' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:292
-  'Import a Git repository (for example, a repository hosted on GitHub).' => '导入Git仓库（例如 GitHub托管的仓库）',
+  'Import a Git repository (for example, a repository hosted on GitHub).' => '导入Git仓库（例如 GitHub 仓库）',
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:295
-  'Import a Mercurial repository (for example, a repository hosted on Bitbucket).' => '导入Mercurial仓库（例如，Bitbucket托管的仓库）',
+  'Import a Mercurial repository (for example, a repository hosted on Bitbucket).' => '导入Mercurial仓库（例如，Bitbucket 仓库）',
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:297
   'Import a Subversion repository.' => '导入一个Subversion仓库',
 
   // src/applications/diffusion/controller/DiffusionRepositoryNewController.php:56
   'Import a repository hosted somewhere else, like GitHub, Bitbucket, or your organization\'s existing servers. Phabricator will read changes from the repository but will not host or manage it. The authoritative master version of the repository will stay where it is now.' 
-  => '导入一个第三方仓库，比如 GitHub，Bitbucket或者已有的服务。Phabricator将会从该仓库读取信息，但它并不托管或者管理该仓库。该仓库的master版本会继续留在它之前的地方',
+  => '导入一个第三方仓库，比如 GitHub，Bitbucket或者已有的服务。Phabricator将会从该仓库读取信息，但它并不管理该仓库。该仓库的master版本会继续留在它之前的地方',
 
   // src/applications/diffusion/controller/DiffusionRepositoryNewController.php:54
   'Import an Existing External Repository' => '导入第三方仓库',
@@ -17895,7 +17895,7 @@ return array(
   'Not Working Now' => null,
 
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:399
-  'Not a Hosted Repository' => '不是一个托管的仓库',
+  'Not a Hosted Repository' => '不是一个本地仓库',
 
   // src/applications/auth/data/PhabricatorAuthInviteAction.php:53
   'Not a Valid Email Address' => null,
@@ -21180,14 +21180,14 @@ return array(
   'Receiving email address' => null,
 
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:241
-  'Recent Activity' => "最近活动",
+  'Recent Activity' => '最近活动',
 
   // src/applications/phortune/controller/PhortuneAccountViewController.php:293
   'Recent Charges' => null,
 
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:263
   // src/applications/diffusion/controller/DiffusionRepositoryController.php:571
-  'Recent Commits' => null,
+  'Recent Commits' => '最近的提交',
 
   // src/applications/owners/controller/PhabricatorOwnersDetailController.php:95
   'Recent Commits in Package' => null,
@@ -21199,7 +21199,7 @@ return array(
   'Recent Subscriptions' => null,
 
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:252
-  'Recent Tasks' => null,
+  'Recent Tasks' => '最近的任务',
 
   // src/applications/maniphest/controller/ManiphestReportController.php:629
   'Recently Closed' => null,
@@ -25290,7 +25290,7 @@ return array(
   // src/applications/project/icon/PhabricatorProjectIcon.php:9
   // src/applications/diffusion/view/DiffusionTagListView.php:95
   // src/applications/diffusion/controller/DiffusionBrowseController.php:160
-  'Tag' => null,
+  'Tag' => '标签',
 
   // src/applications/diffusion/controller/DiffusionBrowseController.php:174
   'Tag Content' => null,
