@@ -4444,7 +4444,7 @@ return array(
   'All Messages' => "全部消息",
 
   // src/applications/conduit/query/PhabricatorConduitSearchEngine.php:119
-  'All Methods' => null,
+  'All Methods' => '所有方法',
 
   // src/applications/pholio/query/PholioMockSearchEngine.php:56
   'All Mocks' => null,
@@ -6722,7 +6722,7 @@ return array(
   // src/applications/conduit/controller/PhabricatorConduitController.php:16
   // src/applications/conduit/controller/PhabricatorConduitLogController.php:39
   // src/applications/conduit/controller/PhabricatorConduitLogController.php:43
-  'Call Logs' => null,
+  'Call Logs' => '调用日志',
 
   // src/applications/conduit/controller/PhabricatorConduitConsoleController.php:81
   // src/applications/conduit/controller/PhabricatorConduitConsoleController.php:89
@@ -7955,7 +7955,7 @@ return array(
 
   // src/applications/metamta/contentsource/PhabricatorContentSource.php:71
   // src/applications/conduit/application/PhabricatorConduitApplication.php:27
-  'Conduit' => null,
+  'Conduit' => '管道',
 
   // src/applications/conduit/controller/PhabricatorConduitController.php:42
   // src/applications/conduit/settings/PhabricatorConduitTokensSettingsPanel.php:15
@@ -9917,7 +9917,7 @@ return array(
 
   // src/applications/conduit/query/PhabricatorConduitSearchEngine.php:186
   // src/applications/conduit/controller/PhabricatorConduitLogController.php:88
-  'Deprecated' => null,
+  'Deprecated' => '不赞成',
 
   // src/applications/conduit/check/ConduitDeprecatedCallSetupCheck.php:57
   'Deprecated Conduit Method' => null,
@@ -16311,7 +16311,7 @@ return array(
   'Model' => null,
 
   // src/applications/conduit/query/PhabricatorConduitSearchEngine.php:118
-  'Modern Methods' => null,
+  'Modern Methods' => '现代方法',
 
   // src/applications/differential/constants/DifferentialChangeType.php:98
   // src/applications/diffusion/view/DiffusionBranchTableView.php:132
