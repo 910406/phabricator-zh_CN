@@ -8551,7 +8551,7 @@ return array(
 
   // src/applications/countdown/application/PhabricatorCountdownApplication.php:14
   // src/applications/countdown/phid/PhabricatorCountdownCountdownPHIDType.php:8
-  'Countdown' => null,
+  'Countdown' => '倒计时',
 
   // src/applications/countdown/application/PhabricatorCountdownApplication.php:18
   'Countdown to Events' => null,
@@ -8636,7 +8636,7 @@ return array(
   // src/applications/countdown/controller/PhabricatorCountdownEditController.php:34
   // src/applications/countdown/controller/PhabricatorCountdownEditController.php:81
   // src/applications/countdown/controller/PhabricatorCountdownEditController.php:82
-  'Create Countdown' => null,
+  'Create Countdown' => '创建倒计时',
 
   // src/applications/passphrase/controller/PassphraseController.php:12
   // src/applications/passphrase/controller/PassphraseController.php:33
@@ -9082,21 +9082,21 @@ return array(
 
   // src/applications/calendar/query/PhabricatorCalendarEventSearchEngine.php:201
   // src/applications/releeph/controller/branch/ReleephBranchEditController.php:81
-  'Created By' => null,
+  'Created By' => '创建',
 
   // src/applications/search/controller/PhabricatorSearchAttachController.php:263
   // src/applications/search/controller/PhabricatorSearchAttachController.php:269
-  'Created By Me' => '由我创建的',
+  'Created By Me' => '由我创建',
 
   // src/applications/releeph/conduit/work/ReleephWorkGetBranchCommitMessageConduitAPIMethod.php:73
-  'Created By: %s' => '由 %s 创建的',
+  'Created By: %s' => '由 %s 创建',
 
   // src/applications/drydock/management/DrydockManagementCreateResourceWorkflow.php:77
   'Created Resource %s' => null,
 
   // src/applications/countdown/query/PhabricatorCountdownSearchEngine.php:125
   // src/applications/macro/query/PhabricatorMacroSearchEngine.php:174
-  'Created by %s' => null,
+  'Created by %s' => '由 %s 创建',
 
   // src/applications/macro/query/PhabricatorMacroSearchEngine.php:168
   'Created in ages long past' => null,
@@ -11850,7 +11850,7 @@ return array(
   'End' => null,
 
   // src/applications/countdown/controller/PhabricatorCountdownEditController.php:103
-  'End Date' => null,
+  'End Date' => '结束日期',
 
   // src/applications/calendar/query/PhabricatorCalendarEventSearchEngine.php:166
   'End date is not valid.' => null,
@@ -29599,7 +29599,7 @@ return array(
   'Up to 64 alphanumeric characters with underscores for spaces. Formatting is enforced.' => null,
 
   // src/applications/countdown/query/PhabricatorCountdownSearchEngine.php:69
-  'Upcoming' => null,
+  'Upcoming' => '即将来临',
 
   // src/applications/calendar/application/PhabricatorCalendarApplication.php:10
   // src/applications/calendar/query/PhabricatorCalendarEventSearchEngine.php:252
