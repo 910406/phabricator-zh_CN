@@ -2956,7 +2956,7 @@ return array(
   '(Show Details)' => '(显示详情)',
 
   // src/applications/auth/controller/PhabricatorAuthRevokeTokenController.php:42
-  '(Some types of token can not be revoked, and you can not revoke tokens which have already expired.)' => null,
+  '(Some types of token can not be revoked, and you can not revoke tokens which have already expired.)' => '（一些token的类型不能被撤销，并且你不能撤销已经过期的tokens。）',
 
   // src/applications/daemon/management/PhabricatorDaemonManagementWorkflow.php:626
   '(Static)' => null,
@@ -3589,7 +3589,7 @@ return array(
   'Account Activity' => null,
 
   // src/applications/settings/panel/PhabricatorActivitySettingsPanel.php:58
-  'Account Activity Logs' => null,
+  'Account Activity Logs' => '用户活动日志',
 
   // src/applications/auth/controller/PhabricatorAuthLinkController.php:57
   'Account Already Linked' => null,
@@ -3801,7 +3801,7 @@ return array(
   'Active Leases' => null,
 
   // src/applications/settings/panel/PhabricatorSessionsSettingsPanel.php:123
-  'Active Login Sessions' => '活跃的已登录会话',
+  'Active Login Sessions' => '登录会话',
 
   // src/applications/macro/query/PhabricatorMacroQuery.php:25
   'Active Macros' => null,
@@ -3846,10 +3846,10 @@ return array(
 
   // src/applications/people/controller/PhabricatorPeopleController.php:36
   // src/applications/settings/panel/PhabricatorActivitySettingsPanel.php:14
-  'Activity Logs' => '活跃日志',
+  'Activity Logs' => '活动日志',
 
   // src/applications/people/view/PhabricatorUserLogView.php:77
-  'Actor' => null,
+  'Actor' => '角色',
 
   // src/applications/people/query/PhabricatorPeopleLogSearchEngine.php:113
   'Actors' => null,
@@ -4456,7 +4456,7 @@ return array(
   'All Notifications' => null,
 
   // src/applications/flag/query/PhabricatorFlagSearchEngine.php:119
-  'All Object Types' => null,
+  'All Object Types' => '所有对象类型',
 
   // src/applications/search/controller/PhabricatorSearchAttachController.php:270
   'All Open %s' => '全部开放 %s',
@@ -4840,7 +4840,7 @@ return array(
 
   // src/applications/herald/adapter/HeraldAdapter.php:383
   // src/applications/settings/panel/PhabricatorDiffPreferencesSettingsPanel.php:65
-  'Always' => null,
+  'Always' => '总是',
 
   // src/applications/config/option/PhabricatorDeveloperConfigOptions.php:45
   'Always Activate DarkConsole' => null,
@@ -7655,7 +7655,7 @@ return array(
   // src/applications/uiexample/examples/PHUITagExample.php:190
   // src/applications/project/query/PhabricatorProjectSearchEngine.php:37
   // src/applications/flag/query/PhabricatorFlagSearchEngine.php:54
-  'Colors' => null,
+  'Colors' => '颜色',
 
   // src/applications/uiexample/examples/PHUIIconExample.php:150
   'Colors and Transforms' => null,
@@ -7955,7 +7955,7 @@ return array(
 
   // src/applications/metamta/contentsource/PhabricatorContentSource.php:71
   // src/applications/conduit/application/PhabricatorConduitApplication.php:27
-  'Conduit' => '管道',
+  'Conduit' => null,
 
   // src/applications/conduit/controller/PhabricatorConduitController.php:42
   // src/applications/conduit/settings/PhabricatorConduitTokensSettingsPanel.php:15
@@ -8297,7 +8297,7 @@ return array(
 
   // src/applications/settings/panel/PhabricatorConpherencePreferencesSettingsPanel.php:16
   // src/applications/settings/panel/PhabricatorConpherencePreferencesSettingsPanel.php:61
-  'Conpherence Preferences' => null,
+  'Conpherence Preferences' => '讨论组设置',
 
   // src/applications/conpherence/application/PhabricatorConpherenceApplication.php:62
   // src/applications/conpherence/phid/PhabricatorConpherenceThreadPHIDType.php:8
@@ -10119,7 +10119,7 @@ return array(
 
   // src/applications/settings/panel/PhabricatorDiffPreferencesSettingsPanel.php:11
   // src/applications/settings/panel/PhabricatorDiffPreferencesSettingsPanel.php:98
-  'Diff Preferences' => null,
+  'Diff Preferences' => 'Diff设置',
 
   // src/applications/differential/controller/DifferentialDiffViewController.php:143
   'Diff View' => null,
@@ -10156,7 +10156,7 @@ return array(
 
   // src/applications/differential/phid/DifferentialRevisionPHIDType.php:8
   // src/applications/differential/customfield/DifferentialRevisionIDField.php:17
-  'Differential Revision' => null,
+  'Differential Revision' => 'Diff检阅修订',
 
   // src/applications/differential/query/DifferentialRevisionSearchEngine.php:7
   // src/applications/differential/editor/DifferentialTransactionEditor.php:16
@@ -10189,7 +10189,7 @@ return array(
   'Diffusion' => '代码库',
 
   // src/applications/repository/phid/PhabricatorRepositoryCommitPHIDType.php:8
-  'Diffusion Commit' => null,
+  'Diffusion Commit' => '代码提交',
 
   // src/applications/diffusion/exception/DiffusionSetupException.php:6
   'Diffusion Setup Exception' => null,
@@ -10252,7 +10252,7 @@ return array(
   'Disable Email "!accept" Action' => null,
 
   // src/applications/settings/panel/PhabricatorDiffPreferencesSettingsPanel.php:84
-  'Disable Filetree' => null,
+  'Disable Filetree' => '禁用文件树',
 
   // src/applications/diffusion/config/PhabricatorDiffusionConfigOptions.php:104
   'Disable HTTP Basic Auth' => null,
@@ -11509,7 +11509,7 @@ return array(
   'Email Addresses' => '电子邮件地址',
 
   // src/applications/settings/panel/PhabricatorConpherencePreferencesSettingsPanel.php:47
-  'Email Always' => null,
+  'Email Always' => '总是邮件通知',
 
   // src/applications/transactions/controller/PhabricatorApplicationTransactionCommentRawController.php:54
   'Email Body Text' => '电子邮件正文',
@@ -11719,7 +11719,7 @@ return array(
   'Enable Email "!accept" Action' => null,
 
   // src/applications/settings/panel/PhabricatorDiffPreferencesSettingsPanel.php:85
-  'Enable Filetree' => null,
+  'Enable Filetree' => '启用文件树',
 
   // src/applications/diffusion/config/PhabricatorDiffusionConfigOptions.php:106
   'Enable HTTP Basic Auth for repositories.' => null,
@@ -11990,7 +11990,7 @@ return array(
 
   // src/applications/calendar/phid/PhabricatorCalendarEventPHIDType.php:8
   // src/applications/console/plugin/DarkConsoleServicesPlugin.php:283
-  'Event' => null,
+  'Event' => '事件',
 
   // src/applications/daemon/controller/PhabricatorDaemonLogEventViewController.php:36
   'Event %s' => null,
@@ -12588,7 +12588,7 @@ return array(
   // src/applications/macro/controller/PhabricatorMacroEditController.php:268
   // src/applications/phragment/controller/PhragmentController.php:176
   // src/applications/phragment/controller/PhragmentVersionController.php:68
-  'File' => null,
+  'File' => '文件',
 
   // src/applications/files/conduit/FileConduitAPIMethod.php:109
   'File "%s" does not have chunks!' => null,
@@ -12771,7 +12771,7 @@ return array(
 
   // src/applications/uiexample/examples/PHUIInfoPanelExample.php:113
   // src/applications/flag/query/PhabricatorFlagSearchEngine.php:76
-  'Flagged' => null,
+  'Flagged' => '已标记的',
 
   // src/applications/herald/adapter/HeraldAdapter.php:1747
   'Flagged by Herald Rule "%s".' => null,
@@ -12779,7 +12779,7 @@ return array(
   // src/applications/flag/application/PhabricatorFlagsApplication.php:6
   // src/applications/flag/query/PhabricatorFlagSearchEngine.php:7
   // src/applications/diffusion/view/DiffusionPushLogListView.php:109
-  'Flags' => null,
+  'Flags' => '标记',
 
   // src/applications/flag/storage/PhabricatorFlag.php:73
   'Flags are private. Only you can view or edit your flags.' => null,
@@ -13562,7 +13562,7 @@ return array(
   'Home' => null,
 
   // src/applications/settings/panel/PhabricatorHomePreferencesSettingsPanel.php:11
-  'Home Page' => null,
+  'Home Page' => '主页设置',
 
   // src/applications/calendar/controller/PhabricatorCalendarEventViewController.php:299
   // src/applications/differential/customfield/DifferentialHostField.php:11
@@ -14018,10 +14018,10 @@ return array(
   'In order to complete this action, you need a stronger GitHub token.' => null,
 
   // src/applications/settings/panel/PhabricatorDisplayPreferencesSettingsPanel.php:124
-  'In page titles, show Tool names as plain text: [Differential]' => null,
+  'In page titles, show Tool names as plain text: [Differential]' => '在页面标题中显示工具名字为纯文本：[Differential]',
 
   // src/applications/settings/panel/PhabricatorDisplayPreferencesSettingsPanel.php:120
-  'In page titles, show Tool names as unicode glyphs: %s' => null,
+  'In page titles, show Tool names as unicode glyphs: %s' => '在页面标题中显示工具名字为unicode字符：%s',
 
   // src/applications/config/option/PhabricatorSyntaxHighlightingConfigOptions.php:109
   'In places that we display a dropdown to syntax-highlight code, this is where that list is defined.' => null,
@@ -15879,7 +15879,7 @@ return array(
 
   // src/applications/maniphest/application/PhabricatorManiphestApplication.php:107
   // src/applications/maniphest/phid/ManiphestTaskPHIDType.php:8
-  'Maniphest Task' => null,
+  'Maniphest Task' => '管理任务',
 
   // src/applications/differential/customfield/DifferentialManiphestTasksField.php:23
   // src/applications/maniphest/editor/ManiphestTransactionEditor.php:11
@@ -16327,7 +16327,7 @@ return array(
   'Monospaced Font' => '等宽字体',
 
   // src/applications/settings/panel/PhabricatorDisplayPreferencesSettingsPanel.php:157
-  'Monospaced Textareas' => null,
+  'Monospaced Textareas' => '等宽的文本区域',
 
   // src/applications/maniphest/controller/ManiphestReportController.php:219
   'Month To Date' => null,
@@ -17063,7 +17063,7 @@ return array(
   'No Matching Sessions' => null,
 
   // src/applications/auth/controller/PhabricatorAuthRevokeTokenController.php:37
-  'No Matching Tokens' => null,
+  'No Matching Tokens' => '没有符合条件的Tokens',
 
   // src/applications/conpherence/view/ConpherenceThreadListView.php:260
   'No Messages' => null,
@@ -18168,7 +18168,7 @@ return array(
 
   // src/applications/herald/controller/HeraldTranscriptController.php:509
   // src/applications/flag/query/PhabricatorFlagSearchEngine.php:65
-  'Object Type' => null,
+  'Object Type' => '对象类型',
 
   // src/applications/files/storage/__tests__/PhabricatorFileTestCase.php:51
   'Object Visible to Author' => null,
@@ -18316,7 +18316,7 @@ return array(
   'On' => '开启',
 
   // src/applications/settings/panel/PhabricatorDiffPreferencesSettingsPanel.php:64
-  'On Small Screens' => null,
+  'On Small Screens' => '小屏幕时',
 
   // src/applications/auth/controller/PhabricatorAuthDowngradeSessionController.php:42
   'On the plus side, that purple notification bubble will disappear.' => null,
@@ -18900,7 +18900,7 @@ return array(
   'Page Size' => '页面大小',
 
   // src/applications/settings/panel/PhabricatorDisplayPreferencesSettingsPanel.php:113
-  'Page Titles' => null,
+  'Page Titles' => '页面标题',
 
   // src/applications/console/plugin/DarkConsoleServicesPlugin.php:218
   'Page Weight' => null,
@@ -18911,7 +18911,7 @@ return array(
   // src/applications/dashboard/phid/PhabricatorDashboardPanelPHIDType.php:8
   // src/applications/dashboard/controller/PhabricatorDashboardAddPanelController.php:94
   // src/applications/dashboard/controller/PhabricatorDashboardPanelRenderController.php:71
-  'Panel' => null,
+  'Panel' => '面板',
 
   // src/applications/dashboard/query/PhabricatorDashboardPanelSearchEngine.php:70
   // src/applications/dashboard/controller/PhabricatorDashboardPanelViewController.php:156
@@ -19028,7 +19028,7 @@ return array(
   'Passphrase' => null,
 
   // src/applications/passphrase/phid/PassphraseCredentialPHIDType.php:8
-  'Passphrase Credential' => null,
+  'Passphrase Credential' => '密码凭据',
 
   // src/applications/passphrase/query/PassphraseCredentialSearchEngine.php:7
   // src/applications/passphrase/editor/PassphraseCredentialTransactionEditor.php:11
@@ -19487,7 +19487,8 @@ return array(
   'Phabricator no longer supports global customization of monospaced fonts.' => null,
 
   // src/applications/settings/panel/PhabricatorDiffPreferencesSettingsPanel.php:52
-  'Phabricator normally shows diffs in a side-by-side layout on large screens, and automatically switches to a unified view on small screens (like mobile phones). If you prefer unified diffs even on large screens, you can select them as the default layout.' => null,
+  'Phabricator normally shows diffs in a side-by-side layout on large screens, and automatically switches to a unified view on small screens (like mobile phones). If you prefer unified diffs even on large screens, you can select them as the default layout.' 
+  => 'Phabricator通常在大屏幕上并排显示diffs，并且在小屏幕时自动切换到一个统一的视图（像手机）。如果你更喜欢大屏幕也用统一的diffs，你可以选择为默认',
 
   // src/applications/config/check/PhabricatorExtraConfigSetupCheck.php:260
   'Phabricator now always sends transaction mail with "Precedence: bulk" to improve deliverability.' => null,
@@ -22590,7 +22591,7 @@ return array(
   'Revoke' => null,
 
   // src/applications/settings/panel/PhabricatorTokensSettingsPanel.php:82
-  'Revoke All' => null,
+  'Revoke All' => '全部撤销',
 
   // src/applications/oauthserver/panel/PhabricatorOAuthServerAuthorizationsSettingsPanel.php:69
   'Revoke Authorization' => null,
@@ -22956,7 +22957,7 @@ return array(
   // src/applications/settings/panel/PhabricatorDisplayPreferencesSettingsPanel.php:166
   // src/applications/settings/panel/PhabricatorDeveloperPreferencesSettingsPanel.php:88
   // src/applications/settings/panel/PhabricatorConpherencePreferencesSettingsPanel.php:58
-  'Save Preferences' => '保存偏好',
+  'Save Preferences' => '保存设置',
 
   // src/applications/people/controller/PhabricatorPeopleProfileEditController.php:74
   'Save Profile' => "保存个人信息",
@@ -23040,7 +23041,7 @@ return array(
 
   // src/applications/settings/panel/PhabricatorSearchPreferencesSettingsPanel.php:11
   // src/applications/settings/panel/PhabricatorSearchPreferencesSettingsPanel.php:54
-  'Search Preferences' => '搜索偏好',
+  'Search Preferences' => '搜索设置',
 
   // src/applications/search/engine/PhabricatorSearchEngine.php:124
   'Search engines "%s" and "%s" have the same engine identifier "%s". Each storage engine must have a unique identifier.' => null,
@@ -23393,7 +23394,7 @@ return array(
 
   // src/applications/people/view/PhabricatorUserLogView.php:80
   // src/applications/settings/panel/PhabricatorSessionsSettingsPanel.php:94
-  'Session' => null,
+  'Session' => '会话',
 
   // src/applications/auth/engine/PhabricatorAuthSessionEngine.php:594
   'Session has already signed required legalpad documents!' => null,
@@ -23573,7 +23574,8 @@ return array(
   'Should "Accepted" revisions remain "Accepted" after updates?' => null,
 
   // src/applications/settings/panel/PhabricatorConpherencePreferencesSettingsPanel.php:53
-  'Should Conpherence send emails for updates or notifications only? This global setting can be overridden on a per-thread basis within Conpherence.' => null,
+  'Should Conpherence send emails for updates or notifications only? This global setting can be overridden on a per-thread basis within Conpherence.' 
+  => '讨论组是否只为更新或者通知发送邮件，这个全局设置可以被每个讨论组设置所覆写。',
 
   // src/applications/config/option/PhabricatorSyntaxHighlightingConfigOptions.php:41
   'Should Phabricator use Pygments to highlight code?' => null,
@@ -23681,7 +23683,7 @@ return array(
   'Show File Contents' => '显示文件内容',
 
   // src/applications/settings/panel/PhabricatorDiffPreferencesSettingsPanel.php:79
-  'Show Filetree' => null,
+  'Show Filetree' => '显示文件树',
 
   // src/applications/differential/render/DifferentialChangesetHTMLRenderer.php:501
   'Show First %d Line(s)' => null,
@@ -23805,7 +23807,7 @@ return array(
   'Show Third-Party Applications' => null,
 
   // src/applications/settings/panel/PhabricatorDiffPreferencesSettingsPanel.php:59
-  'Show Unified Diffs' => null,
+  'Show Unified Diffs' => '显示统一的Diffs',
 
   // src/applications/meta/query/PhabricatorAppSearchEngine.php:106
   'Show Uninstalled Applications' => null,
@@ -23843,7 +23845,7 @@ return array(
   'Show all logs.' => null,
 
   // src/applications/settings/panel/PhabricatorDisplayPreferencesSettingsPanel.php:161
-  'Show all textareas using the monospaced font defined above.' => null,
+  'Show all textareas using the monospaced font defined above.' => '显示所有文本区域使用以上等宽字体。',
 
   // src/applications/slowvote/controller/PhabricatorSlowvoteEditController.php:245
   'Show choices in random order.' => null,
@@ -25423,7 +25425,7 @@ return array(
 
   // src/applications/settings/panel/PhabricatorTokensSettingsPanel.php:10
   // src/applications/settings/panel/PhabricatorTokensSettingsPanel.php:89
-  'Temporary Tokens' => null,
+  'Temporary Tokens' => '临时Tokens',
 
   // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:319
   'Temporary setting. If set, this priority is used to populate the "Needs Triage" panel on the home page. You should adjust this if you adjust priorities using `%s`.' => null,
@@ -26343,7 +26345,7 @@ return array(
   'There are no matching sessions to terminate.' => null,
 
   // src/applications/auth/controller/PhabricatorAuthRevokeTokenController.php:39
-  'There are no matching tokens to revoke.' => null,
+  'There are no matching tokens to revoke.' => '没有符合条件的Tokens来撤销。',
 
   // src/applications/phortune/controller/PhortunePaymentMethodCreateController.php:48
   'There are no payment providers enabled that can add payment methods.' => null,
@@ -30017,7 +30019,7 @@ return array(
   'User Account' => '用户账户',
 
   // src/applications/people/application/PhabricatorPeopleApplication.php:10
-  'User Accounts and Profiles' => '用户账户和偏好',
+  'User Accounts and Profiles' => '用户账户和信息',
 
   // src/applications/people/query/PhabricatorPeopleLogSearchEngine.php:190
   'User Activity Logs' => null,
@@ -30051,7 +30053,7 @@ return array(
 
   // src/applications/people/config/PhabricatorUserConfigOptions.php:7
   // src/applications/people/editor/PhabricatorUserProfileEditor.php:11
-  'User Profiles' => '用户偏好',
+  'User Profiles' => '用户档案',
 
   // src/applications/people/event/PhabricatorPeopleHovercardEventListener.php:58
   // src/applications/people/customfield/PhabricatorUserSinceField.php:13
@@ -31758,7 +31760,7 @@ return array(
   'You don\'t have any active sessions.' => null,
 
   // src/applications/settings/panel/PhabricatorTokensSettingsPanel.php:64
-  'You don\'t have any active tokens.' => null,
+  'You don\'t have any active tokens.' => '你没有任何tokens。',
 
   // src/applications/differential/landing/DifferentialGitHubLandingStrategy.php:164
   'You don\'t have permission to push to this repository. Push permissions for this repository are managed on GitHub.' => null,
